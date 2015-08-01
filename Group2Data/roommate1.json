@@ -1,0 +1,5725 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08069206774234772, 
+                    51.53029251098633
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08069206774234772, 
+                "lat": 51.53029251098633, 
+                "version": "1.1", 
+                "t": 0, 
+                "total_distance": 0.0, 
+                "device": "iPhone6,1", 
+                "alt": 20.140209197998047, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08127864450216293, 
+                    51.530181884765625
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08127864450216293, 
+                "lat": 51.530181884765625, 
+                "version": "1.1", 
+                "t": 0, 
+                "total_distance": 0.04239979210204402, 
+                "device": "iPhone6,1", 
+                "alt": 20.140209197998047, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08062899857759476, 
+                    51.530330657958984
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08062899857759476, 
+                "lat": 51.530330657958984, 
+                "version": "1.1", 
+                "t": 0, 
+                "total_distance": 0.09028687791124457, 
+                "device": "iPhone6,1", 
+                "alt": 20.399404525756836, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07794632762670517, 
+                    51.52610397338867
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07794632762670517, 
+                "lat": 51.52610397338867, 
+                "version": "1.1", 
+                "t": 49792, 
+                "total_distance": 0.5955857421454079, 
+                "device": "iPhone6,1", 
+                "alt": 18.404605865478516, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07553054392337799, 
+                    51.521400451660156
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07553054392337799, 
+                "lat": 51.521400451660156, 
+                "version": "1.1", 
+                "t": 50176, 
+                "total_distance": 1.1446495426539538, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08147206902503967, 
+                    51.52503967285156
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08147206902503967, 
+                "lat": 51.52503967285156, 
+                "version": "1.1", 
+                "t": 66304, 
+                "total_distance": 1.7214744744294554, 
+                "device": "iPhone6,1", 
+                "alt": 16.674203872680664, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07617579400539398, 
+                    51.5218620300293
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07617579400539398, 
+                "lat": 51.5218620300293, 
+                "version": "1.1", 
+                "t": 67456, 
+                "total_distance": 2.230505547802981, 
+                "device": "iPhone6,1", 
+                "alt": 17.619369506835938, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08033745735883713, 
+                    51.52709197998047
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08033745735883713, 
+                "lat": 51.52709197998047, 
+                "version": "1.1", 
+                "t": 83328, 
+                "total_distance": 2.879419890348953, 
+                "device": "iPhone6,1", 
+                "alt": 18.459857940673828, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08065436780452728, 
+                    51.530296325683594
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08065436780452728, 
+                "lat": 51.530296325683594, 
+                "version": "1.1", 
+                "t": 89600, 
+                "total_distance": 3.2364006745993814, 
+                "device": "iPhone6,1", 
+                "alt": 20.332191467285156, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.0808783620595932, 
+                    51.530887603759766
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.0808783620595932, 
+                "lat": 51.530887603759766, 
+                "version": "1.1", 
+                "t": 89728, 
+                "total_distance": 3.3039489242297826, 
+                "device": "iPhone6,1", 
+                "alt": 20.332191467285156, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08016955107450485, 
+                    51.532135009765625
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08016955107450485, 
+                "lat": 51.532135009765625, 
+                "version": "1.1", 
+                "t": 135936, 
+                "total_distance": 3.4510648920243456, 
+                "device": "iPhone6,1", 
+                "alt": 19.746225357055664, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08040986955165863, 
+                    51.526607513427734
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08040986955165863, 
+                "lat": 51.526607513427734, 
+                "version": "1.1", 
+                "t": 136448, 
+                "total_distance": 4.065919223310954, 
+                "device": "iPhone6,1", 
+                "alt": 19.29705047607422, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07703834772109985, 
+                    51.522457122802734
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07703834772109985, 
+                "lat": 51.522457122802734, 
+                "version": "1.1", 
+                "t": 136832, 
+                "total_distance": 4.583018111011891, 
+                "device": "iPhone6,1", 
+                "alt": 15.9905424118042, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07048432528972626, 
+                    51.52031707763672
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07048432528972626, 
+                "lat": 51.52031707763672, 
+                "version": "1.1", 
+                "t": 141696, 
+                "total_distance": 5.09512316282158, 
+                "device": "iPhone6,1", 
+                "alt": 13.091803550720215, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07742772996425629, 
+                    51.522823333740234
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07742772996425629, 
+                "lat": 51.522823333740234, 
+                "version": "1.1", 
+                "t": 149120, 
+                "total_distance": 5.650502893344274, 
+                "device": "iPhone6,1", 
+                "alt": 16.880338668823242, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08325989544391632, 
+                    51.525970458984375
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08325989544391632, 
+                "lat": 51.525970458984375, 
+                "version": "1.1", 
+                "t": 149504, 
+                "total_distance": 6.184604474199718, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07773428410291672, 
+                    51.52283477783203
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07773428410291672, 
+                "lat": 51.52283477783203, 
+                "version": "1.1", 
+                "t": 150400, 
+                "total_distance": 6.702011943923913, 
+                "device": "iPhone6,1", 
+                "alt": 15.9349946975708, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07171880453824997, 
+                    51.52035903930664
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07171880453824997, 
+                "lat": 51.52035903930664, 
+                "version": "1.1", 
+                "t": 150656, 
+                "total_distance": 7.201015212304221, 
+                "device": "iPhone6,1", 
+                "alt": 15.240987777709961, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07389214634895325, 
+                    51.52238082885742
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07389214634895325, 
+                "lat": 51.52238082885742, 
+                "version": "1.1", 
+                "t": 166016, 
+                "total_distance": 7.471480850621424, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07184435427188873, 
+                    51.52424240112305
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07184435427188873, 
+                "lat": 51.52424240112305, 
+                "version": "1.1", 
+                "t": 171264, 
+                "total_distance": 7.722319808145875, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07468018680810928, 
+                    51.52339553833008
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07468018680810928, 
+                "lat": 51.52339553833008, 
+                "version": "1.1", 
+                "t": 171264, 
+                "total_distance": 7.939943090290172, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08078160136938095, 
+                    51.53031921386719
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08078160136938095, 
+                "lat": 51.53031921386719, 
+                "version": "1.1", 
+                "t": 182400, 
+                "total_distance": 8.817937807413772, 
+                "device": "iPhone6,1", 
+                "alt": 25.587963104248047, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.0840490311384201, 
+                    51.52627944946289
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.0840490311384201, 
+                "lat": 51.52627944946289, 
+                "version": "1.1", 
+                "t": 229376, 
+                "total_distance": 9.320802132763989, 
+                "device": "iPhone6,1", 
+                "alt": 18.707836151123047, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.11190228909254074, 
+                    51.5218391418457
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.11190228909254074, 
+                "lat": 51.5218391418457, 
+                "version": "1.1", 
+                "t": 229888, 
+                "total_distance": 11.310047871679778, 
+                "device": "iPhone6,1", 
+                "alt": 26, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.12976324558258057, 
+                    51.5163459777832
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.12976324558258057, 
+                "lat": 51.5163459777832, 
+                "version": "1.1", 
+                "t": 230272, 
+                "total_distance": 12.688582104552896, 
+                "device": "iPhone6,1", 
+                "alt": 26, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.14132490754127502, 
+                    51.51547622680664
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.14132490754127502, 
+                "lat": 51.51547622680664, 
+                "version": "1.1", 
+                "t": 230656, 
+                "total_distance": 13.494430705402847, 
+                "device": "iPhone6,1", 
+                "alt": 26, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.13386403024196625, 
+                    51.51607894897461
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.13386403024196625, 
+                "lat": 51.51607894897461, 
+                "version": "1.1", 
+                "t": 245248, 
+                "total_distance": 14.01502926207095, 
+                "device": "iPhone6,1", 
+                "alt": 27.689319610595703, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.12659594416618347, 
+                    51.51686096191406
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.12659594416618347, 
+                "lat": 51.51686096191406, 
+                "version": "1.1", 
+                "t": 248064, 
+                "total_distance": 14.525409844658709, 
+                "device": "iPhone6,1", 
+                "alt": 28.19178009033203, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.11992395669221878, 
+                    51.51959991455078
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.11992395669221878, 
+                "lat": 51.51959991455078, 
+                "version": "1.1", 
+                "t": 248320, 
+                "total_distance": 15.078473278901921, 
+                "device": "iPhone6,1", 
+                "alt": 27.16998291015625, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.11676739156246185, 
+                    51.52067184448242
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.11676739156246185, 
+                "lat": 51.52067184448242, 
+                "version": "1.1", 
+                "t": 248576, 
+                "total_distance": 15.327283662306543, 
+                "device": "iPhone6,1", 
+                "alt": 26.45638084411621, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08659543097019196, 
+                    51.52761459350586
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08659543097019196, 
+                "lat": 51.52761459350586, 
+                "version": "1.1", 
+                "t": 251264, 
+                "total_distance": 17.5528768407279, 
+                "device": "iPhone6,1", 
+                "alt": 36.6114501953125, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08047455549240112, 
+                    51.53032684326172
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08047455549240112, 
+                "lat": 51.53032684326172, 
+                "version": "1.1", 
+                "t": 252288, 
+                "total_distance": 18.07272343717187, 
+                "device": "iPhone6,1", 
+                "alt": 21.4638671875, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08606863766908646, 
+                    51.5260009765625
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08606863766908646, 
+                "lat": 51.5260009765625, 
+                "version": "1.1", 
+                "t": 333824, 
+                "total_distance": 18.690082958680488, 
+                "device": "iPhone6,1", 
+                "alt": 21.716156005859375, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.09311968088150024, 
+                    51.524906158447266
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.09311968088150024, 
+                "lat": 51.524906158447266, 
+                "version": "1.1", 
+                "t": 334208, 
+                "total_distance": 19.19284813492768, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.10013408958911896, 
+                    51.52301788330078
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.10013408958911896, 
+                "lat": 51.52301788330078, 
+                "version": "1.1", 
+                "t": 334464, 
+                "total_distance": 19.721608798099364, 
+                "device": "iPhone6,1", 
+                "alt": 20.12338638305664, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.10794859379529953, 
+                    51.52212905883789
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.10794859379529953, 
+                "lat": 51.52212905883789, 
+                "version": "1.1", 
+                "t": 334848, 
+                "total_distance": 20.27122365165307, 
+                "device": "iPhone6,1", 
+                "alt": 23.426172256469727, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.09806548058986664, 
+                    51.523502349853516
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.09806548058986664, 
+                "lat": 51.523502349853516, 
+                "version": "1.1", 
+                "t": 336000, 
+                "total_distance": 20.971838566623838, 
+                "device": "iPhone6,1", 
+                "alt": 24.80628204345703, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.09113996475934982, 
+                    51.52525329589844
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.09113996475934982, 
+                "lat": 51.52525329589844, 
+                "version": "1.1", 
+                "t": 336384, 
+                "total_distance": 21.48901664323864, 
+                "device": "iPhone6,1", 
+                "alt": 18.261377334594727, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08349568396806717, 
+                    51.526424407958984
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08349568396806717, 
+                "lat": 51.526424407958984, 
+                "version": "1.1", 
+                "t": 336768, 
+                "total_distance": 22.033654259438947, 
+                "device": "iPhone6,1", 
+                "alt": 19.084339141845703, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08025389164686203, 
+                    51.53050231933594
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08025389164686203, 
+                "lat": 51.53050231933594, 
+                "version": "1.1", 
+                "t": 337152, 
+                "total_distance": 22.539522178432236, 
+                "device": "iPhone6,1", 
+                "alt": 20.953046798706055, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08050292730331421, 
+                    51.53030776977539
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08050292730331421, 
+                "lat": 51.53030776977539, 
+                "version": "1.1", 
+                "t": 342144, 
+                "total_distance": 22.567176259253777, 
+                "device": "iPhone6,1", 
+                "alt": 19.685876846313477, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08030626177787781, 
+                    51.5256233215332
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08030626177787781, 
+                "lat": 51.5256233215332, 
+                "version": "1.1", 
+                "t": 395648, 
+                "total_distance": 23.088240779582623, 
+                "device": "iPhone6,1", 
+                "alt": 19.103168487548828, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07622159272432327, 
+                    51.521888732910156
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07622159272432327, 
+                "lat": 51.521888732910156, 
+                "version": "1.1", 
+                "t": 395904, 
+                "total_distance": 23.590542524939774, 
+                "device": "iPhone6,1", 
+                "alt": 17.054643630981445, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08179069310426712, 
+                    51.52520751953125
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08179069310426712, 
+                "lat": 51.52520751953125, 
+                "version": "1.1", 
+                "t": 410624, 
+                "total_distance": 24.12405747785164, 
+                "device": "iPhone6,1", 
+                "alt": 17.602256774902344, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07660386711359024, 
+                    51.52198791503906
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07660386711359024, 
+                "lat": 51.52198791503906, 
+                "version": "1.1", 
+                "t": 411520, 
+                "total_distance": 24.63094894142845, 
+                "device": "iPhone6,1", 
+                "alt": 16.230989456176758, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.082936592400074, 
+                    51.52580261230469
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.082936592400074, 
+                "lat": 51.52580261230469, 
+                "version": "1.1", 
+                "t": 427264, 
+                "total_distance": 25.240766421478778, 
+                "device": "iPhone6,1", 
+                "alt": 17.698246002197266, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08046475052833557, 
+                    51.530216217041016
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08046475052833557, 
+                "lat": 51.530216217041016, 
+                "version": "1.1", 
+                "t": 428160, 
+                "total_distance": 25.760473619665365, 
+                "device": "iPhone6,1", 
+                "alt": 19.54604148864746, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.0805683583021164, 
+                    51.53042984008789
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.0805683583021164, 
+                "lat": 51.53042984008789, 
+                "version": "1.1", 
+                "t": 438016, 
+                "total_distance": 25.785285087655385, 
+                "device": "iPhone6,1", 
+                "alt": 19.64115333557129, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08061622828245163, 
+                    51.530269622802734
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08061622828245163, 
+                "lat": 51.530269622802734, 
+                "version": "1.1", 
+                "t": 441600, 
+                "total_distance": 25.80340556990325, 
+                "device": "iPhone6,1", 
+                "alt": 21.131437301635742, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08083941042423248, 
+                    51.53080749511719
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08083941042423248, 
+                "lat": 51.53080749511719, 
+                "version": "1.1", 
+                "t": 441856, 
+                "total_distance": 25.865174672877668, 
+                "device": "iPhone6,1", 
+                "alt": 21.114513397216797, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08035914599895477, 
+                    51.5260124206543
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08035914599895477, 
+                "lat": 51.5260124206543, 
+                "version": "1.1", 
+                "t": 481664, 
+                "total_distance": 26.399396712671468, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07614738494157791, 
+                    51.521732330322266
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07614738494157791, 
+                "lat": 51.521732330322266, 
+                "version": "1.1", 
+                "t": 481920, 
+                "total_distance": 26.957438423858694, 
+                "device": "iPhone6,1", 
+                "alt": 16.35295867919922, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08039230853319168, 
+                    51.525482177734375
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08039230853319168, 
+                "lat": 51.525482177734375, 
+                "version": "1.1", 
+                "t": 493696, 
+                "total_distance": 27.46744715805203, 
+                "device": "iPhone6,1", 
+                "alt": 18.794286727905273, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.0800774022936821, 
+                    51.53016662597656
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.0800774022936821, 
+                "lat": 51.53016662597656, 
+                "version": "1.1", 
+                "t": 494080, 
+                "total_distance": 27.98878937887078, 
+                "device": "iPhone6,1", 
+                "alt": 20.095582962036133, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08035896718502045, 
+                    51.52555465698242
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08035896718502045, 
+                "lat": 51.52555465698242, 
+                "version": "1.1", 
+                "t": 496512, 
+                "total_distance": 28.501986707347967, 
+                "device": "iPhone6,1", 
+                "alt": 18.532840728759766, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.076067253947258, 
+                    51.52177429199219
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.076067253947258, 
+                "lat": 51.52177429199219, 
+                "version": "1.1", 
+                "t": 496768, 
+                "total_distance": 29.016634073361814, 
+                "device": "iPhone6,1", 
+                "alt": 16.829490661621094, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08316222578287125, 
+                    51.51963806152344
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08316222578287125, 
+                "lat": 51.51963806152344, 
+                "version": "1.1", 
+                "t": 513664, 
+                "total_distance": 29.561979223104288, 
+                "device": "iPhone6,1", 
+                "alt": 16.684764862060547, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.0896935760974884, 
+                    51.517723083496094
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.0896935760974884, 
+                "lat": 51.517723083496094, 
+                "version": "1.1", 
+                "t": 515840, 
+                "total_distance": 30.06155040929761, 
+                "device": "iPhone6,1", 
+                "alt": 17.217906951904297, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.09000562876462936, 
+                    51.5225715637207
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.09000562876462936, 
+                "lat": 51.5225715637207, 
+                "version": "1.1", 
+                "t": 516352, 
+                "total_distance": 30.60110897377104, 
+                "device": "iPhone6,1", 
+                "alt": 20.213085174560547, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08082996308803558, 
+                    51.53033447265625
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08082996308803558, 
+                "lat": 51.53033447265625, 
+                "version": "1.1", 
+                "t": 519936, 
+                "total_distance": 31.672578521716254, 
+                "device": "iPhone6,1", 
+                "alt": 20.809642791748047, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08040983229875565, 
+                    51.52581787109375
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08040983229875565, 
+                "lat": 51.52581787109375, 
+                "version": "1.1", 
+                "t": 568064, 
+                "total_distance": 32.17564195949877, 
+                "device": "iPhone6,1", 
+                "alt": 18.456195831298828, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07039161026477814, 
+                    51.52022933959961
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07039161026477814, 
+                "lat": 51.52022933959961, 
+                "version": "1.1", 
+                "t": 568832, 
+                "total_distance": 33.10653807709319, 
+                "device": "iPhone6,1", 
+                "alt": 13.635873794555664, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07772529125213623, 
+                    51.51914596557617
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07772529125213623, 
+                "lat": 51.51914596557617, 
+                "version": "1.1", 
+                "t": 594432, 
+                "total_distance": 33.628063321459926, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.2897087335586548, 
+                    51.50896072387695
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.2897087335586548, 
+                "lat": 51.50896072387695, 
+                "version": "1.1", 
+                "t": 597632, 
+                "total_distance": 48.340781381544204, 
+                "device": "iPhone6,1", 
+                "alt": 18.071550369262695, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.3258459270000458, 
+                    51.49555206298828
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.3258459270000458, 
+                "lat": 51.49555206298828, 
+                "version": "1.1", 
+                "t": 598016, 
+                "total_distance": 51.25274915100973, 
+                "device": "iPhone6,1", 
+                "alt": 20, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.37136492133140564, 
+                    51.471923828125
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.37136492133140564, 
+                "lat": 51.471923828125, 
+                "version": "1.1", 
+                "t": 598400, 
+                "total_distance": 55.35614169012823, 
+                "device": "iPhone6,1", 
+                "alt": 21.459714889526367, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.4352518320083618, 
+                    51.47221755981445
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.4352518320083618, 
+                "lat": 51.47221755981445, 
+                "version": "1.1", 
+                "t": 599808, 
+                "total_distance": 59.78125356383844, 
+                "device": "iPhone6,1", 
+                "alt": 21.459714889526367, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.45021340250968933, 
+                    51.469783782958984
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.45021340250968933, 
+                "lat": 51.469783782958984, 
+                "version": "1.1", 
+                "t": 600064, 
+                "total_distance": 60.8523123003811, 
+                "device": "iPhone6,1", 
+                "alt": 26.249256134033203, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.4249385595321655, 
+                    51.459388732910156
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.4249385595321655, 
+                "lat": 51.459388732910156, 
+                "version": "1.1", 
+                "t": 604928, 
+                "total_distance": 62.95033199493846, 
+                "device": "iPhone6,1", 
+                "alt": 23.2012939453125, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.4309256970882416, 
+                    51.462074279785156
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.4309256970882416, 
+                "lat": 51.462074279785156, 
+                "version": "1.1", 
+                "t": 605184, 
+                "total_distance": 63.461432487661256, 
+                "device": "iPhone6,1", 
+                "alt": 23.47042465209961, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    17.922544479370117, 
+                    59.649131774902344
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 17.922544479370117, 
+                "lat": 59.649131774902344, 
+                "version": "1.1", 
+                "t": 614400, 
+                "total_distance": 1525.2086018692498, 
+                "device": "iPhone6,1", 
+                "alt": 108.79156494140625, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    17.934125900268555, 
+                    59.65117645263672
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 17.934125900268555, 
+                "lat": 59.65117645263672, 
+                "version": "1.1", 
+                "t": 615424, 
+                "total_distance": 1525.897873936136, 
+                "device": "iPhone6,1", 
+                "alt": 47.2684326171875, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    17.909753799438477, 
+                    59.60340881347656
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 17.909753799438477, 
+                "lat": 59.60340881347656, 
+                "version": "1.1", 
+                "t": 616064, 
+                "total_distance": 1531.383296542294, 
+                "device": "iPhone6,1", 
+                "alt": 28.69793701171875, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    17.928770065307617, 
+                    59.49983596801758
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 17.928770065307617, 
+                "lat": 59.49983596801758, 
+                "version": "1.1", 
+                "t": 616320, 
+                "total_distance": 1542.9498141938636, 
+                "device": "iPhone6,1", 
+                "alt": 28.69793701171875, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    17.987398147583008, 
+                    59.395992279052734
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 17.987398147583008, 
+                "lat": 59.395992279052734, 
+                "version": "1.1", 
+                "t": 616832, 
+                "total_distance": 1554.9628105910824, 
+                "device": "iPhone6,1", 
+                "alt": 28.69793701171875, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.042274475097656, 
+                    59.35106658935547
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.042274475097656, 
+                "lat": 59.35106658935547, 
+                "version": "1.1", 
+                "t": 617216, 
+                "total_distance": 1560.8465491884058, 
+                "device": "iPhone6,1", 
+                "alt": 28.69793701171875, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.0896053314209, 
+                    59.34103012084961
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.0896053314209, 
+                "lat": 59.34103012084961, 
+                "version": "1.1", 
+                "t": 617600, 
+                "total_distance": 1563.7526971258912, 
+                "device": "iPhone6,1", 
+                "alt": 28.69793701171875, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.05440330505371, 
+                    59.34561538696289
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.05440330505371, 
+                "lat": 59.34561538696289, 
+                "version": "1.1", 
+                "t": 655616, 
+                "total_distance": 1565.8126573495254, 
+                "device": "iPhone6,1", 
+                "alt": 29.682010650634766, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.072246551513672, 
+                    59.31978225708008
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.072246551513672, 
+                "lat": 59.31978225708008, 
+                "version": "1.1", 
+                "t": 656128, 
+                "total_distance": 1568.8582182366383, 
+                "device": "iPhone6,1", 
+                "alt": 8.39794921875, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.087074279785156, 
+                    59.314884185791016
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.087074279785156, 
+                "lat": 59.314884185791016, 
+                "version": "1.1", 
+                "t": 656640, 
+                "total_distance": 1569.8604572614881, 
+                "device": "iPhone6,1", 
+                "alt": 21.0970458984375, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.07363510131836, 
+                    59.33149719238281
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.07363510131836, 
+                "lat": 59.33149719238281, 
+                "version": "1.1", 
+                "t": 699264, 
+                "total_distance": 1571.8588900971492, 
+                "device": "iPhone6,1", 
+                "alt": 42.01969528198242, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.07780647277832, 
+                    59.33546447753906
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.07780647277832, 
+                "lat": 59.33546447753906, 
+                "version": "1.1", 
+                "t": 707200, 
+                "total_distance": 1572.359463629823, 
+                "device": "iPhone6,1", 
+                "alt": -8.9254150390625, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.08267593383789, 
+                    59.33942413330078
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.08267593383789, 
+                "lat": 59.33942413330078, 
+                "version": "1.1", 
+                "t": 707584, 
+                "total_distance": 1572.8791831923022, 
+                "device": "iPhone6,1", 
+                "alt": 23.3914794921875, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.09015464782715, 
+                    59.342525482177734
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.09015464782715, 
+                "lat": 59.342525482177734, 
+                "version": "1.1", 
+                "t": 707968, 
+                "total_distance": 1573.4257596511045, 
+                "device": "iPhone6,1", 
+                "alt": 28.926958084106445, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.06321907043457, 
+                    59.33236312866211
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.06321907043457, 
+                "lat": 59.33236312866211, 
+                "version": "1.1", 
+                "t": 741504, 
+                "total_distance": 1575.3257565913782, 
+                "device": "iPhone6,1", 
+                "alt": 29.762144088745117, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.072237014770508, 
+                    59.32012176513672
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.072237014770508, 
+                "lat": 59.32012176513672, 
+                "version": "1.1", 
+                "t": 741760, 
+                "total_distance": 1576.7798850058007, 
+                "device": "iPhone6,1", 
+                "alt": 11.65081787109375, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.085195541381836, 
+                    59.31557083129883
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.085195541381836, 
+                "lat": 59.31557083129883, 
+                "version": "1.1", 
+                "t": 742144, 
+                "total_distance": 1577.6724624458752, 
+                "device": "iPhone6,1", 
+                "alt": 25.378477096557617, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.094003677368164, 
+                    59.315425872802734
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.094003677368164, 
+                "lat": 59.315425872802734, 
+                "version": "1.1", 
+                "t": 754816, 
+                "total_distance": 1578.172530431682, 
+                "device": "iPhone6,1", 
+                "alt": 9.0867919921875, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.074033737182617, 
+                    59.3217887878418
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.074033737182617, 
+                "lat": 59.3217887878418, 
+                "version": "1.1", 
+                "t": 755072, 
+                "total_distance": 1579.5083580425544, 
+                "device": "iPhone6,1", 
+                "alt": 3.661865234375, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.067726135253906, 
+                    59.33439254760742
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.067726135253906, 
+                "lat": 59.33439254760742, 
+                "version": "1.1", 
+                "t": 755456, 
+                "total_distance": 1580.9547812901278, 
+                "device": "iPhone6,1", 
+                "alt": 28, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.082565307617188, 
+                    59.314361572265625
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.082565307617188, 
+                "lat": 59.314361572265625, 
+                "version": "1.1", 
+                "t": 762112, 
+                "total_distance": 1583.335895511404, 
+                "device": "iPhone6,1", 
+                "alt": 19.143648147583008, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.073102951049805, 
+                    59.314205169677734
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.073102951049805, 
+                "lat": 59.314205169677734, 
+                "version": "1.1", 
+                "t": 796288, 
+                "total_distance": 1583.873127446268, 
+                "device": "iPhone6,1", 
+                "alt": 27.435258865356445, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.06557846069336, 
+                    59.34300994873047
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.06557846069336, 
+                "lat": 59.34300994873047, 
+                "version": "1.1", 
+                "t": 797312, 
+                "total_distance": 1587.1043842498996, 
+                "device": "iPhone6,1", 
+                "alt": 27.435258865356445, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.090686798095703, 
+                    59.34319305419922
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.090686798095703, 
+                "lat": 59.34319305419922, 
+                "version": "1.1", 
+                "t": 797952, 
+                "total_distance": 1588.5281183663642, 
+                "device": "iPhone6,1", 
+                "alt": 28, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.061283111572266, 
+                    59.32545852661133
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.061283111572266, 
+                "lat": 59.32545852661133, 
+                "version": "1.1", 
+                "t": 838144, 
+                "total_distance": 1591.110653246762, 
+                "device": "iPhone6,1", 
+                "alt": 28.317180633544922, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.072925567626953, 
+                    59.320247650146484
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.072925567626953, 
+                "lat": 59.320247650146484, 
+                "version": "1.1", 
+                "t": 838656, 
+                "total_distance": 1591.9892803257135, 
+                "device": "iPhone6,1", 
+                "alt": 28.302221298217773, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.109508514404297, 
+                    59.30682373046875
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.109508514404297, 
+                "lat": 59.30682373046875, 
+                "version": "1.1", 
+                "t": 838912, 
+                "total_distance": 1594.546184665075, 
+                "device": "iPhone6,1", 
+                "alt": 31.209716796875, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.222444534301758, 
+                    59.31401824951172
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.222444534301758, 
+                "lat": 59.31401824951172, 
+                "version": "1.1", 
+                "t": 839296, 
+                "total_distance": 1601.0053061424876, 
+                "device": "iPhone6,1", 
+                "alt": -5.20361328125, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.334014892578125, 
+                    59.32796859741211
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.334014892578125, 
+                "lat": 59.32796859741211, 
+                "version": "1.1", 
+                "t": 839552, 
+                "total_distance": 1607.5225195578946, 
+                "device": "iPhone6,1", 
+                "alt": 14.206817626953125, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.38151741027832, 
+                    59.306236267089844
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.38151741027832, 
+                "lat": 59.306236267089844, 
+                "version": "1.1", 
+                "t": 840704, 
+                "total_distance": 1611.142535102788, 
+                "device": "iPhone6,1", 
+                "alt": 14.206817626953125, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.44440269470215, 
+                    59.27875900268555
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.44440269470215, 
+                "lat": 59.27875900268555, 
+                "version": "1.1", 
+                "t": 841088, 
+                "total_distance": 1615.8420520471375, 
+                "device": "iPhone6,1", 
+                "alt": 14.206817626953125, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.532203674316406, 
+                    59.259098052978516
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.532203674316406, 
+                "lat": 59.259098052978516, 
+                "version": "1.1", 
+                "t": 841472, 
+                "total_distance": 1621.2890253978285, 
+                "device": "iPhone6,1", 
+                "alt": 14.206817626953125, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.52652359008789, 
+                    59.22917556762695
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.52652359008789, 
+                "lat": 59.22917556762695, 
+                "version": "1.1", 
+                "t": 841856, 
+                "total_distance": 1624.6318939514747, 
+                "device": "iPhone6,1", 
+                "alt": 14.206817626953125, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.53805923461914, 
+                    59.23763656616211
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.53805923461914, 
+                "lat": 59.23763656616211, 
+                "version": "1.1", 
+                "t": 851328, 
+                "total_distance": 1625.7789271478057, 
+                "device": "iPhone6,1", 
+                "alt": 16.97406578063965, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.52663803100586, 
+                    59.22977066040039
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.52663803100586, 
+                "lat": 59.22977066040039, 
+                "version": "1.1", 
+                "t": 875904, 
+                "total_distance": 1626.868443424725, 
+                "device": "iPhone6,1", 
+                "alt": 4.855224609375, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.53791046142578, 
+                    59.237640380859375
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.53791046142578, 
+                "lat": 59.237640380859375, 
+                "version": "1.1", 
+                "t": 876160, 
+                "total_distance": 1627.9532773133049, 
+                "device": "iPhone6,1", 
+                "alt": 22.888671875, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    17.935941696166992, 
+                    59.65313720703125
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 17.935941696166992, 
+                "lat": 59.65313720703125, 
+                "version": "1.1", 
+                "t": 934912, 
+                "total_distance": 1685.3323497721747, 
+                "device": "iPhone6,1", 
+                "alt": 45.67438888549805, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.45240071415901184, 
+                    51.47465515136719
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.45240071415901184, 
+                "lat": 51.47465515136719, 
+                "version": "1.1", 
+                "t": 944256, 
+                "total_distance": 3147.996253718372, 
+                "device": "iPhone6,1", 
+                "alt": 0, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.4460621774196625, 
+                    51.468727111816406
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.4460621774196625, 
+                "lat": 51.468727111816406, 
+                "version": "1.1", 
+                "t": 944512, 
+                "total_distance": 3148.788244111927, 
+                "device": "iPhone6,1", 
+                "alt": 24.410728454589844, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.4522901475429535, 
+                    51.471256256103516
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.4522901475429535, 
+                "lat": 51.471256256103516, 
+                "version": "1.1", 
+                "t": 945920, 
+                "total_distance": 3149.30320408607, 
+                "device": "iPhone6,1", 
+                "alt": 24.523662567138672, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.42091265320777893, 
+                    51.47191619873047
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.42091265320777893, 
+                "lat": 51.47191619873047, 
+                "version": "1.1", 
+                "t": 946816, 
+                "total_distance": 3151.4777613232136, 
+                "device": "iPhone6,1", 
+                "alt": 24.86264419555664, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.34270352125167847, 
+                    51.484214782714844
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.34270352125167847, 
+                "lat": 51.484214782714844, 
+                "version": "1.1", 
+                "t": 947072, 
+                "total_distance": 3157.0640149193478, 
+                "device": "iPhone6,1", 
+                "alt": 28.07101058959961, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.3087466359138489, 
+                    51.50138473510742
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.3087466359138489, 
+                "lat": 51.50138473510742, 
+                "version": "1.1", 
+                "t": 947584, 
+                "total_distance": 3160.092502802306, 
+                "device": "iPhone6,1", 
+                "alt": 16.654760360717773, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.27517926692962646, 
+                    51.50111389160156
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.27517926692962646, 
+                "lat": 51.50111389160156, 
+                "version": "1.1", 
+                "t": 947968, 
+                "total_distance": 3162.4161832964865, 
+                "device": "iPhone6,1", 
+                "alt": 17.74024200439453, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.1208452433347702, 
+                    51.517982482910156
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.1208452433347702, 
+                "lat": 51.517982482910156, 
+                "version": "1.1", 
+                "t": 950400, 
+                "total_distance": 3173.2604652841164, 
+                "device": "iPhone6,1", 
+                "alt": 4.016580104827881, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08310205489397049, 
+                    51.52608108520508
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08310205489397049, 
+                "lat": 51.52608108520508, 
+                "version": "1.1", 
+                "t": 950912, 
+                "total_distance": 3176.022715951301, 
+                "device": "iPhone6,1", 
+                "alt": 19.491546630859375, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08059923350811005, 
+                    51.530303955078125
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08059923350811005, 
+                "lat": 51.530303955078125, 
+                "version": "1.1", 
+                "t": 951936, 
+                "total_distance": 3176.523181140879, 
+                "device": "iPhone6,1", 
+                "alt": 20.458738327026367, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08031818270683289, 
+                    51.52519607543945
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08031818270683289, 
+                "lat": 51.52519607543945, 
+                "version": "1.1", 
+                "t": 999936, 
+                "total_distance": 3177.0914841226954, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07432821393013, 
+                    51.520381927490234
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07432821393013, 
+                "lat": 51.520381927490234, 
+                "version": "1.1", 
+                "t": 1000448, 
+                "total_distance": 3177.7684629854302, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07726643234491348, 
+                    51.52475357055664
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07726643234491348, 
+                "lat": 51.52475357055664, 
+                "version": "1.1", 
+                "t": 1031296, 
+                "total_distance": 3178.2953615067336, 
+                "device": "iPhone6,1", 
+                "alt": 17.00077247619629, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08026997745037079, 
+                    51.529258728027344
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08026997745037079, 
+                "lat": 51.529258728027344, 
+                "version": "1.1", 
+                "t": 1032704, 
+                "total_distance": 3178.8376949600342, 
+                "device": "iPhone6,1", 
+                "alt": 20.16815757751465, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08038678020238876, 
+                    51.524742126464844
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08038678020238876, 
+                "lat": 51.524742126464844, 
+                "version": "1.1", 
+                "t": 1086336, 
+                "total_distance": 3179.33998313829, 
+                "device": "iPhone6,1", 
+                "alt": 17.87548065185547, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.0754307433962822, 
+                    51.521358489990234
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.0754307433962822, 
+                "lat": 51.521358489990234, 
+                "version": "1.1", 
+                "t": 1086720, 
+                "total_distance": 3179.8490308054825, 
+                "device": "iPhone6,1", 
+                "alt": 16.87590980529785, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08038268238306046, 
+                    51.524818420410156
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08038268238306046, 
+                "lat": 51.524818420410156, 
+                "version": "1.1", 
+                "t": 1100800, 
+                "total_distance": 3180.364191631394, 
+                "device": "iPhone6,1", 
+                "alt": 18.333322525024414, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08001160621643066, 
+                    51.52941131591797
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08001160621643066, 
+                "lat": 51.52941131591797, 
+                "version": "1.1", 
+                "t": 1101056, 
+                "total_distance": 3180.8755430771557, 
+                "device": "iPhone6,1", 
+                "alt": 20.44072151184082, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.0810735672712326, 
+                    51.5247917175293
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.0810735672712326, 
+                "lat": 51.5247917175293, 
+                "version": "1.1", 
+                "t": 1102336, 
+                "total_distance": 3181.3944459067284, 
+                "device": "iPhone6,1", 
+                "alt": 18.745779037475586, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07559610158205032, 
+                    51.52153778076172
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07559610158205032, 
+                "lat": 51.52153778076172, 
+                "version": "1.1", 
+                "t": 1102592, 
+                "total_distance": 3181.9183975324277, 
+                "device": "iPhone6,1", 
+                "alt": 17.156782150268555, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07973629981279373, 
+                    51.52531433105469
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07973629981279373, 
+                "lat": 51.52531433105469, 
+                "version": "1.1", 
+                "t": 1115136, 
+                "total_distance": 3182.4267195725606, 
+                "device": "iPhone6,1", 
+                "alt": 16.678298950195312, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08006354421377182, 
+                    51.52986145019531
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08006354421377182, 
+                "lat": 51.52986145019531, 
+                "version": "1.1", 
+                "t": 1116544, 
+                "total_distance": 3182.9328426976163, 
+                "device": "iPhone6,1", 
+                "alt": 18.843040466308594, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08057623356580734, 
+                    51.52680587768555
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08057623356580734, 
+                "lat": 51.52680587768555, 
+                "version": "1.1", 
+                "t": 1117568, 
+                "total_distance": 3183.274452943252, 
+                "device": "iPhone6,1", 
+                "alt": 20.916641235351562, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07956360280513763, 
+                    51.525325775146484
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07956360280513763, 
+                "lat": 51.525325775146484, 
+                "version": "1.1", 
+                "t": 1120640, 
+                "total_distance": 3183.453322167659, 
+                "device": "iPhone6,1", 
+                "alt": 15.526565551757812, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08016318827867508, 
+                    51.52986526489258
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08016318827867508, 
+                "lat": 51.52986526489258, 
+                "version": "1.1", 
+                "t": 1122048, 
+                "total_distance": 3183.9597917396745, 
+                "device": "iPhone6,1", 
+                "alt": 20.708879470825195, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.538137435913086, 
+                    59.23768997192383
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.538137435913086, 
+                "lat": 59.23768997192383, 
+                "version": "1.1", 
+                "t": 1132800, 
+                "total_distance": 4631.117648375546, 
+                "device": "iPhone6,1", 
+                "alt": 17, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08038069307804108, 
+                    51.52482223510742
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08038069307804108, 
+                "lat": 51.52482223510742, 
+                "version": "1.1", 
+                "t": 1172608, 
+                "total_distance": 6078.67262410346, 
+                "device": "iPhone6,1", 
+                "alt": 19.416658401489258, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07529239356517792, 
+                    51.52116775512695
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07529239356517792, 
+                "lat": 51.52116775512695, 
+                "version": "1.1", 
+                "t": 1172864, 
+                "total_distance": 6079.210265265301, 
+                "device": "iPhone6,1", 
+                "alt": 17.064212799072266, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.06839969754219055, 
+                    51.51974868774414
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.06839969754219055, 
+                "lat": 51.51974868774414, 
+                "version": "1.1", 
+                "t": 1196672, 
+                "total_distance": 6079.71259349866, 
+                "device": "iPhone6,1", 
+                "alt": 17.898298263549805, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07045469433069229, 
+                    51.51416015625
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07045469433069229, 
+                "lat": 51.51416015625, 
+                "version": "1.1", 
+                "t": 1197056, 
+                "total_distance": 6080.350071085856, 
+                "device": "iPhone6,1", 
+                "alt": 18.08826446533203, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07791896164417267, 
+                    51.50162887573242
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07791896164417267, 
+                "lat": 51.50162887573242, 
+                "version": "1.1", 
+                "t": 1197440, 
+                "total_distance": 6081.836163505108, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08642753958702087, 
+                    51.50540542602539
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08642753958702087, 
+                "lat": 51.50540542602539, 
+                "version": "1.1", 
+                "t": 1197824, 
+                "total_distance": 6082.559470770919, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08775517344474792, 
+                    51.51017379760742
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08775517344474792, 
+                "lat": 51.51017379760742, 
+                "version": "1.1", 
+                "t": 1198080, 
+                "total_distance": 6083.097592058125, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.11650862544775009, 
+                    51.5062141418457
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.11650862544775009, 
+                "lat": 51.5062141418457, 
+                "version": "1.1", 
+                "t": 1198464, 
+                "total_distance": 6085.135688561271, 
+                "device": "iPhone6,1", 
+                "alt": 21.17731475830078, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.12734173238277435, 
+                    51.50666046142578
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.12734173238277435, 
+                "lat": 51.50666046142578, 
+                "version": "1.1", 
+                "t": 1198848, 
+                "total_distance": 6085.887096091681, 
+                "device": "iPhone6,1", 
+                "alt": 13.959269523620605, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.13455629348754883, 
+                    51.510066986083984
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.13455629348754883, 
+                "lat": 51.510066986083984, 
+                "version": "1.1", 
+                "t": 1199104, 
+                "total_distance": 6086.513821457177, 
+                "device": "iPhone6,1", 
+                "alt": 26, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08076351881027222, 
+                    51.51764678955078
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08076351881027222, 
+                "lat": 51.51764678955078, 
+                "version": "1.1", 
+                "t": 1205888, 
+                "total_distance": 6090.330475485135, 
+                "device": "iPhone6,1", 
+                "alt": 23.4169921875, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07451236248016357, 
+                    51.51994323730469
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07451236248016357, 
+                "lat": 51.51994323730469, 
+                "version": "1.1", 
+                "t": 1206400, 
+                "total_distance": 6090.832757378309, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.0704423040151596, 
+                    51.520240783691406
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.0704423040151596, 
+                "lat": 51.520240783691406, 
+                "version": "1.1", 
+                "t": 1215872, 
+                "total_distance": 6091.116301448802, 
+                "device": "iPhone6,1", 
+                "alt": 12.026741027832031, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07717623561620712, 
+                    51.522335052490234
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07717623561620712, 
+                "lat": 51.522335052490234, 
+                "version": "1.1", 
+                "t": 1216256, 
+                "total_distance": 6091.637165924093, 
+                "device": "iPhone6,1", 
+                "alt": 16.122331619262695, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08047022670507431, 
+                    51.52675247192383
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08047022670507431, 
+                "lat": 51.52675247192383, 
+                "version": "1.1", 
+                "t": 1216640, 
+                "total_distance": 6092.17865042777, 
+                "device": "iPhone6,1", 
+                "alt": 17.537817001342773, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07399100065231323, 
+                    51.52040481567383
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07399100065231323, 
+                "lat": 51.52040481567383, 
+                "version": "1.1", 
+                "t": 1259904, 
+                "total_distance": 6093.014791390495, 
+                "device": "iPhone6,1", 
+                "alt": 17.04482078552246, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.538105010986328, 
+                    59.24534606933594
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.538105010986328, 
+                "lat": 59.24534606933594, 
+                "version": "1.1", 
+                "t": 1261568, 
+                "total_distance": 7540.988138537812, 
+                "device": "iPhone6,1", 
+                "alt": 16.880617141723633, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.481172561645508, 
+                    59.2685661315918
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.481172561645508, 
+                "lat": 59.2685661315918, 
+                "version": "1.1", 
+                "t": 1261824, 
+                "total_distance": 7545.128069119022, 
+                "device": "iPhone6,1", 
+                "alt": 18.997238159179688, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.43089485168457, 
+                    59.281490325927734
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.43089485168457, 
+                "lat": 59.281490325927734, 
+                "version": "1.1", 
+                "t": 1262208, 
+                "total_distance": 7548.3255684737, 
+                "device": "iPhone6,1", 
+                "alt": 23.709352493286133, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.310335159301758, 
+                    59.32837677001953
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.310335159301758, 
+                "lat": 59.32837677001953, 
+                "version": "1.1", 
+                "t": 1262592, 
+                "total_distance": 7556.928456122935, 
+                "device": "iPhone6,1", 
+                "alt": 23.709352493286133, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    17.998586654663086, 
+                    59.32071304321289
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 17.998586654663086, 
+                "lat": 59.32071304321289, 
+                "version": "1.1", 
+                "t": 1263360, 
+                "total_distance": 7574.634083322792, 
+                "device": "iPhone6,1", 
+                "alt": 24.53267478942871, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.040067672729492, 
+                    59.35005187988281
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.040067672729492, 
+                "lat": 59.35005187988281, 
+                "version": "1.1", 
+                "t": 1263744, 
+                "total_distance": 7578.656106218115, 
+                "device": "iPhone6,1", 
+                "alt": 26.183704376220703, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.096426010131836, 
+                    59.35346603393555
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.096426010131836, 
+                "lat": 59.35346603393555, 
+                "version": "1.1", 
+                "t": 1264128, 
+                "total_distance": 7581.873166071886, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.093544006347656, 
+                    59.34713363647461
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.093544006347656, 
+                "lat": 59.34713363647461, 
+                "version": "1.1", 
+                "t": 1264640, 
+                "total_distance": 7582.596000127012, 
+                "device": "iPhone6,1", 
+                "alt": 28, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.090007781982422, 
+                    59.342445373535156
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 18.090007781982422, 
+                "lat": 59.342445373535156, 
+                "version": "1.1", 
+                "t": 1267200, 
+                "total_distance": 7583.154533904086, 
+                "device": "iPhone6,1", 
+                "alt": 28.614782333374023, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07848337292671204, 
+                    51.52532958984375
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07848337292671204, 
+                "lat": 51.52532958984375, 
+                "version": "1.1", 
+                "t": 1275392, 
+                "total_distance": 9013.875340293927, 
+                "device": "iPhone6,1", 
+                "alt": 17.394519805908203, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08569137752056122, 
+                    51.52620315551758
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08569137752056122, 
+                "lat": 51.52620315551758, 
+                "version": "1.1", 
+                "t": 1275904, 
+                "total_distance": 9014.383372322778, 
+                "device": "iPhone6,1", 
+                "alt": 18.306093215942383, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07898224145174026, 
+                    51.523590087890625
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07898224145174026, 
+                "lat": 51.523590087890625, 
+                "version": "1.1", 
+                "t": 1276416, 
+                "total_distance": 9014.930972220105, 
+                "device": "iPhone6,1", 
+                "alt": 16.667814254760742, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07362769544124603, 
+                    51.520416259765625
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07362769544124603, 
+                "lat": 51.520416259765625, 
+                "version": "1.1", 
+                "t": 1276800, 
+                "total_distance": 9015.442628819921, 
+                "device": "iPhone6,1", 
+                "alt": 15.48299503326416, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    17.939376831054688, 
+                    59.65599060058594
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": 17.939376831054688, 
+                "lat": 59.65599060058594, 
+                "version": "1.1", 
+                "t": 1278336, 
+                "total_distance": 10456.478193401466, 
+                "device": "iPhone6,1", 
+                "alt": 0, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07735075801610947, 
+                    51.52508544921875
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07735075801610947, 
+                "lat": 51.52508544921875, 
+                "version": "1.1", 
+                "t": 1292544, 
+                "total_distance": 11897.320780327493, 
+                "device": "iPhone6,1", 
+                "alt": 18.953189849853516, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07964402437210083, 
+                    51.525291442871094
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07964402437210083, 
+                "lat": 51.525291442871094, 
+                "version": "1.1", 
+                "t": 1296128, 
+                "total_distance": 11897.48107850428, 
+                "device": "iPhone6,1", 
+                "alt": 16.137462615966797, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08031637966632843, 
+                    51.530338287353516
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08031637966632843, 
+                "lat": 51.530338287353516, 
+                "version": "1.1", 
+                "t": 1297408, 
+                "total_distance": 11898.04418623876, 
+                "device": "iPhone6,1", 
+                "alt": 21.28297233581543, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08060755580663681, 
+                    51.53028869628906
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08060755580663681, 
+                "lat": 51.53028869628906, 
+                "version": "1.1", 
+                "t": 1303168, 
+                "total_distance": 11898.06506936557, 
+                "device": "iPhone6,1", 
+                "alt": 20.491724014282227, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07791484892368317, 
+                    51.52606201171875
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07791484892368317, 
+                "lat": 51.52606201171875, 
+                "version": "1.1", 
+                "t": 1346688, 
+                "total_distance": 11898.570623686468, 
+                "device": "iPhone6,1", 
+                "alt": 19.757118225097656, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07856860756874084, 
+                    51.52158737182617
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07856860756874084, 
+                "lat": 51.52158737182617, 
+                "version": "1.1", 
+                "t": 1347072, 
+                "total_distance": 11899.070232491647, 
+                "device": "iPhone6,1", 
+                "alt": 18.444408416748047, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07060160487890244, 
+                    51.520206451416016
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07060160487890244, 
+                "lat": 51.520206451416016, 
+                "version": "1.1", 
+                "t": 1353344, 
+                "total_distance": 11899.642446580217, 
+                "device": "iPhone6,1", 
+                "alt": 12.426133155822754, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.0780341848731041, 
+                    51.523033142089844
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.0780341848731041, 
+                "lat": 51.523033142089844, 
+                "version": "1.1", 
+                "t": 1361280, 
+                "total_distance": 11900.245139293855, 
+                "device": "iPhone6,1", 
+                "alt": 16.499113082885742, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08369123190641403, 
+                    51.52607345581055
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08369123190641403, 
+                "lat": 51.52607345581055, 
+                "version": "1.1", 
+                "t": 1361536, 
+                "total_distance": 11900.76230658213, 
+                "device": "iPhone6,1", 
+                "alt": 17.071048736572266, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07818368077278137, 
+                    51.523094177246094
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07818368077278137, 
+                "lat": 51.523094177246094, 
+                "version": "1.1", 
+                "t": 1362432, 
+                "total_distance": 11901.267212939267, 
+                "device": "iPhone6,1", 
+                "alt": 16.651369094848633, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07078875601291656, 
+                    51.520301818847656
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07078875601291656, 
+                "lat": 51.520301818847656, 
+                "version": "1.1", 
+                "t": 1362944, 
+                "total_distance": 11901.86569405801, 
+                "device": "iPhone6,1", 
+                "alt": 15.497075080871582, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07780038565397263, 
+                    51.522884368896484
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07780038565397263, 
+                "lat": 51.522884368896484, 
+                "version": "1.1", 
+                "t": 1374976, 
+                "total_distance": 11902.429435442391, 
+                "device": "iPhone6,1", 
+                "alt": 16.367332458496094, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08342060446739197, 
+                    51.52605056762695
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08342060446739197, 
+                "lat": 51.52605056762695, 
+                "version": "1.1", 
+                "t": 1375360, 
+                "total_distance": 11902.953968603671, 
+                "device": "iPhone6,1", 
+                "alt": 18.190710067749023, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.09058273583650589, 
+                    51.52532958984375
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.09058273583650589, 
+                "lat": 51.52532958984375, 
+                "version": "1.1", 
+                "t": 1375616, 
+                "total_distance": 11903.455898916789, 
+                "device": "iPhone6,1", 
+                "alt": 18.4730224609375, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.10691819339990616, 
+                    51.52223587036133
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.10691819339990616, 
+                "lat": 51.52223587036133, 
+                "version": "1.1", 
+                "t": 1375872, 
+                "total_distance": 11904.637252753564, 
+                "device": "iPhone6,1", 
+                "alt": 26, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.10761390626430511, 
+                    51.52165985107422
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.10761390626430511, 
+                "lat": 51.52165985107422, 
+                "version": "1.1", 
+                "t": 1398400, 
+                "total_distance": 11904.717373754285, 
+                "device": "iPhone6,1", 
+                "alt": 25.70038604736328, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08774896711111069, 
+                    51.525787353515625
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08774896711111069, 
+                "lat": 51.525787353515625, 
+                "version": "1.1", 
+                "t": 1399296, 
+                "total_distance": 11906.166326714681, 
+                "device": "iPhone6,1", 
+                "alt": 15.07845687866211, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08035074919462204, 
+                    51.530418395996094
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08035074919462204, 
+                "lat": 51.530418395996094, 
+                "version": "1.1", 
+                "t": 1402240, 
+                "total_distance": 11906.89234545835, 
+                "device": "iPhone6,1", 
+                "alt": 21.15191650390625, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.0807264894247055, 
+                    51.53031921386719
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.0807264894247055, 
+                "lat": 51.53031921386719, 
+                "version": "1.1", 
+                "t": 1405056, 
+                "total_distance": 11906.920580032218, 
+                "device": "iPhone6,1", 
+                "alt": 21.1818904876709, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08067450672388077, 
+                    51.530330657958984
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08067450672388077, 
+                "lat": 51.530330657958984, 
+                "version": "1.1", 
+                "t": 1429504, 
+                "total_distance": 11906.924394428206, 
+                "device": "iPhone6,1", 
+                "alt": 21.65269660949707, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08038391172885895, 
+                    51.525699615478516
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08038391172885895, 
+                "lat": 51.525699615478516, 
+                "version": "1.1", 
+                "t": 1440256, 
+                "total_distance": 11907.439735097256, 
+                "device": "iPhone6,1", 
+                "alt": 19.087839126586914, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07954718172550201, 
+                    51.52528381347656
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07954718172550201, 
+                "lat": 51.52528381347656, 
+                "version": "1.1", 
+                "t": 1446272, 
+                "total_distance": 11907.51381965796, 
+                "device": "iPhone6,1", 
+                "alt": 15.163839340209961, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08011184632778168, 
+                    51.53022766113281
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08011184632778168, 
+                "lat": 51.53022766113281, 
+                "version": "1.1", 
+                "t": 1447552, 
+                "total_distance": 11908.064936532814, 
+                "device": "iPhone6,1", 
+                "alt": 19.35515022277832, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07729988545179367, 
+                    51.52375030517578
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07729988545179367, 
+                "lat": 51.52375030517578, 
+                "version": "1.1", 
+                "t": 1475712, 
+                "total_distance": 11908.81099330151, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08215201646089554, 
+                    51.5179443359375
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08215201646089554, 
+                "lat": 51.5179443359375, 
+                "version": "1.1", 
+                "t": 1476224, 
+                "total_distance": 11909.538657602463, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.1531599760055542, 
+                    51.51236343383789
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.1531599760055542, 
+                "lat": 51.51236343383789, 
+                "version": "1.1", 
+                "t": 1478528, 
+                "total_distance": 11914.491260024808, 
+                "device": "iPhone6,1", 
+                "alt": 32, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.15314804017543793, 
+                    51.51240921020508
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.15314804017543793, 
+                "lat": 51.51240921020508, 
+                "version": "1.1", 
+                "t": 1482880, 
+                "total_distance": 11914.496416705671, 
+                "device": "iPhone6,1", 
+                "alt": 32, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.15362197160720825, 
+                    51.51176834106445
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.15362197160720825, 
+                "lat": 51.51176834106445, 
+                "version": "1.1", 
+                "t": 1483648, 
+                "total_distance": 11914.57486307873, 
+                "device": "iPhone6,1", 
+                "alt": 32, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.15477392077445984, 
+                    51.51022720336914
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.15477392077445984, 
+                "lat": 51.51022720336914, 
+                "version": "1.1", 
+                "t": 1487488, 
+                "total_distance": 11914.763864923449, 
+                "device": "iPhone6,1", 
+                "alt": 32, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.1546507030725479, 
+                    51.510250091552734
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.1546507030725479, 
+                "lat": 51.510250091552734, 
+                "version": "1.1", 
+                "t": 1490816, 
+                "total_distance": 11914.772763891257, 
+                "device": "iPhone6,1", 
+                "alt": 25.87594223022461, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.1386764496564865, 
+                    51.51266860961914
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.1386764496564865, 
+                "lat": 51.51266860961914, 
+                "version": "1.1", 
+                "t": 1498496, 
+                "total_distance": 11915.910471928111, 
+                "device": "iPhone6,1", 
+                "alt": 23.316608428955078, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.1386096179485321, 
+                    51.51487350463867
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.1386096179485321, 
+                "lat": 51.51487350463867, 
+                "version": "1.1", 
+                "t": 1499008, 
+                "total_distance": 11916.155688682493, 
+                "device": "iPhone6,1", 
+                "alt": 25.399917602539062, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.13254067301750183, 
+                    51.511775970458984
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.13254067301750183, 
+                "lat": 51.511775970458984, 
+                "version": "1.1", 
+                "t": 1499520, 
+                "total_distance": 11916.698835887079, 
+                "device": "iPhone6,1", 
+                "alt": 25.883005142211914, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.13114431500434875, 
+                    51.51399612426758
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.13114431500434875, 
+                "lat": 51.51399612426758, 
+                "version": "1.1", 
+                "t": 1502464, 
+                "total_distance": 11916.963943271148, 
+                "device": "iPhone6,1", 
+                "alt": 24.922115325927734, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.10867547243833542, 
+                    51.52573776245117
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.10867547243833542, 
+                "lat": 51.52573776245117, 
+                "version": "1.1", 
+                "t": 1505408, 
+                "total_distance": 11918.994086170553, 
+                "device": "iPhone6,1", 
+                "alt": 23.72396469116211, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08095371723175049, 
+                    51.530757904052734
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08095371723175049, 
+                "lat": 51.530757904052734, 
+                "version": "1.1", 
+                "t": 1506048, 
+                "total_distance": 11920.991400827075, 
+                "device": "iPhone6,1", 
+                "alt": 23.72396469116211, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08350592851638794, 
+                    51.526405334472656
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08350592851638794, 
+                "lat": 51.526405334472656, 
+                "version": "1.1", 
+                "t": 1540864, 
+                "total_distance": 11921.506582010448, 
+                "device": "iPhone6,1", 
+                "alt": 19.02581024169922, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.09082245826721191, 
+                    51.52521896362305
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.09082245826721191, 
+                "lat": 51.52521896362305, 
+                "version": "1.1", 
+                "t": 1541248, 
+                "total_distance": 11922.029656796922, 
+                "device": "iPhone6,1", 
+                "alt": 19.07455825805664, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08048402518033981, 
+                    51.530338287353516
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08048402518033981, 
+                "lat": 51.530338287353516, 
+                "version": "1.1", 
+                "t": 1549952, 
+                "total_distance": 11922.943736206324, 
+                "device": "iPhone6,1", 
+                "alt": 20.607019424438477, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.0803823322057724, 
+                    51.5257453918457
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.0803823322057724, 
+                "lat": 51.5257453918457, 
+                "version": "1.1", 
+                "t": 1605120, 
+                "total_distance": 11923.454491335442, 
+                "device": "iPhone6,1", 
+                "alt": 19.398149490356445, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07582297921180725, 
+                    51.52156066894531
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07582297921180725, 
+                "lat": 51.52156066894531, 
+                "version": "1.1", 
+                "t": 1605504, 
+                "total_distance": 11924.016650560336, 
+                "device": "iPhone6,1", 
+                "alt": 15.17209529876709, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08098283410072327, 
+                    51.5247802734375
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08098283410072327, 
+                "lat": 51.5247802734375, 
+                "version": "1.1", 
+                "t": 1619968, 
+                "total_distance": 11924.522225101358, 
+                "device": "iPhone6,1", 
+                "alt": 17.500574111938477, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07562250643968582, 
+                    51.521583557128906
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07562250643968582, 
+                "lat": 51.521583557128906, 
+                "version": "1.1", 
+                "t": 1621120, 
+                "total_distance": 11925.035922232066, 
+                "device": "iPhone6,1", 
+                "alt": 14.92668628692627, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08093205094337463, 
+                    51.525177001953125
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08093205094337463, 
+                "lat": 51.525177001953125, 
+                "version": "1.1", 
+                "t": 1645056, 
+                "total_distance": 11925.578690650787, 
+                "device": "iPhone6,1", 
+                "alt": 14.204833984375, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08028781414031982, 
+                    51.53041076660156
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08028781414031982, 
+                "lat": 51.53041076660156, 
+                "version": "1.1", 
+                "t": 1649536, 
+                "total_distance": 11926.162362711584, 
+                "device": "iPhone6,1", 
+                "alt": 20.33094024658203, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08040238916873932, 
+                    51.530242919921875
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08040238916873932, 
+                "lat": 51.530242919921875, 
+                "version": "1.1", 
+                "t": 1680000, 
+                "total_distance": 11926.182639539116, 
+                "device": "iPhone6,1", 
+                "alt": 19.95169448852539, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08026085793972015, 
+                    51.52550506591797
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08026085793972015, 
+                "lat": 51.52550506591797, 
+                "version": "1.1", 
+                "t": 1686656, 
+                "total_distance": 11926.709555839587, 
+                "device": "iPhone6,1", 
+                "alt": 17.68816375732422, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07966025173664093, 
+                    51.52530288696289
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07966025173664093, 
+                "lat": 51.52530288696289, 
+                "version": "1.1", 
+                "t": 1691264, 
+                "total_distance": 11926.756798814884, 
+                "device": "iPhone6,1", 
+                "alt": 15.934471130371094, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07561449706554413, 
+                    51.521484375
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07561449706554413, 
+                "lat": 51.521484375, 
+                "version": "1.1", 
+                "t": 1691776, 
+                "total_distance": 11927.265356974727, 
+                "device": "iPhone6,1", 
+                "alt": 14.549417495727539, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07043363898992538, 
+                    51.52027130126953
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07043363898992538, 
+                "lat": 51.52027130126953, 
+                "version": "1.1", 
+                "t": 1705344, 
+                "total_distance": 11927.648353298064, 
+                "device": "iPhone6,1", 
+                "alt": 12.21278190612793, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07770539820194244, 
+                    51.52281188964844
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07770539820194244, 
+                "lat": 51.52281188964844, 
+                "version": "1.1", 
+                "t": 1706112, 
+                "total_distance": 11928.225356678533, 
+                "device": "iPhone6,1", 
+                "alt": 16.069175720214844, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.0783471167087555, 
+                    51.527313232421875
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.0783471167087555, 
+                "lat": 51.527313232421875, 
+                "version": "1.1", 
+                "t": 1706368, 
+                "total_distance": 11928.727848199012, 
+                "device": "iPhone6,1", 
+                "alt": 17.459369659423828, 
+                "os": "8.1"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07044970244169235, 
+                    51.52024841308594
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07044970244169235, 
+                "lat": 51.52024841308594, 
+                "version": "1.1", 
+                "t": 1792000, 
+                "total_distance": 11929.684745146, 
+                "device": "iPhone6,1", 
+                "alt": 13.078822135925293, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07045143842697144, 
+                    51.52024841308594
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07045143842697144, 
+                "lat": 51.52024841308594, 
+                "version": "1.1", 
+                "t": 1798400, 
+                "total_distance": 11929.68486525832, 
+                "device": "iPhone6,1", 
+                "alt": 13, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.0726839154958725, 
+                    51.524723052978516
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.0726839154958725, 
+                "lat": 51.524723052978516, 
+                "version": "1.1", 
+                "t": 1812608, 
+                "total_distance": 11930.20584524043, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07002657651901245, 
+                    51.52906799316406
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07002657651901245, 
+                "lat": 51.52906799316406, 
+                "version": "1.1", 
+                "t": 1812992, 
+                "total_distance": 11930.722773228588, 
+                "device": "iPhone6,1", 
+                "alt": 17.49675178527832, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07718781381845474, 
+                    51.53063201904297
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07718781381845474, 
+                "lat": 51.53063201904297, 
+                "version": "1.1", 
+                "t": 1813632, 
+                "total_distance": 11931.247793338012, 
+                "device": "iPhone6,1", 
+                "alt": 15.75843620300293, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08039017021656036, 
+                    51.52605438232422
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08039017021656036, 
+                "lat": 51.52605438232422, 
+                "version": "1.1", 
+                "t": 1817984, 
+                "total_distance": 11931.802921271932, 
+                "device": "iPhone6,1", 
+                "alt": 19.75304412841797, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07934165000915527, 
+                    51.52529525756836
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07934165000915527, 
+                "lat": 51.52529525756836, 
+                "version": "1.1", 
+                "t": 1819392, 
+                "total_distance": 11931.914218047847, 
+                "device": "iPhone6,1", 
+                "alt": 15.381237983703613, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08021220564842224, 
+                    51.53050994873047
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08021220564842224, 
+                "lat": 51.53050994873047, 
+                "version": "1.1", 
+                "t": 1824000, 
+                "total_distance": 11932.497184282724, 
+                "device": "iPhone6,1", 
+                "alt": 19.985021591186523, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08039569109678268, 
+                    51.52583694458008
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08039569109678268, 
+                "lat": 51.52583694458008, 
+                "version": "1.1", 
+                "t": 1864320, 
+                "total_distance": 11933.016953646256, 
+                "device": "iPhone6,1", 
+                "alt": 19.04426383972168, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07621149718761444, 
+                    51.521846771240234
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07621149718761444, 
+                "lat": 51.521846771240234, 
+                "version": "1.1", 
+                "t": 1864704, 
+                "total_distance": 11933.546724389733, 
+                "device": "iPhone6,1", 
+                "alt": 14.948263168334961, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08085563778877258, 
+                    51.52620315551758
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08085563778877258, 
+                "lat": 51.52620315551758, 
+                "version": "1.1", 
+                "t": 1900928, 
+                "total_distance": 11934.128002894808, 
+                "device": "iPhone6,1", 
+                "alt": 12.802407264709473, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07386409491300583, 
+                    51.5220947265625
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07386409491300583, 
+                "lat": 51.5220947265625, 
+                "version": "1.1", 
+                "t": 1957120, 
+                "total_distance": 11934.793334836366, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08036910742521286, 
+                    51.52423858642578
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08036910742521286, 
+                "lat": 51.52423858642578, 
+                "version": "1.1", 
+                "t": 1965824, 
+                "total_distance": 11935.30262261047, 
+                "device": "iPhone6,1", 
+                "alt": 15.419671058654785, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07360491901636124, 
+                    51.5220832824707
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07360491901636124, 
+                "lat": 51.5220832824707, 
+                "version": "1.1", 
+                "t": 1966848, 
+                "total_distance": 11935.828401856801, 
+                "device": "iPhone6,1", 
+                "alt": 13.65120792388916, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08049435168504715, 
+                    51.530208587646484
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08049435168504715, 
+                "lat": 51.530208587646484, 
+                "version": "1.1", 
+                "t": 1984640, 
+                "total_distance": 11936.849901740577, 
+                "device": "iPhone6,1", 
+                "alt": 20.351390838623047, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08054022490978241, 
+                    51.53025436401367
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08054022490978241, 
+                "lat": 51.53025436401367, 
+                "version": "1.1", 
+                "t": 2006784, 
+                "total_distance": 11936.855899964563, 
+                "device": "iPhone6,1", 
+                "alt": 21.078887939453125, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08392640203237534, 
+                    51.52603530883789
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08392640203237534, 
+                "lat": 51.52603530883789, 
+                "version": "1.1", 
+                "t": 2072832, 
+                "total_distance": 11937.380268293778, 
+                "device": "iPhone6,1", 
+                "alt": 18.355295181274414, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08701874315738678, 
+                    51.521728515625
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08701874315738678, 
+                "lat": 51.521728515625, 
+                "version": "1.1", 
+                "t": 2073216, 
+                "total_distance": 11937.9047774354, 
+                "device": "iPhone6,1", 
+                "alt": 18.241943359375, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.0942041426897049, 
+                    51.51746368408203
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.0942041426897049, 
+                "lat": 51.51746368408203, 
+                "version": "1.1", 
+                "t": 2073856, 
+                "total_distance": 11938.5918456521, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.09563179314136505, 
+                    51.51414108276367
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.09563179314136505, 
+                "lat": 51.51414108276367, 
+                "version": "1.1", 
+                "t": 2074368, 
+                "total_distance": 11938.974281502851, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.09846264868974686, 
+                    51.51648712158203
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.09846264868974686, 
+                "lat": 51.51648712158203, 
+                "version": "1.1", 
+                "t": 2075392, 
+                "total_distance": 11939.300508028418, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.09553500264883041, 
+                    51.51406478881836
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.09553500264883041, 
+                "lat": 51.51406478881836, 
+                "version": "1.1", 
+                "t": 2078976, 
+                "total_distance": 11939.637540290063, 
+                "device": "iPhone6,1", 
+                "alt": 20.306867599487305, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08063123375177383, 
+                    51.523963928222656
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08063123375177383, 
+                "lat": 51.523963928222656, 
+                "version": "1.1", 
+                "t": 2083712, 
+                "total_distance": 11941.14585747029, 
+                "device": "iPhone6,1", 
+                "alt": 15.591259002685547, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07370837032794952, 
+                    51.52403259277344
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07370837032794952, 
+                "lat": 51.52403259277344, 
+                "version": "1.1", 
+                "t": 2088064, 
+                "total_distance": 11941.624869805186, 
+                "device": "iPhone6,1", 
+                "alt": 15.591259002685547, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08033931255340576, 
+                    51.530311584472656
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08033931255340576, 
+                "lat": 51.530311584472656, 
+                "version": "1.1", 
+                "t": 2089600, 
+                "total_distance": 11942.460273357376, 
+                "device": "iPhone6,1", 
+                "alt": 20.38034439086914, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08395988494157791, 
+                    51.52634048461914
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08395988494157791, 
+                "lat": 51.52634048461914, 
+                "version": "1.1", 
+                "t": 2137344, 
+                "total_distance": 11942.967926631161, 
+                "device": "iPhone6,1", 
+                "alt": 19.34915542602539, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08036988228559494, 
+                    51.530303955078125
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08036988228559494, 
+                "lat": 51.530303955078125, 
+                "version": "1.1", 
+                "t": 2141312, 
+                "total_distance": 11943.473800648757, 
+                "device": "iPhone6,1", 
+                "alt": 21.088912963867188, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08031590282917023, 
+                    51.525718688964844
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08031590282917023, 
+                "lat": 51.525718688964844, 
+                "version": "1.1", 
+                "t": 2209920, 
+                "total_distance": 11943.983672652217, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.0752025619149208, 
+                    51.52109909057617
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.0752025619149208, 
+                "lat": 51.52109909057617, 
+                "version": "1.1", 
+                "t": 2210432, 
+                "total_distance": 11944.607381989392, 
+                "device": "iPhone6,1", 
+                "alt": 15.372443199157715, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08029696345329285, 
+                    51.52431106567383
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08029696345329285, 
+                "lat": 51.52431106567383, 
+                "version": "1.1", 
+                "t": 2243456, 
+                "total_distance": 11945.109167601986, 
+                "device": "iPhone6,1", 
+                "alt": 16.247459411621094, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07996872067451477, 
+                    51.52907180786133
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07996872067451477, 
+                "lat": 51.52907180786133, 
+                "version": "1.1", 
+                "t": 2243840, 
+                "total_distance": 11945.63902479224, 
+                "device": "iPhone6,1", 
+                "alt": 17.44745445251465, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08543188124895096, 
+                    51.53248977661133
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08543188124895096, 
+                "lat": 51.53248977661133, 
+                "version": "1.1", 
+                "t": 2245248, 
+                "total_distance": 11946.174991171656, 
+                "device": "iPhone6,1", 
+                "alt": 20.166149139404297, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08963029086589813, 
+                    51.53614807128906
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08963029086589813, 
+                "lat": 51.53614807128906, 
+                "version": "1.1", 
+                "t": 2245632, 
+                "total_distance": 11946.67479461303, 
+                "device": "iPhone6,1", 
+                "alt": 24.731578826904297, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.09416364133358002, 
+                    51.53965377807617
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.09416364133358002, 
+                "lat": 51.53965377807617, 
+                "version": "1.1", 
+                "t": 2246016, 
+                "total_distance": 11947.175058779301, 
+                "device": "iPhone6,1", 
+                "alt": 25.116100311279297, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.09852416068315506, 
+                    51.543235778808594
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.09852416068315506, 
+                "lat": 51.543235778808594, 
+                "version": "1.1", 
+                "t": 2246400, 
+                "total_distance": 11947.674641763635, 
+                "device": "iPhone6,1", 
+                "alt": 34.24103927612305, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.09410228580236435, 
+                    51.5396728515625
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.09410228580236435, 
+                "lat": 51.5396728515625, 
+                "version": "1.1", 
+                "t": 2259584, 
+                "total_distance": 11948.175116847882, 
+                "device": "iPhone6,1", 
+                "alt": 27.996715545654297, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08951051533222198, 
+                    51.53605651855469
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08951051533222198, 
+                "lat": 51.53605651855469, 
+                "version": "1.1", 
+                "t": 2259840, 
+                "total_distance": 11948.687519112862, 
+                "device": "iPhone6,1", 
+                "alt": 31.690441131591797, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08639110624790192, 
+                    51.53193664550781
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08639110624790192, 
+                "lat": 51.53193664550781, 
+                "version": "1.1", 
+                "t": 2260224, 
+                "total_distance": 11949.193897175095, 
+                "device": "iPhone6,1", 
+                "alt": 21.092967987060547, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08084840327501297, 
+                    51.53083419799805
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08084840327501297, 
+                "lat": 51.53083419799805, 
+                "version": "1.1", 
+                "t": 2294912, 
+                "total_distance": 11949.59642204415, 
+                "device": "iPhone6,1", 
+                "alt": 34.21931076049805, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.0770609974861145, 
+                    51.527854919433594
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.0770609974861145, 
+                "lat": 51.527854919433594, 
+                "version": "1.1", 
+                "t": 2298112, 
+                "total_distance": 11950.01878373027, 
+                "device": "iPhone6,1", 
+                "alt": 34.21931076049805, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07045848667621613, 
+                    51.52024841308594
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07045848667621613, 
+                "lat": 51.52024841308594, 
+                "version": "1.1", 
+                "t": 2314496, 
+                "total_distance": 11950.980054204547, 
+                "device": "iPhone6,1", 
+                "alt": 14.971284866333008, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07767768204212189, 
+                    51.52292251586914
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07767768204212189, 
+                "lat": 51.52292251586914, 
+                "version": "1.1", 
+                "t": 2328704, 
+                "total_distance": 11951.561341299841, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08011873811483383, 
+                    51.527183532714844
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08011873811483383, 
+                "lat": 51.527183532714844, 
+                "version": "1.1", 
+                "t": 2332928, 
+                "total_distance": 11952.064341839296, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07766062021255493, 
+                    51.52284622192383
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07766062021255493, 
+                "lat": 51.52284622192383, 
+                "version": "1.1", 
+                "t": 2382848, 
+                "total_distance": 11952.575732743962, 
+                "device": "iPhone6,1", 
+                "alt": 17.16318702697754, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07182904332876205, 
+                    51.51980209350586
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07182904332876205, 
+                "lat": 51.51980209350586, 
+                "version": "1.1", 
+                "t": 2383232, 
+                "total_distance": 11953.102391209586, 
+                "device": "iPhone6,1", 
+                "alt": 18, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07893942296504974, 
+                    51.51907730102539
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07893942296504974, 
+                "lat": 51.51907730102539, 
+                "version": "1.1", 
+                "t": 2416896, 
+                "total_distance": 11953.600922593429, 
+                "device": "iPhone6,1", 
+                "alt": 16.658824920654297, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08392371982336044, 
+                    51.51582336425781
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08392371982336044, 
+                "lat": 51.51582336425781, 
+                "version": "1.1", 
+                "t": 2417408, 
+                "total_distance": 11954.100781652707, 
+                "device": "iPhone6,1", 
+                "alt": 17.441051483154297, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.09064006060361862, 
+                    51.514183044433594
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.09064006060361862, 
+                "lat": 51.514183044433594, 
+                "version": "1.1", 
+                "t": 2417792, 
+                "total_distance": 11954.60004653129, 
+                "device": "iPhone6,1", 
+                "alt": 20.812206268310547, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08992479741573334, 
+                    51.51676940917969
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08992479741573334, 
+                "lat": 51.51676940917969, 
+                "version": "1.1", 
+                "t": 2419968, 
+                "total_distance": 11954.891865028118, 
+                "device": "iPhone6,1", 
+                "alt": 16.456066131591797, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.09009350091218948, 
+                    51.51540756225586
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.09009350091218948, 
+                "lat": 51.51540756225586, 
+                "version": "1.1", 
+                "t": 2423552, 
+                "total_distance": 11955.043744783536, 
+                "device": "iPhone6,1", 
+                "alt": 16.456066131591797, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.09137719869613647, 
+                    51.51675796508789
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.09137719869613647, 
+                "lat": 51.51675796508789, 
+                "version": "1.1", 
+                "t": 2425728, 
+                "total_distance": 11955.218208559194, 
+                "device": "iPhone6,1", 
+                "alt": 16.456066131591797, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.09138321876525879, 
+                    51.51676559448242
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.09138321876525879, 
+                "lat": 51.51676559448242, 
+                "version": "1.1", 
+                "t": 2425856, 
+                "total_distance": 11955.21915366175, 
+                "device": "iPhone6,1", 
+                "alt": 16.456066131591797, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.09108036011457443, 
+                    51.51406478881836
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.09108036011457443, 
+                "lat": 51.51406478881836, 
+                "version": "1.1", 
+                "t": 2425856, 
+                "total_distance": 11955.520199879407, 
+                "device": "iPhone6,1", 
+                "alt": 48.40679931640625, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08875547349452972, 
+                    51.51831817626953
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08875547349452972, 
+                "lat": 51.51831817626953, 
+                "version": "1.1", 
+                "t": 2426496, 
+                "total_distance": 11956.019766204749, 
+                "device": "iPhone6,1", 
+                "alt": 21.144481658935547, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08661507070064545, 
+                    51.52260971069336
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08661507070064545, 
+                "lat": 51.52260971069336, 
+                "version": "1.1", 
+                "t": 2426880, 
+                "total_distance": 11956.51941450108, 
+                "device": "iPhone6,1", 
+                "alt": 17.075572967529297, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08066702634096146, 
+                    51.5302734375
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08066702634096146, 
+                "lat": 51.5302734375, 
+                "version": "1.1", 
+                "t": 2432896, 
+                "total_distance": 11957.465729185256, 
+                "device": "iPhone6,1", 
+                "alt": 20.396520614624023, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08038794249296188, 
+                    51.524742126464844
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08038794249296188, 
+                "lat": 51.524742126464844, 
+                "version": "1.1", 
+                "t": 2469504, 
+                "total_distance": 11958.08108585519, 
+                "device": "iPhone6,1", 
+                "alt": 19.451969146728516, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07541970163583755, 
+                    51.521297454833984
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07541970163583755, 
+                "lat": 51.521297454833984, 
+                "version": "1.1", 
+                "t": 2469760, 
+                "total_distance": 11958.595733754337, 
+                "device": "iPhone6,1", 
+                "alt": 16.123191833496094, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07050769031047821, 
+                    51.52028274536133
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07050769031047821, 
+                "lat": 51.52028274536133, 
+                "version": "1.1", 
+                "t": 2473984, 
+                "total_distance": 11958.953830448856, 
+                "device": "iPhone6,1", 
+                "alt": 13.460145950317383, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07046563178300858, 
+                    51.52025604248047
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07046563178300858, 
+                "lat": 51.52025604248047, 
+                "version": "1.1", 
+                "t": 2492672, 
+                "total_distance": 11958.957987910786, 
+                "device": "iPhone6,1", 
+                "alt": 12.73572063446045, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.12118853628635406, 
+                    51.5308952331543
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.12118853628635406, 
+                "lat": 51.5308952331543, 
+                "version": "1.1", 
+                "t": 2501760, 
+                "total_distance": 11962.6611319694, 
+                "device": "iPhone6,1", 
+                "alt": 17.924360275268555, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07497156411409378, 
+                    51.52458190917969
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07497156411409378, 
+                "lat": 51.52458190917969, 
+                "version": "1.1", 
+                "t": 2502400, 
+                "total_distance": 11965.934507616188, 
+                "device": "iPhone6,1", 
+                "alt": 17.999664306640625, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.11889832466840744, 
+                    51.530433654785156
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.11889832466840744, 
+                "lat": 51.530433654785156, 
+                "version": "1.1", 
+                "t": 2503808, 
+                "total_distance": 11969.042186391252, 
+                "device": "iPhone6,1", 
+                "alt": 17.940292358398438, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07267316430807114, 
+                    51.521053314208984
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07267316430807114, 
+                "lat": 51.521053314208984, 
+                "version": "1.1", 
+                "t": 2504064, 
+                "total_distance": 11972.40590973318, 
+                "device": "iPhone6,1", 
+                "alt": 15.53049373626709, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.07371187955141068, 
+                    51.52220153808594
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.07371187955141068, 
+                "lat": 51.52220153808594, 
+                "version": "1.1", 
+                "t": 2509440, 
+                "total_distance": 11972.552422829012, 
+                "device": "iPhone6,1", 
+                "alt": 16.062482833862305, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08072549104690552, 
+                    51.53036880493164
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08072549104690552, 
+                "lat": 51.53036880493164, 
+                "version": "1.1", 
+                "t": 2509824, 
+                "total_distance": 11973.582071514751, 
+                "device": "iPhone6,1", 
+                "alt": 21.798532485961914, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.08379519730806351, 
+                    51.52900314331055
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.08379519730806351, 
+                "lat": 51.52900314331055, 
+                "version": "1.1", 
+                "t": 2555008, 
+                "total_distance": 11973.843130008618, 
+                "device": "iPhone6,1", 
+                "alt": 20.690372467041016, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.1001197099685669, 
+                    51.52313995361328
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.1001197099685669, 
+                "lat": 51.52313995361328, 
+                "version": "1.1", 
+                "t": 2555264, 
+                "total_distance": 11975.147148980579, 
+                "device": "iPhone6,1", 
+                "alt": 20.969104766845703, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.10944481194019318, 
+                    51.52222442626953
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.10944481194019318, 
+                "lat": 51.52222442626953, 
+                "version": "1.1", 
+                "t": 2555776, 
+                "total_distance": 11975.800297991309, 
+                "device": "iPhone6,1", 
+                "alt": 26, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.1009662076830864, 
+                    51.522705078125
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.1009662076830864, 
+                "lat": 51.522705078125, 
+                "version": "1.1", 
+                "t": 2591744, 
+                "total_distance": 11976.389331352128, 
+                "device": "iPhone6,1", 
+                "alt": 19.669307708740234, 
+                "os": "8.1.3"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.0880647748708725, 
+                    51.52552032470703
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "lon": -0.0880647748708725, 
+                "lat": 51.52552032470703, 
+                "version": "1.1", 
+                "t": 2592000, 
+                "total_distance": 11977.335205100399, 
+                "device": "iPhone6,1", 
+                "alt": 20.13340950012207, 
+                "os": "8.1.3"
+            }
+        }
+    ]
+}

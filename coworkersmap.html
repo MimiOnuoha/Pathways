@@ -1,0 +1,435 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8/>
+  <title> Co-Workers Map </title>
+  <!-- Styles -->
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+  <link rel="stylesheet" href = "assets/styles.css" />
+  <link rel = "stylesheet" href = "assets/foundation.css" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
+    <!-- External Scripts -->
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js" type="text/javascript"></script>
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation.js" type = "text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation/foundation.slider.js" type = "text/javascript"></script>
+  <script src= "https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation/foundation.reveal.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <script src="assets/Leaflet.MakiMarkers.js"></script>
+  
+</head> 
+
+<body>
+
+
+<!-- Interface -->
+  <div id = "container">
+    <div id="map"></div>
+  </div>
+<div id = "footersection">
+  <a href="/about.html" data-reveal-id = "modal" class="menubutton white" id="about" >About</a>
+  <a href="/groups.html" class ="menubutton white" > Groups </a>
+  <a href="/maps.html" class = "menubutton white"> Maps </a>
+</div>
+<div id = "aboutbar">
+  <div class = "abouttext">
+    <strong>STORY: COWORKERS</strong></br>
+  </div>
+   <div id = "message"> </div>
+   <div class="row">
+  </div>
+  <div class = "seekbarvalue"></div>
+  <input type ="range" id="seekbar" value="0" /> 
+  
+</div>
+  </div>
+
+  <div class = "controls">
+        <div class = "btn active" id = "playbtn">Play</div> 
+        <div class = "btn" id = "pausebtn">Pause</div>
+        <div class = "btn" id = "resetbtn">Reset</div>
+  </div>
+
+<div id = "timebar">
+    <div id = "timevalue" class = "white"> </div>
+</div>
+
+      <div class = "extrainformation">
+        <p class = "stats">
+          <div id = "flatmate1key"><div class ="keytext">Coworker 1</div></div>
+          <div id = "flatmate2key"><div class ="keytext">Coworker 2</div></div>
+          <div id = "flatmate3key"><div class ="keytext">Coworker 3</div></div>
+        </p>
+    </div>
+
+<!--  // Map  -->
+  <script type="text/javascript">
+  var initialTimestamp = 1415752576; // this isn't right, needs to be updated 
+  var timestampUpperLimit = 1418205568; 
+  var color1 = "#0096FF"; // coworker 1
+  var color2 = "#FF5000"; // coworker 2
+  var color3 = "#FF0064"; // coworker 3
+  var maincolor = "#2c2c9a";
+  var mainMap = setupMapObject( 51.505, -0.09, 12, '../blackmap/{z}/{x}/{y}.png', 16, 51.519, -0.076, [color1, color2, color3] );
+  var lineGenerator = d3.svg.line()
+      .interpolate("linear")
+      .x(function(d) {return applyLatLngToLayer(d).x})
+      .y(function(d) {return applyLatLngToLayer(d).y});
+
+
+  function setupMapObject(latitude, longitude, zoom, tileURL, maximumZoom, markerlat, markerlong, colors){
+      var map = L.map('map', {
+          attributionControl: false, zoomControl: false })
+          .setView([latitude, longitude], zoom); 
+      var tiles = L.tileLayer(tileURL, {
+          maxZoom: maximumZoom});
+          tiles.addTo(map);
+      var svg = d3.select(map.getPanes().overlayPane).append("svg");
+      var g1 = svg.append("g").attr();
+      var g2 = svg.append("g").attr();
+      var icon = L.MakiMarkers.icon({icon: "building", color: "#888", size: "s"});
+      var marker = L.marker([markerlat, markerlong], {icon:icon}).addTo(map);
+      marker.bindPopup("<b>Work</br>").openPopup();
+      var colors = colors;    
+      return {
+        map: map,
+        tiles: tiles,
+        svg: svg,
+        g1: g1,
+        g2: g2,
+        marker: marker,
+        colors: colors
+      };
+  }
+
+  function setSVGHeightAndWidth(geojsons, linepaths){ 
+      var transform = d3.geo.transform({
+        point: projectPoint
+      });
+      var d3path = d3.geo.path().projection(transform);
+     
+      //projecting points because we have to convert geometries 
+      function projectPoint(x, y) {
+          var point = mainMap.map.latLngToLayerPoint(new L.LatLng(y, x));
+          this.stream.point(point.x, point.y);
+      }     
+      var top, left, bottom, right;
+      var isFirstIteration = true;
+      $.each(geojsons, function (index){
+          var newBounds = d3path.bounds(geojsons[index]); 
+          if (isFirstIteration) {
+            top = newBounds[0][1];
+            left = newBounds[0][0];
+            bottom = newBounds[1][1];
+            right = newBounds[1][0];
+            isFirstIteration = false;
+          } else {
+            if (newBounds[0][1] < top){
+              top = newBounds[0][1];
+            }
+            if (newBounds[0][0] < left){
+              left = newBounds[0][0];
+            }
+            if (newBounds[1][1] > bottom){
+              bottom = newBounds[1][1];
+            }
+            if (newBounds[1][0] > right){
+              right = newBounds[1][0];
+            }
+          }
+      });
+     
+      mainMap.svg.attr("width",  right - left)
+            .attr("height", bottom - top)
+            .style("left", left + "px")
+            .style("top", top + "px");
+        mainMap.g1.attr("transform", "translate(" + -left + "," + -top + ")");
+        mainMap.g2.attr("transform", "translate(" + -left + "," + -top + ")");
+}
+
+  function makeColorClosure(){
+      var closureColorIndex = 0;
+      var closure = function () {
+          var color = mainMap.colors[closureColorIndex];
+          closureColorIndex = (closureColorIndex + 1) % mainMap.colors.length;
+          return color; 
+      }   
+  return closure;  
+  }       
+  function applyLatLngToLayer(d) {
+      var y = d.geometry.coordinates[1];
+      var x = d.geometry.coordinates[0];
+      return mainMap.map.latLngToLayerPoint(new L.LatLng(y, x))
+  }
+
+  var getColor = makeColorClosure();   
+  function geojsonToLinepaths(g, data) { 
+      features = data.map(function(d) {return d.pathCoords}); //list of lists of the features
+      var linepaths = g.selectAll("path")
+          .data(features)
+          .enter()
+          .append("path")
+          .attr("d", lineGenerator)
+          .attr("stroke", getColor)
+          .attr("stroke-width", 4)
+          .attr("stroke-linecap", "round")
+          .attr("stroke-opacity", .3)
+          .attr("fill-opacity", "0");
+      return linepaths;
+  }
+
+  function geojsonToHighlightedLinepaths(g, data) {
+     features = data.map(function(d) {return d.pathCoords}); //list of lists of the features
+      var linepaths = g.selectAll("path")
+          .data(features)
+          .enter()
+          .append("path")
+          .attr("d", lineGenerator)
+          .attr("stroke", getColor)
+          .attr("stroke-linecap", "round")
+          .attr("stroke-width", 7)
+          .attr("stroke-opacity", 1)
+          .attr("fill-opacity", "0")
+          .attr("class", getColor);
+      return linepaths;
+  }
+
+  function setupLinePaths(linepaths) { 
+      linepaths.each(function(d){  d.totalLength = this.getTotalLength();})
+        .attr("stroke-dasharray", function(d){ return d.totalLength;})
+        .attr("stroke-dashoffset", function(d){return d.totalLength;});
+   }
+
+   function setupHighlightedLinePaths(highlightedLinepaths){
+      highlightedLinepaths.each(function(d) { d.totalLength = this.getTotalLength();})
+        .attr("stroke-dasharray", function(d){ return [1, d.totalLength];})
+        .attr("stroke-dashoffset", function(d){return d.totalLength;});
+   }
+          
+  function drawMapAtTime(linepaths, geojsons, time){    
+    // find fraction of journey completed, update linepath dashoffset   
+         linepaths.each(function(d, i){ 
+          d.geojson = geojsons[i];
+          d.totalLength = this.getTotalLength();})     
+         .attr("stroke-dashoffset", function(d) {return fractionOfJourneyCompleted(d.geojson,time) * d.totalLength + d.totalLength;})      
+         $( "#seekbar" ).val((time/worldState.maxtimestamp) * 100);
+         $(".seekbarvalue").html(formatCurrentDay(time)
+          );
+
+
+
+      // For showing the context messages 
+        var eventCollection = [
+          { starttime: 1620, endtime: 7000 , message: 'FOUR DAYS UNTIL BABY\'S BIRTH', textcolor: maincolor },
+          { starttime: 48001, endtime: 179500, message: 'THREE DAYS UNTIL BABY\'S BIRTH', textcolor: maincolor },
+          { starttime: 179620, endtime: 180000, message: 'TWO DAYS UNTIL BABY\'S BIRTH', textcolor: maincolor },
+          { starttime: 180001, endtime: 300000, message: 'ONE DAY UNTIL BABY\'S BIRTH', textcolor: maincolor },
+          { starttime: 300020, endtime: 326000,  message: 'Mother goes to hospital', textcolor: color1 },
+          { starttime: 326020, endtime: 331210,  message: 'Mother-in-law joins at hospital', textcolor: color3 },
+          { starttime: 331220, endtime: 361210,  message: 'Father joins at hospital', textcolor: color2 },
+          { starttime: 361220, endtime: 464800,  message: 'Baby\'s birth', textcolor: maincolor },
+          { starttime: 464820, endtime: 599210,  message: 'Mother + Baby still at hospital', textcolor: color1 },
+          { starttime: 599220, endtime: 626010,  message: 'Mother and Baby come home for first time', textcolor: color2 },
+          { starttime: 626020, endtime: 771210,  message: 'First time entire family is home', textcolor: maincolor },
+          { starttime: 771220, endtime: 954810,  message: 'Father goes back to work (four days after birth)', textcolor: color2 },
+          { starttime: 954820, endtime: 2232000,  message: 'End of baby\'s first week of life', textcolor: maincolor }
+        ];
+        matchingEvents = [];
+
+        //add in day before baby's birth, and etc. needs to be something happening every 30 seconds or so. and add in the days as well prfacing
+        
+        eventCollection.getEventsForTime = function(timestep) {
+          for (var x = 0; x < eventCollection.length; x++) {
+            if (timestep >= eventCollection[x].starttime && timestep <= eventCollection[x].endtime){
+              matchingEvents.push(eventCollection[x]);
+            }
+          } return matchingEvents;
+        }     
+       var returnedEvents = eventCollection.getEventsForTime(time)
+          if (returnedEvents[0] && returnedEvents[0].textcolor && returnedEvents[0].message) {
+              var currentColor = returnedEvents[0].textcolor;
+              var currentMessage = returnedEvents[0].message; }   
+       $("#message").css("color", currentColor);      
+       return $("#message").html(currentMessage);     
+    }
+        
+  function fractionOfJourneyCompleted(geojson, time) {
+        var geojsonTimeValues = []
+        $.each(geojson.features, function(key, value){       
+            geojsonTimeValues.push(geojson.features[key].properties.t)
+            answer = findClosestTimeValue(time, geojsonTimeValues);
+            correspondingIndex = geojsonTimeValues.indexOf(answer);  
+        });
+        fractionValue = geojson.features[correspondingIndex].properties["total_distance"]/geojson.features[(geojsonTimeValues.length-1)].properties["total_distance"];
+        return fractionValue;
+  }
+
+  function findClosestTimeValue(number, array) {
+      var currentValue = array[0];
+      var difference = Math.abs(number - currentValue);
+      for (var value = 0; value < array.length; value++){
+        var newDifference = Math.abs(number - array[value]);
+        if (newDifference < difference){
+          difference = newDifference;
+          currentValue = array[value];
+        }
+      }
+      return currentValue;
+  }
+
+  function getAllGeoJsons(urls, callback) {
+      var results = []; 
+      // introduce new scope to capture loop index 
+      var loaded = function(i){
+        return function(data){
+        results[i] = data;
+        } 
+      } 
+      //Kick off requests to all files and store them in results
+      for (var i = 0; i < urls.length; i++){
+          var url = urls[i];
+          var dataIndex = i;
+          results.push(null);
+          d3.json(url, loaded(i));
+      }
+      timeoutFunc = function(){
+      var loaded = true;
+      // If no nulls, then we've finished loading.
+      for(var i = 0; i < results.length; i++){
+          if(results[i] == null){
+            loaded = false
+          }
+      }
+      if(loaded) {
+          callback(results);
+        } else {
+            setTimeout(timeoutFunc, 100);
+        }
+      };
+      setTimeout(timeoutFunc, 100) // check every 1/10 second if we have finished loading
+  }
+
+   function render(geojsons) {
+      mainMap.g1.selectAll("path").remove();
+      mainMap.g2.selectAll("path").remove();
+      var linepaths = geojsonToLinepaths(mainMap.g1, geojsons);
+      var highlightedLinepaths = geojsonToHighlightedLinepaths(mainMap.g2, geojsons);  
+      setSVGHeightAndWidth(geojsons, highlightedLinepaths);
+      setupLinePaths(linepaths);
+      setupHighlightedLinePaths(highlightedLinepaths);
+
+      self = this;
+      setInterval(function(){
+        assignTimeValue();
+      
+        linepaths.each(function(linepath, index){
+              if (index == 0) {
+                drawMapAtTime(linepaths,geojsons,self.timestep);
+              }
+           });
+        highlightedLinepaths.each(function(highlightedLinepath, index){
+              if (index == 0) {
+                drawMapAtTime(highlightedLinepaths,geojsons,self.timestep);
+              }
+           });
+          if(self.playing){
+              self.timestep += self.multiplier;
+          }
+      }, 100);
+  }
+  
+  //Entry function that gets GeoJSON files, waits until all are loaded. 
+  getAllGeoJsons(["Group1Data/coworker1.json", "Group1Data/coworker2.json", "Group1Data/coworker3.json"], function(results) {
+    results.forEach(function(result){
+        result.pathCoords = result.features.slice();
+        result.pathCoords.reverse();
+    });
+
+    var timestamps = results.map(function(d) {return d.features.slice(-1)[0].properties.t });
+    worldState.maxtimestamp = Math.max.apply(null, timestamps);
+    worldState.render(results);
+    worldState.play();
+    mainMap.map.on("viewreset", function() { worldState.render(results) });
+  })
+  
+// Overlay Controls 
+$(document).foundation();
+
+
+//Buttons
+$("#playbtn").click(function(){ 
+  worldState.play(); 
+  $("#playbtn").addClass('active'); 
+  $("#pausebtn").removeClass('active');
+  $("#resetbtn").removeClass('active');
+});
+$("#pausebtn").click(function(){ 
+  worldState.pause(); 
+  $("#pausebtn").addClass('active'); 
+  $("#playbtn").removeClass('active');
+  $("#resetbtn").removeClass('active');
+});
+$("#resetbtn").click(function(){ 
+  worldState.reset(); 
+});
+
+
+// Timer
+function formatTimestep() {
+  return moment.unix(worldState.timestep + initialTimestamp).format("dddd, MMM Do HH:mm");
+}
+function assignTimeValue() {
+  $("#timevalue").html(formatTimestep());
+}
+
+$(function() {
+    $( "#slider" ).slider();
+  });
+
+
+$( "#seekbar" ).on( "change", function() {
+  var sliderValue = $('#seekbar').val();
+  worldState.timestep = sliderValue * worldState.maxtimestamp * 0.01;
+} );
+
+function formatCurrentDay(currentTimestamp) {
+  var initialMoment = moment(initialTimestamp);
+  var offset = initialMoment.hours() * 3600 + initialMoment.minutes() * 60 + initialMoment.seconds();
+  var dayTimestamp = currentTimestamp + offset;
+  return ("Day " + moment.duration(dayTimestamp, "seconds").days());
+}
+
+
+
+var worldState = {
+    maxtimestamp: 0,
+    timestep: 1,
+    multiplier: 500,
+    render: render, 
+    playing: true,
+    play: function(){
+      this.playing = true;
+    },
+    pause: function(){
+      this.playing = false;
+    },
+    reset: function(){     
+      worldState.timestep = 0;
+    },
+    changeSpeed: function(){
+      worldState.multiplier = realSliderValue[0] + worldState.multiplier;
+    }
+  };
+
+</script>
+ 
+
+
+</body>
+</html>
+
