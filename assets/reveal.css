@@ -1088,6 +1088,7 @@ body {
  * PLAYBACK COMPONENT
  *********************************************/
 .reveal .playback {
+  visibility: hidden;
   position: fixed;
   left: 15px;
   bottom: 15px;

@@ -9,6 +9,7 @@
   <link rel="stylesheet" href = "assets/styles.css" />
   <link rel = "stylesheet" href = "assets/foundation.css" />
 
+
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css">
   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
@@ -27,16 +28,25 @@
 
 <body>
 
+<div class = "navbar">
+    <ul class = "navbar-list">
+      <li class = "navbar-item">
+        <a class = "navbar-link white" href="/groups.html"> The Groups </a>
+      </li>
+      <li class = "navbar-item">
+        <a class = "navbar-link white" href = "/about.html"> About </a>
+      </li>
+      <li class = "navbar-item">
+        <a class = "navbar-link white" href = "/"> Home  </a>
+      </li>
+    </ul>
+  </div>
+
 
 <!-- Interface -->
   <div id = "container">
     <div id="map"></div>
   </div>
-<div id = "footersection">
-  <a href="/about.html" data-reveal-id = "modal" class="menubutton white" id="about" >About</a>
-  <a href="/groups.html" class ="menubutton white" > Groups </a>
-  <a href="/maps.html" class = "menubutton white"> Maps </a>
-</div>
 <div id = "aboutbar">
   <div class = "abouttext">
     <strong>Story: Roommates </strong></br>
@@ -227,18 +237,41 @@
          $(".seekbarvalue").html(formatCurrentDay(time)
           );
 
-
-
+         // console.log(time);
       // For showing the context messages 
         var eventCollection = [
-          { starttime: 1620, endtime: 7000 , message: 'Insert something here', textcolor: maincolor },
-          { starttime: 48001, endtime: 179500, message: 'Insert something here ', textcolor: maincolor },
-          { starttime: 179620, endtime: 180000, message: 'Insert something here', textcolor: maincolor },
+          { starttime: 500, endtime: 103600 , message: '25 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 103680, endtime: 155400 , message: '24 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 155520, endtime: 233100 , message: '23 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 233280, endtime: 310000 , message: '22 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 311040, endtime: 414420 , message: '21 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 414720, endtime: 492380 , message: '20 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 492480, endtime: 570140 , message: '19 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 570240, endtime: 673820 , message: '18 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 673920, endtime: 751480 , message: '17 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 751680, endtime: 829240 , message: '16 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 829440, endtime: 933020 , message: '15 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 933120, endtime: 1010380 , message: '14 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 1010880, endtime: 1088340 , message: '13 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 1088640, endtime: 1192120 , message: '12 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 1192320, endtime: 1270000 , message: '11 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 1270080, endtime: 1347340 , message: '10 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 1347840, endtime: 1451120 , message: '9 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 1451520, endtime: 1529080 , message: '8 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 1529280, endtime: 1606040 , message: '7 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 1607040, endtime: 1710220 , message: '6 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 1710720, endtime: 1788180 , message: '5 Days Until Roommate 2 Leaves', textcolor: color2 },
+          { starttime: 1788480, endtime: 1866040 , message: '4 Days Until Roommate 2 Leaves', textcolor: color2 },
+          { starttime: 1866240, endtime: 1969720 , message: '3 Days Until Roommate 2 Leaves', textcolor: color2 },
+          { starttime: 1969920, endtime: 2047480 , message: '2 Days Until Roommate 2 Leaves', textcolor: color2 },
+          { starttime: 2047680, endtime: 2125240 , message: '1 Day Until Roommate 2 Leaves', textcolor: color2 },  
+          { starttime: 2125440, endtime: 2140080 , message: 'Roommate 2 Leaves', textcolor: color2 },
+          { starttime: 2140180, endtime: 2298460 , message: 'Roommate 2 Gone', textcolor: "#cdcdcd" }
+
         ];
         matchingEvents = [];
 
-        //add in day before baby's birth, and etc. needs to be something happening every 30 seconds or so. and add in the days as well prfacing
-        
+       
         eventCollection.getEventsForTime = function(timestep) {
           for (var x = 0; x < eventCollection.length; x++) {
             if (timestep >= eventCollection[x].starttime && timestep <= eventCollection[x].endtime){
@@ -321,6 +354,7 @@
 
       self = this;
       setInterval(function(){
+        if (worldState.timestep < 2298460){
         assignTimeValue();
       
         linepaths.each(function(linepath, index){
@@ -336,6 +370,7 @@
           if(self.playing){
               self.timestep += self.multiplier;
           }
+        }
       }, 100);
   }
   
@@ -374,7 +409,6 @@ $("#resetbtn").click(function(){
   worldState.reset(); 
 });
 
-
 // Timer
 function formatTimestep() {
   return moment.unix(worldState.timestep + initialTimestamp).format("dddd, MMM Do HH:mm");
@@ -382,24 +416,20 @@ function formatTimestep() {
 function assignTimeValue() {
   $("#timevalue").html(formatTimestep());
 }
-
 $(function() {
     $( "#slider" ).slider();
   });
-
-
 $( "#seekbar" ).on( "change", function() {
   var sliderValue = $('#seekbar').val();
   worldState.timestep = sliderValue * worldState.maxtimestamp * 0.01;
 } );
-
-function formatCurrentDay(currentTimestamp) {
+function formatCurrentDay(currentTimestamp) { 
   var initialMoment = moment(initialTimestamp);
   var offset = initialMoment.hours() * 3600 + initialMoment.minutes() * 60 + initialMoment.seconds();
   var dayTimestamp = currentTimestamp + offset;
-  return ("Day " + moment.duration(dayTimestamp, "seconds").days());
+  var currentDay = moment.duration(dayTimestamp, "seconds").days();
+  return ("Day " + currentDay);
 }
-
 
 
 var worldState = {
@@ -423,9 +453,8 @@ var worldState = {
   };
 
 </script>
- 
-
-
 </body>
 </html>
+
+
 

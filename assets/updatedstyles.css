@@ -30,22 +30,13 @@ button, .button:hover {
 
 
 
-.indexpage, .aboutpage { 
+.indexpage, .aboutpage, .grouppage, .mappage { 
   background: url(../assets/images/version1.jpg) center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   font-size: 2rem !important;
-}
-
-.grouppage, .mappage {
-  background: url(../assets/images/version6_opaque.jpg) center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  
 }
 
 
@@ -196,13 +187,32 @@ h2 {
   position: fixed;
   bottom: 2rem;
   left: 0;
-  margin-left: 4rem;
+  margin-left: 3rem;
 }
 
 .continuebutton {
   background-color:#3cb0fd;
+  border: #3cb0fd;
 }
 
+.continuebutton:hover {
+  background-color:#2a7bb1;
+  border: #2a7bb1;
+}
+
+.white {
+  color: #fff !important;
+}
+.black {
+  color: #000 !important;
+}
+.mutedgreen {
+  color: #555 !important;
+}
+
+.left {
+  text-align:left !important;
+}
 .fadeintext {
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
