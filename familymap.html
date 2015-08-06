@@ -30,13 +30,13 @@
 <div class = "navbar">
     <ul class = "navbar-list">
       <li class = "navbar-item">
-        <a class = "navbar-link" href="/groups.html"> The Groups </a>
-      </li>
-      <li class = "navbar-item">
         <a class = "navbar-link" href = "/about.html"> About </a>
       </li>
       <li class = "navbar-item">
-        <a class = "navbar-link" href = "/"> Home  </a>
+        <a class = "navbar-link" href="/groups.html"> The Groups </a>
+      </li>
+      <li class = "navbar-item">
+        <a class = "navbar-link" href = "/maps.html"> The Maps  </a>
       </li>
     </ul>
   </div>
@@ -85,11 +85,11 @@
 <!--  // Map  -->
   <script type="text/javascript">
   var initialTimestamp = 1425210673;
-
   var color1 = "#0096FF"; //mother
   var color2 = "#FF5000"; //father
   var color3 = "#590B90"; //motherinlaw
   var maincolor = "#2c2c9a";
+  var specialeventscolor = "#cead23";
  
   var mainMap = setupMapObject(51.527928, -0.183626, 14, '../whitemap/{z}/{x}/{y}.png', 16, 51.5280495, -0.189, 51.517319, -0.173,[color1, color2, color3] );
 
@@ -255,23 +255,31 @@
           );
 
 
-
       // For showing the context messages 
         var eventCollection = [
-          { starttime: 1620, endtime: 7000 , message: 'FOUR DAYS UNTIL BABY\'S BIRTH', textcolor: maincolor },
-          { starttime: 48001, endtime: 179500, message: 'THREE DAYS UNTIL BABY\'S BIRTH', textcolor: maincolor },
-          { starttime: 179620, endtime: 180000, message: 'TWO DAYS UNTIL BABY\'S BIRTH', textcolor: maincolor },
-          { starttime: 180001, endtime: 300000, message: 'ONE DAY UNTIL BABY\'S BIRTH', textcolor: maincolor },
+          { starttime: 1620, endtime: 7000 , message: 'Four days until baby\'s birth', textcolor: maincolor },
+          { starttime: 48001, endtime: 179500, message: 'Three days until baby\'s birth', textcolor: maincolor },
+          { starttime: 136000, endtime: 180000, message: 'Two days until baby\'s birth', textcolor: maincolor },
+          { starttime: 236147, endtime: 300000, message: 'One day until baby\'s birth', textcolor: maincolor },
           { starttime: 300020, endtime: 326000,  message: 'Mother goes to hospital', textcolor: color1 },
           { starttime: 326020, endtime: 331210,  message: 'Mother-in-law joins at hospital', textcolor: color3 },
           { starttime: 331220, endtime: 361210,  message: 'Father joins at hospital', textcolor: color2 },
-          { starttime: 361220, endtime: 464800,  message: 'Baby\'s birth', textcolor: maincolor },
+          { starttime: 361220, endtime: 392140,  message: '**Baby\'s birth!**', textcolor: specialeventscolor },
+          { starttime: 392151, endtime: 419294,  message: 'Father drops by home', textcolor: color2 },
+          { starttime: 430864, endtime: 444500,  message: 'Mother-in-law drops by home', textcolor: color3 },
           { starttime: 464820, endtime: 599210,  message: 'Mother + Baby still at hospital', textcolor: color1 },
-          { starttime: 599220, endtime: 626010,  message: 'Mother and Baby come home for first time', textcolor: color2 },
-          { starttime: 626020, endtime: 771210,  message: 'First time entire family is home', textcolor: maincolor },
-          { starttime: 771220, endtime: 954810,  message: 'Father goes back to work (four days after birth)', textcolor: color2 },
-          { starttime: 954820, endtime: 2232000,  message: 'End of baby\'s first week of life', textcolor: maincolor }
+          { starttime: 599220, endtime: 626010,  message: 'Mother and Baby come home for first time', textcolor: color1 },
+          { starttime: 653585, endtime: 771210,  message: 'First time Mother, Father, and Baby are all home', textcolor: specialeventscolor},
+          { starttime: 771220, endtime: 914810,  message: 'Father goes back to work (four days after birth)', textcolor: color2 },
+          { starttime: 923875, endtime: 943875,  message: 'Mother leaves house for first time since birth (6 days after birth)', textcolor: color1 },
+          { starttime: 954820, endtime: 1231026.6,  message: 'End of baby\'s first week of life', textcolor: maincolor },
+          { starttime: 1281026.6, endtime: 1449800,  message: 'Mother\'s second time leaving house since baby\'birth', textcolor: color1 },
+          { starttime: 1449887, endtime: 1594000,  message: 'Mother\'s longest trip since baby\'s birth (2 weeks post-birth)', textcolor: color1 },
+          { starttime: 1594747, endtime: 2000000,  message: 'End of baby\'s second week of life', textcolor: maincolor },
+          { starttime: 2013041, endtime: 2196000,  message: 'Mother-in-law leaves town, returns to home country', textcolor: color3 },
+          { starttime: 2196045, endtime: 2232000,  message: 'End of baby\'s third week of life', textcolor: maincolor },
         ];
+
         matchingEvents = [];
 
         //add in day before baby's birth, and etc. needs to be something happening every 30 seconds or so. and add in the days as well prfacing
@@ -358,8 +366,8 @@
 
       self = this;
       setInterval(function(){
+        if (worldState.timestep < 2468336){
         assignTimeValue();
-      
         linepaths.each(function(linepath, index){
               if (index == 0) {
                 drawMapAtTime(linepaths,geojsons,self.timestep);
@@ -373,6 +381,7 @@
           if(self.playing){
               self.timestep += self.multiplier;
           }
+        }
       }, 100);
   }
   
@@ -434,7 +443,7 @@ function formatCurrentDay(currentTimestamp) {
   var initialMoment = moment(initialTimestamp);
   var offset = initialMoment.hours() * 3600 + initialMoment.minutes() * 60 + initialMoment.seconds();
   var dayTimestamp = currentTimestamp + offset;
-  return ("Day " + moment.duration(dayTimestamp, "seconds").days());
+  return ("Day " + (moment.duration(dayTimestamp, "seconds").days() + 1));
 }
 
 

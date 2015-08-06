@@ -361,3 +361,8 @@ body {
 
 .navbar-link.active {
     color: #33C3F0; }
+
+/*.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  opacity: .6;
+}
+*/
