@@ -25,6 +25,15 @@
 </head> 
 
 <body>
+<a href="#" data-reveal-id="myModal" class = "helptext"> Help </a>
+
+<div id="myModal" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+  <h2 id="modalTitle"> Help Guide </h2>
+  <p class="lead"> This map displays a month's worth of real data. </p>
+  <p> Click the buttons on the left to <strong>play, pause, or reset</strong> the map. To <strong>fast forward or rewind</strong>, click the slider circle and use your arrow keys to move left or right. You can <strong>move the map around </strong>by holding down your mouse and dragging. </p>
+  <p> Click <a href = "/groups.html">here</a> to return to the groups page, or use the navigation bar at the bottom right. </p>
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
 
 
 <div class = "navbar">
@@ -445,6 +454,17 @@ function formatCurrentDay(currentTimestamp) {
   var dayTimestamp = currentTimestamp + offset;
   return ("Day " + (moment.duration(dayTimestamp, "seconds").days() + 1));
 }
+
+
+$(document).on('opened.fndtn.reveal', '[data-reveal]', function () {
+  worldState.pause();
+  var modal = $(this);
+});
+
+$(document).on('closed.fndtn.reveal', '[data-reveal]', function () {
+  worldState.play();
+  var modal = $(this);
+});
 
 
 

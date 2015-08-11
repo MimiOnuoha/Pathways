@@ -25,6 +25,17 @@
 </head> 
 
 <body>
+<a href="#" data-reveal-id="myModal" class = "helptext"> Help </a>
+
+<div id="myModal" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+  <h2 id="modalTitle"> Help Guide </h2>
+  <p class="lead"> This map displays a month's worth of real data. </p>
+  <p> Click the buttons on the left to <strong>play, pause, or reset</strong> the map. To <strong>fast forward or rewind</strong>, click the slider circle and use your arrow keys to move left or right. You can <strong>move the map around </strong>by holding down your mouse and dragging. </p>
+  <p> Click <a href = "/groups.html">here</a> to return to the groups page, or use the navigation bar at the bottom right. </p>
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+
+
 <div class = "navbar">
     <ul class = "navbar-list">
       <li class = "navbar-item">
@@ -220,25 +231,23 @@
          linepaths.each(function(d, i){ 
           d.geojson = geojsons[i];
           d.totalLength = this.getTotalLength();})     
-         .attr("stroke-dashoffset", function(d) {return fractionOfJourneyCompleted(d.geojson,time) * d.totalLength + d.totalLength;})      
+         .attr("stroke-dashoffset", function(d) {return fractionOfJourneyCompleted(d.geojson,time) * d.totalLength + d.totalLength;})
+
+        console.log()
+
+
          $( "#seekbar" ).val((time/worldState.maxtimestamp) * 100);
          $(".seekbarvalue").html(formatCurrentDay(time)
           );
-
-
 
       // For showing the context messages 
         var eventCollection = [
           { starttime: 1620, endtime: 7000 , message: 'FOUR DAYS UNTIL BABY\'S BIRTH', textcolor: maincolor },
           { starttime: 48001, endtime: 179500, message: 'THREE DAYS UNTIL BABY\'S BIRTH', textcolor: maincolor },
-          { starttime: 179620, endtime: 180000, message: 'TWO DAYS UNTIL BABY\'S BIRTH', textcolor: maincolor },
-          { starttime: 180001, endtime: 300000, message: 'ONE DAY UNTIL BABY\'S BIRTH', textcolor: maincolor },
         ];
         matchingEvents = [];
 
-        //add in day before baby's birth, and etc. needs to be something happening every 30 seconds or so.
-        
-        eventCollection.getEventsForTime = function(timestep) {
+  eventCollection.getEventsForTime = function(timestep) {
           for (var x = 0; x < eventCollection.length; x++) {
             if (timestep >= eventCollection[x].starttime && timestep <= eventCollection[x].endtime){
               matchingEvents.push(eventCollection[x]);
@@ -401,6 +410,17 @@ function formatCurrentDay(currentTimestamp) {
   var dayTimestamp = currentTimestamp + offset;
   return ("Day " + moment.duration(dayTimestamp, "seconds").days());
 }
+
+
+$(document).on('opened.fndtn.reveal', '[data-reveal]', function () {
+  worldState.pause();
+  var modal = $(this);
+});
+
+$(document).on('closed.fndtn.reveal', '[data-reveal]', function () {
+  worldState.play();
+  var modal = $(this);
+});
 
 
 

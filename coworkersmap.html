@@ -26,6 +26,16 @@
 
 <body>
 
+<a href="#" data-reveal-id="myModal" class = "helptext"> Help </a>
+
+<div id="myModal" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+  <h2 id="modalTitle"> Help Guide </h2>
+  <p class="lead"> This map displays a month's worth of real data. </p>
+  <p> Click the buttons on the left to <strong>play, pause, or reset</strong> the map. To <strong>fast forward or rewind</strong>, click the slider circle and use your arrow keys to move left or right. You can <strong>move the map around </strong>by holding down your mouse and dragging. </p>
+  <p> Click <a href = "/groups.html">here</a> to return to the groups page, or use the navigation bar at the bottom right. </p>
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+
 
 <div class = "navbar">
     <ul class = "navbar-list">
@@ -80,12 +90,11 @@
 <!--  // Map  -->
   <script type="text/javascript">
   var initialTimestamp = 1415752576; // this isn't right, needs to be updated 
-  var timestampUpperLimit = 1418205568; 
   var color1 = "#0096FF"; // coworker 1
   var color2 = "#FF5000"; // coworker 2
   var color3 = "#FF0064"; // coworker 3
   var maincolor = "#2c2c9a";
-  var mainMap = setupMapObject( 51.505, -0.09, 12, '../blackmap/{z}/{x}/{y}.png', 16, 51.519, -0.076, [color1, color2, color3] );
+  var mainMap = setupMapObject( 51.505, -0.09, 12, '../blackmap/{z}/{x}/{y}.png', 16, 51.52387, -0.076, [color1, color2, color3] );
   var lineGenerator = d3.svg.line()
       .interpolate("linear")
       .x(function(d) {return applyLatLngToLayer(d).x})
@@ -98,13 +107,14 @@
           .setView([latitude, longitude], zoom); 
       var tiles = L.tileLayer(tileURL, {
           maxZoom: maximumZoom});
+          minZoom: 10;
           tiles.addTo(map);
       var svg = d3.select(map.getPanes().overlayPane).append("svg");
       var g1 = svg.append("g").attr();
       var g2 = svg.append("g").attr();
       var icon = L.MakiMarkers.icon({icon: "building", color: "#888", size: "s"});
       var marker = L.marker([markerlat, markerlong], {icon:icon}).addTo(map);
-      marker.bindPopup("<b>Work</br>").openPopup();
+      marker.bindPopup("<b>Work</br>");
       var colors = colors;    
       return {
         map: map,
@@ -231,23 +241,12 @@
          $(".seekbarvalue").html(formatCurrentDay(time)
           );
 
-
-
       // For showing the context messages 
         var eventCollection = [
-          { starttime: 1620, endtime: 7000 , message: 'FOUR DAYS UNTIL BABY\'S BIRTH', textcolor: maincolor },
-          { starttime: 48001, endtime: 179500, message: 'THREE DAYS UNTIL BABY\'S BIRTH', textcolor: maincolor },
-          { starttime: 179620, endtime: 180000, message: 'TWO DAYS UNTIL BABY\'S BIRTH', textcolor: maincolor },
-          { starttime: 180001, endtime: 300000, message: 'ONE DAY UNTIL BABY\'S BIRTH', textcolor: maincolor },
-          { starttime: 300020, endtime: 326000,  message: 'Mother goes to hospital', textcolor: color1 },
-          { starttime: 326020, endtime: 331210,  message: 'Mother-in-law joins at hospital', textcolor: color3 },
-          { starttime: 331220, endtime: 361210,  message: 'Father joins at hospital', textcolor: color2 },
-          { starttime: 361220, endtime: 464800,  message: 'Baby\'s birth', textcolor: maincolor },
-          { starttime: 464820, endtime: 599210,  message: 'Mother + Baby still at hospital', textcolor: color1 },
-          { starttime: 599220, endtime: 626010,  message: 'Mother and Baby come home for first time', textcolor: color2 },
-          { starttime: 626020, endtime: 771210,  message: 'First time entire family is home', textcolor: maincolor },
-          { starttime: 771220, endtime: 954810,  message: 'Father goes back to work (four days after birth)', textcolor: color2 },
-          { starttime: 954820, endtime: 2232000,  message: 'End of baby\'s first week of life', textcolor: maincolor }
+          { starttime: 200751, endtime: 232201, message: 'Coworker 3 out of town', textcolor: "grey"},
+          { starttime: 232251, endtime: 880000 , message: '', textcolor: "grey" },
+          { starttime: 883969, endtime: 893969, message: 'Coworker 2 and 3 on trip together', textcolor: color3 }
+    
         ];
         matchingEvents = [];
 
@@ -413,8 +412,19 @@ function formatCurrentDay(currentTimestamp) {
   var initialMoment = moment(initialTimestamp);
   var offset = initialMoment.hours() * 3600 + initialMoment.minutes() * 60 + initialMoment.seconds();
   var dayTimestamp = currentTimestamp + offset;
-  return ("Day " + moment.duration(dayTimestamp, "seconds").days());
+  return ("Day " + (moment.duration(dayTimestamp, "seconds").days() + 1));
+
 }
+
+$(document).on('opened.fndtn.reveal', '[data-reveal]', function () {
+  worldState.pause();
+  var modal = $(this);
+});
+
+$(document).on('closed.fndtn.reveal', '[data-reveal]', function () {
+  worldState.play();
+  var modal = $(this);
+});
 
 
 

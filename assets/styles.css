@@ -41,7 +41,7 @@ body {
   left: 5%;
   width: 10%;
   clear: both;
-  top: 25%;
+  top: 28%;
   min-width: 250px;
 }
 
@@ -58,7 +58,7 @@ body {
 
 .controls {
   position: fixed;
-  top: 20%; 
+  top: 23%; 
   display: table;
   left: 5%;
   width: 30%; /*Optional*/
@@ -137,6 +137,7 @@ body {
 }
 .modaltext {
   text-align:center;
+  font-family: "Open Sans", sans-serif;
 }
 
 .btn  {
@@ -298,10 +299,10 @@ body {
   text-decoration: none;}
 
  .reveal-modal {
-  background: #060707 !important;
+  background: #fff !important;
   /*background-color: #999 !important;*/
   border-color: #16191a !important;
-  color:  #BDB9B6 ;
+  color:  #555 ;
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter !important;
   font-size:85%;
@@ -310,8 +311,36 @@ body {
   .modaltext {
     text-align: left;
   }
-#modal .modaltext h3 {
-  text-shadow: 2px 2px 4px rgba(150, 150, 156, 1);
+
+#myModal a {
+    text-decoration: none;
+    color:#2c2c9a;
+   }
+
+#myModal a:hover {
+    text-decoration: none;
+    color:#3cb0fd;
+   }
+
+.helptext {
+  opacity: .9;
+  padding: 5px;
+  position: fixed;
+  left: 5%;
+  width: 10%;
+  clear: both;
+  bottom: 1.4rem;
+  min-width: 250px;
+  color: #eec82a;
+  z-index:120;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  letter-spacing: .2rem;
+  cursor: pointer;
+
 }
 
 .range-slider-handle {
@@ -327,7 +356,6 @@ body {
   width: 100%;
   height: 6.5rem;
   z-index: 99;
-
   float: left;
 }
 

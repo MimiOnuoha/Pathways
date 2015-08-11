@@ -208,6 +208,11 @@ h2 {
   color: #555 !important;
 }
 
+.pink {
+  color:#e51554 !important;
+  display: inline;
+}
+
 .left {
   text-align:left !important;
 }

@@ -27,6 +27,16 @@
 </head> 
 
 <body>
+<a href="#" data-reveal-id="myModal" class = "helptext"> Help </a>
+
+<div id="myModal" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+  <h2 id="modalTitle"> Help Guide </h2>
+  <p class="lead"> This map displays a month's worth of real data. </p>
+  <p> Click the buttons on the left to <strong>play, pause, or reset</strong> the map. To <strong>fast forward or rewind</strong>, click the slider circle and use your arrow keys to move left or right. You can <strong>move the map around </strong>by holding down your mouse and dragging. </p>
+  <p> Click <a href = "/groups.html">here</a> to return to the groups page, or use the navigation bar at the bottom right. </p>
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+
 
 <div class = "navbar">
     <ul class = "navbar-list">
@@ -86,7 +96,7 @@
   var color1 = "#0096FF"; // flatmate 1
   var color2 = "#FF5000"; // flatmate 2
   var color3 = "#FF0064"; // flatmate 3
-  var maincolor = "#2c2c9a";
+  var maincolor = "#cdcdcd";
  
   var mainMap = setupMapObject( 51.505, -0.09, 13, '../navymap/{z}/{x}/{y}.png', 16, 51.530, -0.08, [color1, color2, color3] );
 
@@ -244,21 +254,21 @@
           { starttime: 103680, endtime: 155400 , message: '24 Days Until Roommate 2 Leaves', textcolor: maincolor },
           { starttime: 155520, endtime: 233100 , message: '23 Days Until Roommate 2 Leaves', textcolor: maincolor },
           { starttime: 233280, endtime: 310000 , message: '22 Days Until Roommate 2 Leaves', textcolor: maincolor },
-          { starttime: 311040, endtime: 414420 , message: '21 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 311040, endtime: 414420 , message: '3 Weeks Until Roommate 2 Leaves', textcolor: maincolor },
           { starttime: 414720, endtime: 492380 , message: '20 Days Until Roommate 2 Leaves', textcolor: maincolor },
           { starttime: 492480, endtime: 570140 , message: '19 Days Until Roommate 2 Leaves', textcolor: maincolor },
           { starttime: 570240, endtime: 673820 , message: '18 Days Until Roommate 2 Leaves', textcolor: maincolor },
           { starttime: 673920, endtime: 751480 , message: '17 Days Until Roommate 2 Leaves', textcolor: maincolor },
           { starttime: 751680, endtime: 829240 , message: '16 Days Until Roommate 2 Leaves', textcolor: maincolor },
           { starttime: 829440, endtime: 933020 , message: '15 Days Until Roommate 2 Leaves', textcolor: maincolor },
-          { starttime: 933120, endtime: 1010380 , message: '14 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 933120, endtime: 1010380 , message: '2 Weeks Until Roommate 2 Leaves', textcolor: maincolor },
           { starttime: 1010880, endtime: 1088340 , message: '13 Days Until Roommate 2 Leaves', textcolor: maincolor },
           { starttime: 1088640, endtime: 1192120 , message: '12 Days Until Roommate 2 Leaves', textcolor: maincolor },
           { starttime: 1192320, endtime: 1270000 , message: '11 Days Until Roommate 2 Leaves', textcolor: maincolor },
           { starttime: 1270080, endtime: 1347340 , message: '10 Days Until Roommate 2 Leaves', textcolor: maincolor },
           { starttime: 1347840, endtime: 1451120 , message: '9 Days Until Roommate 2 Leaves', textcolor: maincolor },
           { starttime: 1451520, endtime: 1529080 , message: '8 Days Until Roommate 2 Leaves', textcolor: maincolor },
-          { starttime: 1529280, endtime: 1606040 , message: '7 Days Until Roommate 2 Leaves', textcolor: maincolor },
+          { starttime: 1529280, endtime: 1606040 , message: '1 Week Until Roommate 2 Leaves', textcolor: maincolor },
           { starttime: 1607040, endtime: 1710220 , message: '6 Days Until Roommate 2 Leaves', textcolor: maincolor },
           { starttime: 1710720, endtime: 1788180 , message: '5 Days Until Roommate 2 Leaves', textcolor: color2 },
           { starttime: 1788480, endtime: 1866040 , message: '4 Days Until Roommate 2 Leaves', textcolor: color2 },
@@ -430,6 +440,18 @@ function formatCurrentDay(currentTimestamp) {
   var currentDay = moment.duration(dayTimestamp, "seconds").days();
   return ("Day " + currentDay);
 }
+
+
+$(document).on('opened.fndtn.reveal', '[data-reveal]', function () {
+  worldState.pause();
+  var modal = $(this);
+});
+
+$(document).on('closed.fndtn.reveal', '[data-reveal]', function () {
+  worldState.play();
+  var modal = $(this);
+});
+
 
 
 var worldState = {
