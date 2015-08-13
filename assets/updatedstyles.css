@@ -29,7 +29,6 @@ button, .button:hover {
 }
 
 
-
 .indexpage, .aboutpage, .grouppage, .mappage { 
   background: url(../assets/images/version1.jpg) center center fixed;
   -webkit-background-size: cover;
@@ -39,6 +38,15 @@ button, .button:hover {
   font-size: 2rem !important;
 }
 
+.aboutpage {
+  background: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 2rem !important;
+  color: black;
+}
 
 .header {
 	margin-top: 14rem;
@@ -49,6 +57,16 @@ button, .button:hover {
 .section-desctiption {
 	margin-bottom: 4rem;
 }
+
+.aboutpage .title {
+  font-size: 3rem;
+}
+
+.aboutpage p {
+  font-size: 1.5rem !important;
+  color: #555;
+}
+
 
 h2 {
   font-family: 'Open Sans', sans-serif;
@@ -106,14 +124,12 @@ h2 {
 .title, .section-heading {
   text-align: left;
 	text-transform: uppercase;
-  text-shadow: 1px 1px 5px rgba(150, 150, 150, 1);
   font-family: 'Open Sans', sans-serif;
   font-size: 4rem;
 }
 
 .center {
   text-align:center;
-  
 }
 
 .backgroundbox {
@@ -186,6 +202,7 @@ h2 {
   bottom: 2rem;
   left: 0;
   margin-left: 3rem;
+  z-index:100;
 }
 
 .continuebutton {
@@ -198,6 +215,9 @@ h2 {
   border: #2a7bb1;
 }
 
+
+/* All of this CSS is overriding Reveal css, hence the !importants */
+
 .white {
   color: #fff !important;
 }
@@ -207,16 +227,9 @@ h2 {
 .mutedgreen {
   color: #555 !important;
 }
-
-.pink {
-  color:#e51554 !important;
-  display: inline;
-}
-
 .left {
   text-align:left !important;
 }
-
 
 .bottom {
   bottom: 3rem !important;
@@ -229,7 +242,25 @@ h2 {
             animation: fadein 2s;
 }
 
-
 a {
   text-decoration: none;
+}
+
+
+/*Getting rid of left and right navigators*/
+.controls div.navigate-left {
+  visibility: hidden !important;
+}
+.controls div.navigate-right {
+  visibility: hidden !important;
+}
+
+
+/* Moving the controls to the middle */
+.controls {
+  position: relative !important;
+  right: 0px !important;
+  bottom: 0px !important;
+  margin: 0 auto !important;
+  top: 85% !important;
 }

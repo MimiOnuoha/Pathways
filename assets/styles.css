@@ -147,7 +147,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #000;
   background-color: #cdcdcd;
-  min-width: 30px;
+  min-width: 50px;
 }
 .btn:hover, .btn:active {
   background: #3cb0fd;
@@ -173,14 +173,15 @@ body {
      margin-left:1rem;
     float:left;
     cursor: pointer;
+
     
 }
 .pause {
     width: 75%;
     height: 75%;
-   margin-left:1rem;
-  float:left;
-  cursor: pointer;
+    margin-left:1rem;
+    float:left;
+    cursor: pointer;
 }
 
 .reset {
@@ -191,6 +192,59 @@ body {
     cursor: pointer;
 }
 
+.endingmodalbox {
+    display: inline-block;
+    position: absolute;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    z-index: 60;
+}
+
+.endingmodalbutton {
+    height: 38px;
+    width: 170px;
+    color: #555;
+    text-align: center;
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: #b0b4b4;
+    color: white;
+    margin: 10px;
+    z-index: 99;
+
+}
+
+
+.endingmodalbutton:hover {
+  background-color:#555;
+  border: #2a7bb1;
+  text-decoration: none !important;
+  z-index: 99;
+}
+
+
+.endingmodalbutton a {
+  color: white;
+  text-decoration: none !important;
+  z-index: 99;
+}
+
+.endingmodalbutton a:hover {
+  color: white;
+  text-decoration: none !important;
+  z-index: 99;
+}
 
 .space{
   clear:both;
@@ -319,7 +373,7 @@ body {
 
 #myModal a:hover {
     text-decoration: none;
-    color:#3cb0fd;
+    color:#cdcdcd;
    }
 
 .helptext {
@@ -338,7 +392,7 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   font-family: 'Open Sans';
-  letter-spacing: .2rem;
+  letter-spacing: .1rem;
   cursor: pointer;
 
 }
@@ -379,7 +433,7 @@ body {
   text-transform: uppercase;
     font-size: 11px;
     font-weight: 600;
-    letter-spacing: .2rem;
+    letter-spacing: .1rem;
     margin-right: 35px;
     text-decoration: none;
     line-height: 6.5rem;
@@ -389,6 +443,10 @@ body {
 
 .navbar-link.active {
     color: #33C3F0; }
+
+.center {
+  text-align:center;
+}
 
 /*.leaflet-popup-content-wrapper, .leaflet-popup-tip {
   opacity: .6;

@@ -23,27 +23,25 @@
 
 </head>
 
-<body class = "mutedgreen">
+<body class = "mutedgreen left">
 
   <div class="reveal">
     <div class="slides">
       <section data-markdown > 
 
        <!-- .slide: data-background="#0000" -->
-       <h1 style = "color:#222">There are 7.9 billion mobile-connected phones on the earth right now, and you probably have at least one of them.</h1> 
+       <h1 class = "left" style = "color:#222">There are 7.9 billion mobile-connected phones on the earth right now, and you probably have at least one of them.</h1> 
 
        <section>
 
-        <p class="fragment" data-autoslide = "3500">Your phone is constantly tracking and storing your data. </p>
-        <p class="fragment" data-autoslide = "3500">And every day it gathers and produces more and more of that data.</p>
+        <div class = "center">
+        <p class="fragment left" data-autoslide = "2000">Your phone is constantly tracking and storing your data. </p>
+        <p class="fragment left" data-autoslide = "3000">And every day it gathers and produces more and more of that data.</p>
 
 
-      </section>
-
-      <section data-markdown data-background = "white">
-        <p class="fragment" data-autoslide = "3500"> But what does that data say about you? </p>
-        <p class="fragment" data-autoslide = "3500">Can it reveal anything about your relationships with the people you care about?</p>
-        
+        <p class="fragment left" data-autoslide = "2000"> But what does that data say about you? </p>
+        <p class="fragment left" data-autoslide = "3000">Can it reveal anything about your relationships with the people you care about?</p>
+        </div>
 
       </section>
 
@@ -51,7 +49,7 @@
       <section data-autoslide = "6000" data-background = "#222">
 
        <div class = "row">
-        <h2 class = "white"> I found four groups of people who agreed to share a <strong> month's worth of data from their phones </strong> with me so that I could have answers.
+        <h2 class = "white left"> I found four groups of people who agreed to share a <strong> month's worth of data from their phones </strong> with me so that I could have answers.
         </h2>
 
       </section>
@@ -59,15 +57,16 @@
       <section data-background = "#222">
 
         <a class="button continuebutton" href="groups.html">Continue</a>
-        <a class="button" href="about.html">Learn More</a>
+        
+        <!-- <a class="button" href="about.html">Learn More</a> -->
       </div>
     </section>
   </div>
 </div>
-<a class="button slidebackbuttons" href="/">Back</a>
 
-<script src= "/reveal.js/lib/js/head.min.js"></script>
-<script src="/reveal.js/js/reveal.js"></script>
+
+<script src= "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/js/reveal.min.js"></script>
+<!-- <script src="/reveal.js/js/reveal.js"></script> -->
 <script>
       // Full list of configuration options available at:
       // https://github.com/hakimel/reveal.js#configuration
@@ -78,7 +77,9 @@
         history: true,
         center: true,
         overview: false,
-        center: true
+        center: true,
+        hideAddressBar: true,
+        autoSlideStoppable: true
       });
 
       </script>

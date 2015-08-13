@@ -25,27 +25,38 @@
 </head> 
 
 <body>
-<a href="#" data-reveal-id="myModal" class = "helptext"> Help </a>
 
-<div id="myModal" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-  <h2 id="modalTitle"> Help Guide </h2>
-  <p class="lead"> This map displays a month's worth of real data. </p>
-  <p> Click the buttons on the left to <strong>play, pause, or reset</strong> the map. To <strong>fast forward or rewind</strong>, click the slider circle and use your arrow keys to move left or right. You can <strong>move the map around </strong>by holding down your mouse and dragging. </p>
-  <p> Click <a href = "/groups.html">here</a> to return to the groups page, or use the navigation bar at the bottom right. </p>
-  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+  <!-- Modals - HTML  -->
+<a href="#" data-reveal-id="myModal" class = "helptext"> Help </a>
+<a href="#" data-reveal-id="endingModal"></a>
+
+<div id="endingModal" class="reveal-modal tiny" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" style = "background: transparent !important">
+  <div class = "endingmodalbox">
+    <div class = "center endingmodalbutton" id = "resetbtn"> <a class = "close" aria-label="Close">Play this map again</a></div>  
+    <div class = "center endingmodalbutton"> <a href = "groups.html"> Return to groups </a></div>
+  </div>
 </div>
 
 
+<div id="myModal" class="reveal-modal small" data-reveal aria-labelledby="secondmodalTitle" aria-hidden="true" role="dialog">
+  <h2 id="secondmodalTitle"> Help Guide </h2>
+  <p class="lead"> This map displays a month's worth of real data. </p>
+  <p> Click the buttons on the left to <strong>play, pause, or reset</strong> the map. To <strong>fast forward or rewind</strong>, click the slider circle and use your arrow keys to move left or right. You can <strong>move the map around </strong>by holding down your mouse and dragging. Click the "home" and "hospital" icons to <strong>remove labels</strong>. </p>
+  <p> Click <a href = "groups.html">here</a> to return to the groups page, or use the navigation bar at the bottom right. </p>
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+
+<!-- Navigation Bar -->
 <div class = "navbar">
     <ul class = "navbar-list">
       <li class = "navbar-item">
-        <a class = "navbar-link" href = "/about.html"> About </a>
+        <a class = "navbar-link" href = "about.html"> About </a>
       </li>
       <li class = "navbar-item">
-        <a class = "navbar-link" href="/groups.html"> The Groups </a>
+        <a class = "navbar-link" href="groups.html"> The Groups </a>
       </li>
       <li class = "navbar-item">
-        <a class = "navbar-link" href = "/maps.html"> The Maps  </a>
+        <a class = "navbar-link" href = "maps.html"> The Maps  </a>
       </li>
     </ul>
   </div>
@@ -55,11 +66,6 @@
   <div id = "container">
     <div id="map"></div>
   </div>
-<!-- <div id = "footersection">
-  <a href="/about.html" data-reveal-id = "modal" class="menubutton" id="about" >About</a>
-  <a href="/groups.html" class ="menubutton" > Groups </a>
-  <a href="/maps.html" class = "menubutton"> Maps </a>
-</div> -->
 <div id = "aboutbar">
   <div class = "abouttext">
     <strong>STORY: FAMILY</strong></br>
@@ -77,7 +83,9 @@
         <div class = "btn active" id = "playbtn">Play</div> 
         <div class = "btn" id = "pausebtn">Pause</div>
         <div class = "btn" id = "resetbtn">Reset</div>
+  
   </div>
+
 
 <div id = "timebar">
     <div id = "timevalue"> </div>
@@ -100,7 +108,7 @@
   var maincolor = "#2c2c9a";
   var specialeventscolor = "#cead23";
  
-  var mainMap = setupMapObject(51.527928, -0.183626, 14, '../whitemap/{z}/{x}/{y}.png', 16, 51.5280495, -0.189, 51.517319, -0.173,[color1, color2, color3] );
+  var mainMap = setupMapObject(51.527928, -0.183626, 14, 'whitemap/{z}/{x}/{y}.png', 16, 51.5280495, -0.189, 51.517319, -0.173,[color1, color2, color3] );
 
 
   var lineGenerator = d3.svg.line()
@@ -218,7 +226,7 @@
           .append("path")
           .attr("d", lineGenerator)
           .attr("stroke", getColor)
-          .attr("stroke-width", 4)
+          .attr("stroke-width", 3)
           .attr("stroke-linecap", "round")
           .attr("stroke-opacity", .3)
           .attr("fill-opacity", "0");
@@ -234,7 +242,7 @@
           .attr("d", lineGenerator)
           .attr("stroke", getColor)
           .attr("stroke-linecap", "round")
-          .attr("stroke-width", 7)
+          .attr("stroke-width", 11)
           .attr("stroke-opacity", 1)
           .attr("fill-opacity", "0")
           .attr("class", getColor);
@@ -267,9 +275,9 @@
       // For showing the context messages 
         var eventCollection = [
           { starttime: 1620, endtime: 7000 , message: 'Four days until baby\'s birth', textcolor: maincolor },
-          { starttime: 48001, endtime: 179500, message: 'Three days until baby\'s birth', textcolor: maincolor },
-          { starttime: 136000, endtime: 180000, message: 'Two days until baby\'s birth', textcolor: maincolor },
-          { starttime: 236147, endtime: 300000, message: 'One day until baby\'s birth', textcolor: maincolor },
+          { starttime: 48001, endtime: 120001, message: 'Three days until baby\'s birth', textcolor: maincolor },
+          { starttime: 133901, endtime: 180000, message: 'Two days until baby\'s birth', textcolor: maincolor },
+          { starttime: 220000, endtime: 300000, message: 'One day until baby\'s birth', textcolor: maincolor },
           { starttime: 300020, endtime: 326000,  message: 'Mother goes to hospital', textcolor: color1 },
           { starttime: 326020, endtime: 331210,  message: 'Mother-in-law joins at hospital', textcolor: color3 },
           { starttime: 331220, endtime: 361210,  message: 'Father joins at hospital', textcolor: color2 },
@@ -282,7 +290,7 @@
           { starttime: 771220, endtime: 914810,  message: 'Father goes back to work (four days after birth)', textcolor: color2 },
           { starttime: 923875, endtime: 943875,  message: 'Mother leaves house for first time since birth (6 days after birth)', textcolor: color1 },
           { starttime: 954820, endtime: 1231026.6,  message: 'End of baby\'s first week of life', textcolor: maincolor },
-          { starttime: 1281026.6, endtime: 1449800,  message: 'Mother\'s second time leaving house since baby\'birth', textcolor: color1 },
+          { starttime: 1281026.6, endtime: 1449800,  message: 'Mother\'s second time leaving house since baby\'s birth', textcolor: color1 },
           { starttime: 1449887, endtime: 1594000,  message: 'Mother\'s longest trip since baby\'s birth (2 weeks post-birth)', textcolor: color1 },
           { starttime: 1594747, endtime: 2000000,  message: 'End of baby\'s second week of life', textcolor: maincolor },
           { starttime: 2013041, endtime: 2196000,  message: 'Mother-in-law leaves town, returns to home country', textcolor: color3 },
@@ -391,6 +399,9 @@
               self.timestep += self.multiplier;
           }
         }
+         else {
+            $('#endingModal').foundation('reveal', 'open');
+          }
       }, 100);
   }
   
@@ -452,10 +463,10 @@ function formatCurrentDay(currentTimestamp) {
   var initialMoment = moment(initialTimestamp);
   var offset = initialMoment.hours() * 3600 + initialMoment.minutes() * 60 + initialMoment.seconds();
   var dayTimestamp = currentTimestamp + offset;
-  return ("Day " + (moment.duration(dayTimestamp, "seconds").days() + 1));
+  return ("Day " + (moment.duration(dayTimestamp, "seconds").days() + 1) + " of 30");
 }
 
-
+// Modal Actions 
 $(document).on('opened.fndtn.reveal', '[data-reveal]', function () {
   worldState.pause();
   var modal = $(this);
@@ -466,12 +477,15 @@ $(document).on('closed.fndtn.reveal', '[data-reveal]', function () {
   var modal = $(this);
 });
 
+$('a.close').on('click', function() {
+  $('#endingModal').foundation('reveal', 'close');
+});
 
 
 var worldState = {
     maxtimestamp: 0,
     timestep: 1,
-    multiplier: 1000,
+    multiplier: 2000,
     render: render, 
     playing: true,
     play: function(){
@@ -487,6 +501,9 @@ var worldState = {
       worldState.multiplier = realSliderValue[0] + worldState.multiplier;
     }
   };
+
+
+
 
 
  // find events to render at time

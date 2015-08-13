@@ -28,7 +28,7 @@
         <h2>The Story of <strong>A Family</strong></h2>
        
         <section>
-          <p class ="fragment" data-autoslide="3000"> What can we learn by looking at the data surrounding the birth of a baby?</p>
+          <p class ="fragment" data-autoslide="3000"> What can we learn by looking at the mobile data of a family preparing for the birth of a baby?</p>
         </section>
 
       <section data-markdown data-autoslide = "5000" data-background = "#F7F6F4">
@@ -54,7 +54,7 @@
 
        <section data-autoslide = "5000" data-background = "#F7F6F4">
           <h4><strong>Everyone Can Be Tracked</strong></h4> </br>
-          <p class = "fragment"> On the map, you can always guess where the baby is at any given time, even though the baby's data wasn't collected.  </p></br>
+          <p class = "fragment"> On the map, you can always guess where the baby is at any given time, even though the baby had no mobile data to collect.  </p></br>
 
           <p class = "fragment"> In other words, even if you're just born, it's impossible to be "data-less".</p>   
       </section>
@@ -70,19 +70,20 @@
           <h4><strong>All the things you don't know </strong> </h4></br>
 
         <p class = "fragment">  Your birth is all about you, but it's a day about which you likely know very little. </p></br>
-        <p class = "fragment">This is the map of a person's first weeks of life, seen through the data of their family. What would yours looks like? </p></br>
+        <p class = "fragment">This is the map of a person's first weeks of life, seen through the data of their family. </p></br>
 
-        
+        <p class = "fragment"> What would yours looks like? </p></br>
 
         <a class="fragment button continuebutton" href="familymap.html">Continue</a>
       </div>
     </section>
   </div>
 </div>
-<a class="button slidebackbuttons" href="/groups.html">Back</a>
+<a class="button slidebackbuttons" href="groups.html">Back</a>
 
-<script src= "/reveal.js/lib/js/head.min.js"></script>
-<script src="/reveal.js/js/reveal.js"></script>
+
+<script src= "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/js/reveal.min.js"></script>
+<!-- <script src="/reveal.js/js/reveal.js"></script> -->
 <script>
       // Full list of configuration options available at:
       // https://github.com/hakimel/reveal.js#configuration
@@ -93,7 +94,10 @@
         history: true,
         center: true,
         overview: false,
-        backgroundTransition: 'none'
+        backgroundTransition: 'none',
+        hideAddressBar: true,
+        autoSlideStoppable: false
+
       });
 
       </script>

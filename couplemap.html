@@ -20,32 +20,44 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation/foundation.slider.js" type = "text/javascript"></script>
   <script src= "https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation/foundation.reveal.js" type="text/javascript"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-  <script src="assets/Leaflet.MakiMarkers.js"></script>
+  <script src="/specialprojects/pathways/assets/Leaflet.MakiMarkers.js"></script>
   
 </head> 
 
 <body>
-<a href="#" data-reveal-id="myModal" class = "helptext"> Help </a>
 
-<div id="myModal" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-  <h2 id="modalTitle"> Help Guide </h2>
+  <!-- Modals - HTML  -->
+<a href="#" data-reveal-id="myModal" class = "helptext"> Help </a>
+<a href="#" data-reveal-id="endingModal"></a>
+
+<div id="endingModal" class="reveal-modal tiny" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" style = "background: transparent !important">
+  <div class = "endingmodalbox">
+    <div class = "center endingmodalbutton" id = "resetbtn"> <a class = "close" aria-label="Close">Play this map again</a></div>  
+    <div class = "center endingmodalbutton"> <a href = "groups.html"> Return to groups </a></div>
+  </div>
+</div>
+
+
+<div id="myModal" class="reveal-modal small" data-reveal aria-labelledby="secondmodalTitle" aria-hidden="true" role="dialog">
+  <h2 id="secondmodalTitle"> Help Guide </h2>
   <p class="lead"> This map displays a month's worth of real data. </p>
-  <p> Click the buttons on the left to <strong>play, pause, or reset</strong> the map. To <strong>fast forward or rewind</strong>, click the slider circle and use your arrow keys to move left or right. You can <strong>move the map around </strong>by holding down your mouse and dragging. </p>
-  <p> Click <a href = "/groups.html">here</a> to return to the groups page, or use the navigation bar at the bottom right. </p>
+  <p> Click the buttons on the left to <strong>play, pause, or reset</strong> the map. To <strong>fast forward or rewind</strong>, click the slider circle and use your arrow keys to move left or right. You can <strong>move the map around </strong>by holding down your mouse and dragging. Click the "home" and "hospital" icons to <strong>remove labels</strong>. </p>
+  <p> Click <a href = "groups.html">here</a> to return to the groups page, or use the navigation bar at the bottom right. </p>
   <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
 
+<!-- Navigation Bar -->
 
 <div class = "navbar">
     <ul class = "navbar-list">
       <li class = "navbar-item">
-        <a class = "navbar-link white" href = "/about.html"> About </a>
+        <a class = "navbar-link white" href = "/specialprojects/pathways/about.html"> About </a>
       </li>
       <li class = "navbar-item">
-        <a class = "navbar-link white" href="/groups.html"> The Groups </a>
+        <a class = "navbar-link white" href="/specialprojects/pathways/groups.html"> The Groups </a>
       </li>
       <li class = "navbar-item">
-        <a class = "navbar-link white" href = "/maps.html"> The Maps </a>
+        <a class = "navbar-link white" href = "/specialprojects/pathways/maps.html"> The Maps </a>
       </li>
     </ul>
   </div>
@@ -90,7 +102,7 @@
   var color1 = "#0096FF"; // person 1
   var color2 = "#FF5000"; // person 2
   var maincolor = "#2c2c9a";
-  var mainMap = setupMapObject( 51.505, -0.09, 12, '../graymap/{z}/{x}/{y}.png', 16, 51.4961228, -0.12662, [color2] );
+  var mainMap = setupMapObject( 51.505, -0.09, 12, 'graymap/{z}/{x}/{y}.png', 16, 51.4961228, -0.12662, [color2] );
   var lineGenerator = d3.svg.line()
       .interpolate("linear")
       .x(function(d) {return applyLatLngToLayer(d).x})
@@ -191,7 +203,7 @@
           .append("path")
           .attr("d", lineGenerator)
           .attr("stroke", getColor)
-          .attr("stroke-width", 4)
+          .attr("stroke-width", 3)
           .attr("stroke-linecap", "round")
           .attr("stroke-opacity", .3)
           .attr("fill-opacity", "0");
@@ -207,7 +219,7 @@
           .attr("d", lineGenerator)
           .attr("stroke", getColor)
           .attr("stroke-linecap", "round")
-          .attr("stroke-width", 7)
+          .attr("stroke-width", 11)
           .attr("stroke-opacity", 1)
           .attr("fill-opacity", "0")
           .attr("class", getColor);
@@ -347,6 +359,9 @@
               self.timestep += self.multiplier;
           }
         }
+         else {
+            $('#endingModal').foundation('reveal', 'open');
+          }
       }, 100);
   }
   
@@ -408,10 +423,11 @@ function formatCurrentDay(currentTimestamp) {
   var initialMoment = moment(initialTimestamp);
   var offset = initialMoment.hours() * 3600 + initialMoment.minutes() * 60 + initialMoment.seconds();
   var dayTimestamp = currentTimestamp + offset;
-  return ("Day " + moment.duration(dayTimestamp, "seconds").days());
+  return ("Day " + (moment.duration(dayTimestamp, "seconds").days() + 1) + " of 29");
 }
 
 
+// Modal Actions 
 $(document).on('opened.fndtn.reveal', '[data-reveal]', function () {
   worldState.pause();
   var modal = $(this);
@@ -422,12 +438,21 @@ $(document).on('closed.fndtn.reveal', '[data-reveal]', function () {
   var modal = $(this);
 });
 
+$('a.close').on('click', function() {
+  $('#endingModal').foundation('reveal', 'close');
+});
+
+
+
+
+
+
 
 
 var worldState = {
     maxtimestamp: 0,
     timestep: 1,
-    multiplier: 500,
+    multiplier: 1000,
     render: render, 
     playing: true,
     play: function(){
