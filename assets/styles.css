@@ -14,37 +14,14 @@ body {
 .seekbarvalue {
   font-family: "Open Sans";
   font-weight: 300;
-  margin: 3px;
+  float:left;
+  display: inline-block;
 }
 #footersection {
   position: fixed;
   bottom: 1%;
   right: 20px;
   padding: 5px;
-}
-
-
-#aboutbar {
-  background: white;
-  opacity: .75;
-  padding: 15px;
-  position: fixed;
-  left: 5%;
-  top: 20px;
-  width: 10%;
-  min-width: 300px;
-  border-color:white; 
-}
-
-#timebar {
-  opacity: .9;
-  padding: 5px;
-  position: fixed;
-  left: 5%;
-  width: 10%;
-  clear: both;
-  top: 28%;
-  min-width: 250px;
 }
 
 .extrainformation {
@@ -58,20 +35,52 @@ body {
 
 }
 
+#seek {
+  top: 22%;
+  position: fixed;
+  left: 50px;
+  color: #cdcdcd;
+  width: 400px;
+  padding: 2px;
+}
+
+#aboutbar {
+  background: white;
+  opacity: .75;
+  padding: 20px;
+  position: fixed;
+  left: 50px;
+  top: 20px;
+  width: 10%;
+  min-width: 310px;
+  border-color:white; 
+}
+
+  
+#timebar {
+  opacity: .9;
+  position: fixed;
+  left: 50px;
+  width: 10%;
+  clear: both;
+  top: 26%;
+  min-width: 300px;
+}
+
+
 .controls {
   position: fixed;
-  top: 23%; 
+  top: 18%; 
   display: table;
-  left: 5%;
-  width: 30%; /*Optional*/
+  left: 40px;
   table-layout: fixed; /*Optional*/
-  border-spacing: 10px; /*Optional*/
+  border-spacing: 10px 0; /*Optional*/
   font-family: "Open Sans";
   text-transform: uppercase;
   font-size: 80%;
   text-align: center;
   cursor: pointer;
-  max-width: 250px;
+  max-width: 330px;
 
 }
 #controlbar.content {
@@ -90,7 +99,7 @@ body {
   color: #000;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
-  padding: 2px 2px 2px 2px;  /* top right bottom left */
+  /*padding: 2px 2px 2px 2px;   top right bottom left */
   font-weight: 300;
 }
 
@@ -100,7 +109,7 @@ body {
 
 #timevalue {
   text-transform: uppercase ;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #000;
 }
 
@@ -459,21 +468,26 @@ body {
 
 .leaflet-popup-content b {
   font-family: "Open Sans";
-  font-weight: bolder;
-  text-transform: uppercase;
-  color: #555;
+  font-weight: lighter;
+  /*text-transform: uppercase;*/
+  color: #767676;
 }
 
 input#seekbar {
-  background-color: #e5e5e5;
-  color: #e5e5e5;
+  background-color: #aaaaaa;
+  color: #aaaaaa;
+  float:left;
+  display: inline-block;
+  margin-top:10px;
+  margin-left: 5px;
+  max-width: 220px;
 }
 
 input[type="range"]{-webkit-appearance:none; -moz-apperance:none; width:90%; height:4px;}
 
 input#seekbar::-webkit-slider-thumb{-webkit-appearance:none; -moz-apperance:none; width:15px; height:15px;
--webkit-border-radius:15px; -moz-border-radius:10px; -ms-border-radius:10px; -o-border-radius:10px; border-radius:10px;
-background-image:-webkit-gradient(linear, left top, left bottom, color-stop(1, #3cb0fd), color-stop(1, #3cb0fd), color-stop(1, #3cb0fd) );
+-webkit-border-radius:1px; -moz-border-radius:1px; -ms-border-radius:1px; -o-border-radius:1px; border-radius:1px;
+background-image:-webkit-gradient(linear, left top, left bottom, color-stop(1, #999), color-stop(1, #999), color-stop(1, #999) );
 }
 
 
