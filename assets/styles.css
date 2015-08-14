@@ -490,6 +490,10 @@ input#seekbar::-webkit-slider-thumb{-webkit-appearance:none; -moz-apperance:none
 background-image:-webkit-gradient(linear, left top, left bottom, color-stop(1, #999), color-stop(1, #999), color-stop(1, #999) );
 }
 
+.black {
+  color: #000 !important;
+}
+
 
 /*.leaflet-popup-content-wrapper, .leaflet-popup-tip {
   opacity: .6;
