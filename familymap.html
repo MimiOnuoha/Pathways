@@ -29,10 +29,13 @@
   <!-- Modals - HTML  -->
 <a href="#" data-reveal-id="myModal" class = "helptext"> Help </a>
 <a href="#" data-reveal-id="endingModal"></a>
+<a href="#" data-reveal-id="startingModal"></a>
+
+
 
 <div id="endingModal" class="reveal-modal tiny" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" style = "background: transparent !important">
   <div class = "endingmodalbox">
-    <div class = "center endingmodalbutton" id = "resetbtn"> <a class = "close" aria-label="Close">Play this map again</a></div>  
+    <div class = "center endingmodalbutton" id = "resetbtn"> <a class = "close" aria-label="Close">Play map again</a></div>  
     <div class = "center endingmodalbutton"> <a href = "groups.html"> Return to groups </a></div>
   </div>
 </div>
@@ -44,6 +47,13 @@
   <p> Click the buttons on the left to <strong>play, pause, or reset</strong> the map. To <strong>fast forward or rewind</strong>, click the slider circle and use your arrow keys to move left or right. You can <strong>move the map around </strong>by holding down your mouse and dragging. Click the "home" and "hospital" icons to <strong>remove labels</strong>. </p>
   <p> Click <a href = "groups.html">here</a> to return to the groups page, or use the navigation bar at the bottom right. </p>
   <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+
+
+<div id="startingModal" class="reveal-modal tiny" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" style = "background: transparent !important">
+  <div class = "endingmodalbox">
+    <div class = "center endingmodalbutton" id = "resetbtn"> <a class = "close" aria-label="Close">Play</a></div>  
+  </div>
 </div>
 
 <!-- Navigation Bar -->
@@ -107,21 +117,18 @@
   var color3 = "#590B90"; //motherinlaw
   var maincolor = "#2c2c9a";
   var specialeventscolor = "#cead23";
- 
   var mainMap = setupMapObject(51.527928, -0.183626, 14, 'whitemap/{z}/{x}/{y}.png', 16, 51.5280495, -0.189, 51.517319, -0.173,[color1, color2, color3] );
-
 
   var lineGenerator = d3.svg.line()
       .interpolate("linear")
       .x(function(d) {return applyLatLngToLayer(d).x})
       .y(function(d) {return applyLatLngToLayer(d).y});
 
-
   function setupMapObject(latitude, longitude, zoom, tileURL, maximumZoom, markerlat, markerlong, marker2lat, marker2long,  colors){
             /***  multiple popup hack  http://jsfiddle.net/paulovieira/yVLJf/ ***/
       L.Map = L.Map.extend({
           openPopup: function(popup) {
-              //        this.closePopup();  // just comment this
+              //this.closePopup();  
               this._popup = popup;
               return this.addLayer(popup).fire('popupopen', {
                   popup: this._popup
@@ -130,7 +137,7 @@
       });
 
       var map = L.map('map', {
-          attributionControl: false, zoomControl: false })
+          attributionControl: false, zoomControl: false, minZoom: 10, maxZoom: 14 })
           .setView([latitude, longitude], zoom); 
       var tiles = L.tileLayer(tileURL, {
           maxZoom: maximumZoom});
@@ -480,6 +487,8 @@ $(document).on('closed.fndtn.reveal', '[data-reveal]', function () {
 $('a.close').on('click', function() {
   $('#endingModal').foundation('reveal', 'close');
 });
+
+
 
 
 var worldState = {

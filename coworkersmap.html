@@ -32,7 +32,7 @@
 
 <div id="endingModal" class="reveal-modal tiny" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" style = "background: transparent !important">
   <div class = "endingmodalbox">
-    <div class = "center endingmodalbutton" id = "resetbtn"> <a class = "close" aria-label="Close">Play this map again</a></div>  
+    <div class = "center endingmodalbutton" id = "resetbtn"> <a class = "close" aria-label="Close">Play map again</a></div>  
     <div class = "center endingmodalbutton"> <a href = "groups.html"> Return to groups </a></div>
   </div>
 </div>
@@ -114,7 +114,7 @@
 
   function setupMapObject(latitude, longitude, zoom, tileURL, maximumZoom, markerlat, markerlong, colors){
       var map = L.map('map', {
-          attributionControl: false, zoomControl: false, minZoom:10, maxZoom:14 })
+          attributionControl: false, zoomControl: false, minZoom: 10, maxZoom: 14 })
           .setView([latitude, longitude], zoom); 
       var tiles = L.tileLayer(tileURL, {
           maxZoom: maximumZoom});

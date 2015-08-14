@@ -11,8 +11,10 @@ body {
   opacity: 1;
 }
 
-#seekbarvalue {
-  float: left;
+.seekbarvalue {
+  font-family: "Open Sans";
+  font-weight: 300;
+  margin: 3px;
 }
 #footersection {
   position: fixed;
@@ -89,6 +91,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   padding: 2px 2px 2px 2px;  /* top right bottom left */
+  font-weight: 300;
 }
 
 #message {
@@ -192,6 +195,11 @@ body {
     cursor: pointer;
 }
 
+#endingModal {
+  border: 0 !important;
+  box-shadow: 0 0 0 !important;
+}
+
 .endingmodalbox {
     display: inline-block;
     position: absolute;
@@ -275,6 +283,7 @@ body {
   margin-right:10%;
   text-transform: uppercase;
   text-align: center;
+  font-weight: 300;
 }
 
 #flatmate1key {
