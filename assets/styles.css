@@ -27,7 +27,7 @@ body {
 #aboutbar {
   background: white;
   opacity: .75;
-  padding: 5px;
+  padding: 15px;
   position: fixed;
   left: 5%;
   top: 20px;
@@ -456,6 +456,26 @@ body {
 .center {
   text-align:center;
 }
+
+.leaflet-popup-content b {
+  font-family: "Open Sans";
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #555;
+}
+
+input#seekbar {
+  background-color: #e5e5e5;
+  color: #e5e5e5;
+}
+
+input[type="range"]{-webkit-appearance:none; -moz-apperance:none; width:90%; height:4px;}
+
+input#seekbar::-webkit-slider-thumb{-webkit-appearance:none; -moz-apperance:none; width:15px; height:15px;
+-webkit-border-radius:15px; -moz-border-radius:10px; -ms-border-radius:10px; -o-border-radius:10px; border-radius:10px;
+background-image:-webkit-gradient(linear, left top, left bottom, color-stop(1, #3cb0fd), color-stop(1, #3cb0fd), color-stop(1, #3cb0fd) );
+}
+
 
 /*.leaflet-popup-content-wrapper, .leaflet-popup-tip {
   opacity: .6;

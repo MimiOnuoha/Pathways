@@ -227,6 +227,12 @@ h2 {
 .mutedgreen {
   color: #555 !important;
 }
+
+.pink {
+  font-weight: bolder !important;
+  display: inline-block;
+
+}
 .left {
   text-align:left !important;
 }
@@ -246,6 +252,12 @@ a {
   text-decoration: none;
 }
 
+
+/*.reveal .slides section>* {
+    margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}*/
 
 /*Getting rid of left and right navigators*/
 .controls div.navigate-left {
