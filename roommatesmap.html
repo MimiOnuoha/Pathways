@@ -40,7 +40,7 @@
 <div id="myModal" class="reveal-modal small" data-reveal aria-labelledby="secondmodalTitle" aria-hidden="true" role="dialog">
   <h2 id="secondmodalTitle"> Help Guide </h2>
   <p class="lead"> This map displays a month's worth of real data. </p>
-  <p> Click the buttons on the left to <strong>play, pause, or reset</strong> the map. To <strong>fast forward or rewind</strong>, click the slider circle and use your arrow keys to move left or right. You can <strong>move the map around </strong>by holding down your mouse and dragging. Click the "home" and "hospital" icons to <strong>remove labels</strong>. </p>
+  <p> Click the buttons on the left to <strong>play, pause, or reset</strong> the map. To <strong>fast forward or rewind</strong>, click the slider rectangle and use your arrow keys to move left or right. You can <strong>move the map around </strong>by holding down your mouse and dragging. Click the "home" and "hospital" icons to <strong>remove labels</strong>. </p>
   <p> Click <a href = "groups.html">here</a> to return to the groups page, or use the navigation bar at the bottom right. </p>
   <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
@@ -90,6 +90,7 @@
     <div id = "timevalue" class = "white"> </div>
 </div>
 
+<!-- Participant Color Key  -->
       <div class = "extrainformation">
         <p class = "stats">
           <div id = "flatmate1key"><div class ="keytext">Roommate 1</div></div>
@@ -97,6 +98,21 @@
           <div id = "flatmate3key"><div class ="keytext">Roommate 3</div></div>
         </p>
     </div>
+
+
+<!-- "Learn More" Link and Content  -->
+<a data-dropdown="drop2" aria-controls="drop2" aria-expanded="false" class = "learnmore">Insights</a>
+
+
+<div id="drop2" data-dropdown-content class="f-dropdown content learnmorecontent" aria-hidden="true" tabindex="-1">
+      <h3>Interpreting the Movements</h3>
+      <p> OpenPaths, the app used to gather data for this group, only logs what it determines as "significant" changes in users' locations, which leads to some variablity. You can see this by watching Roommate 2 and 3's trails. These two spent the most time together, and often shared similar paths. The circles representing them may not move in perfect unison, but are often very close to one another. </p>
+
+      <h3> We Are More Than Lines on Maps</h3>
+      <p> One interesting thing about the data of this group was the degree to which the data couldn't capture the reality of what they were experiencing. I was present for the goodbye, and I witnessed every bit of its difficulty. But data visualizations add a level of abstraction over real world events; they gather the messiness of human life and render it in objective simplicity. In life, goodbyes can be heartbreaking affairs, painful for all involved.</p>
+      But on a map, a goodbye is as simple as one dot moving out of view. 
+
+</div>
 
 <!--  // Map  -->
   <script type="text/javascript">

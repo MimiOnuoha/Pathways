@@ -44,7 +44,7 @@
 <div id="myModal" class="reveal-modal small" data-reveal aria-labelledby="secondmodalTitle" aria-hidden="true" role="dialog">
   <h2 id="secondmodalTitle"> Help Guide </h2>
   <p class="lead"> This map displays a month's worth of real data. </p>
-  <p> Click the buttons on the left to <strong>play, pause, or reset</strong> the map. To <strong>fast forward or rewind</strong>, click the slider circle and use your arrow keys to move left or right. You can <strong>move the map around </strong>by holding down your mouse and dragging. Click the "home" and "hospital" icons to <strong>remove labels</strong>. </p>
+  <p> Click the buttons on the left to <strong>play, pause, or reset</strong> the map. To <strong>fast forward or rewind</strong>, click the slider rectangle and use your arrow keys to move left or right. You can <strong>move the map around </strong>by holding down your mouse and dragging. Click the "home" and "hospital" icons to <strong>remove labels</strong>. </p>
   <p> Click <a href = "groups.html">here</a> to return to the groups page, or use the navigation bar at the bottom right. </p>
   <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
@@ -104,9 +104,48 @@
         <p class = "stats">
           <div id = "flatmate1key"><div class ="keytext">Mother</div></div>
           <div id = "flatmate2key"><div class ="keytext">Father</div></div>
-          <div id = "flatmate4key"><div class ="keytext">Mother-in-law</div></div>
+          <div id = "flatmate4key"><div class ="keytext">Grandmother</div></div>
         </p>
     </div>
+
+
+<!-- "Learn More" Link and Content  -->
+<!-- <a data-dropdown="drop2" aria-controls="drop2" aria-expanded="false" class = "learnmore">Insights</a>
+
+
+<div id="drop2" data-dropdown-content class="f-dropdown content learnmorecontent" aria-hidden="true" tabindex="-1">
+      <h3> The Difficulty of Accurate Tracking </h3>
+      <p> This was the only group whose data were tracked by the mobile app <a href="movesapp.com">Moves </a> instead of OpenPaths. Moves has a much more sophisticated technique for gathering and tracking location data. You can tell this by comparing the paths on this map with any of the other maps (compared to this one, the other maps have mainly straight lines, indicating longer gaps in between when their phones were recording GPS logs).</p>
+      <p> The downside of Moves is that it's owned by Facebook. If you're already on Facebook, using it means giving up even more your data to a large company.</p>
+      <p> The Family whose data is depicted here had all already installed Moves on their phones before the project began. For the rest of us, their story typifies the difficult truth of trying to track your own data: most of the companies who make it easy for you to see your data are also quietly benefitting and making profits off of that same data. The result? You make data and give it away for free everyday. </p>
+      
+</div> -->
+
+
+
+<a href="#" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:9000" class = "learnmore">Insights </a>
+<a href="#" data-dropdown="hover2" data-options="is_hover:true; hover_timeout:9000" class = "learnevenmore">Conclusions </a>
+<a href="#" data-dropdown="hover3" data-options="is_hover:true; hover_timeout:9000" class = "learnthemost">Extra Data </a>
+
+
+
+<div id="hover1" class="f-dropdown learnmorecontent tiny" data-dropdown-content>
+<h3> The Difficulty of Accurate Tracking </h3>
+      <p> Your phone's always tracking your data, but you don't always have access to it. Some applications, like OpenPaths and Moves,
+      allow you to see that information. They run in the background of your phone, making constant GPS logs of where you are. The more frequent those calls, the better the data will be, as there will be fewer gaps in between the previous moments and the other ones.  </p>
+  </div>
+
+<div id="hover2" class="f-dropdown learnmorecontent" data-dropdown-content>  
+      <h3> Things To Consider When Tracking Your Data </h3> 
+      <p> This was the only group whose data were tracked by the mobile app <a href="movesapp.com">Moves </a> instead of OpenPaths. Moves has a much more sophisticated technique for gathering and tracking location data. You can tell this by comparing the paths on this map with any of the other maps (compared to this one, the other maps have mainly straight lines, indicating longer gaps in between when their phones were recording GPS logs)</p>
+       <p> The downside of Moves is that it's owned by Facebook. If you're already on Facebook, using it means giving up even more your data to a large company.</p>
+      <p> The Family whose data is depicted here had all already installed Moves on their phones before the project began. For the rest of us, their story typifies the difficult truth of trying to track your own data: most of the companies who make it easy for you to see your data are also quietly benefitting and making profits off of that same data. The result? You make data and give it away for free everyday. </p>
+</div>
+
+<div id="hover3" class="f-dropdown learnmorecontent tiny" data-dropdown-content>
+<h3>Extra Data</h3>
+      <p>For this group, I also collected the Father's Facebook data. On there, I could easily figure out when the son was done. </p>
+  </div>
 
 <!--  // Map  -->
   <script type="text/javascript">
@@ -285,11 +324,11 @@
           { starttime: 133901, endtime: 180000, message: 'Two days until baby\'s birth', textcolor: maincolor },
           { starttime: 220000, endtime: 300000, message: 'One day until baby\'s birth', textcolor: maincolor },
           { starttime: 300020, endtime: 326000,  message: 'Mother goes to hospital', textcolor: color1 },
-          { starttime: 326020, endtime: 331210,  message: 'Mother-in-law joins at hospital', textcolor: color3 },
+          { starttime: 326020, endtime: 331210,  message: 'Grandmother joins at hospital', textcolor: color3 },
           { starttime: 331220, endtime: 361210,  message: 'Father joins at hospital', textcolor: color2 },
           { starttime: 361220, endtime: 392140,  message: '**Baby\'s birth!**', textcolor: specialeventscolor },
           { starttime: 392151, endtime: 419294,  message: 'Father drops by home', textcolor: color2 },
-          { starttime: 430864, endtime: 444500,  message: 'Mother-in-law drops by home', textcolor: color3 },
+          { starttime: 430864, endtime: 444500,  message: 'Grandmother drops by home', textcolor: color3 },
           { starttime: 464820, endtime: 599210,  message: 'Mother + Baby still at hospital', textcolor: color1 },
           { starttime: 599220, endtime: 626010,  message: 'Mother and Baby come home for first time', textcolor: color1 },
           { starttime: 653585, endtime: 771210,  message: 'First time Mother, Father, and Baby are all home', textcolor: specialeventscolor},
@@ -299,7 +338,7 @@
           { starttime: 1281026.6, endtime: 1449800,  message: 'Mother\'s second time leaving house since baby\'s birth', textcolor: color1 },
           { starttime: 1449887, endtime: 1594000,  message: 'Mother\'s longest trip since baby\'s birth (2 weeks post-birth)', textcolor: color1 },
           { starttime: 1594747, endtime: 2000000,  message: 'End of baby\'s second week of life', textcolor: maincolor },
-          { starttime: 2013041, endtime: 2196000,  message: 'Mother-in-law leaves town, returns to home country', textcolor: color3 },
+          { starttime: 2013041, endtime: 2196000,  message: 'Grandmother leaves town, returns to home country', textcolor: color3 },
           { starttime: 2196045, endtime: 2232000,  message: 'End of baby\'s third week of life', textcolor: maincolor },
         ];
 

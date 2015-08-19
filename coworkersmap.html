@@ -23,7 +23,6 @@
   <script src="assets/Leaflet.MakiMarkers.js"></script>
   
 </head> 
-
 <body>
 
   <!-- Modals - HTML  -->
@@ -41,29 +40,27 @@
 <div id="myModal" class="reveal-modal small" data-reveal aria-labelledby="secondmodalTitle" aria-hidden="true" role="dialog">
   <h2 id="secondmodalTitle"> Help Guide </h2>
   <p class="lead"> This map displays a month's worth of real data. </p>
-  <p> Click the buttons on the left to <strong>play, pause, or reset</strong> the map. To <strong>fast forward or rewind</strong>, click the slider circle and use your arrow keys to move left or right. You can <strong>move the map around </strong>by holding down your mouse and dragging. Click the "home" and "hospital" icons to <strong>remove labels</strong>. </p>
+  <p> Click the buttons on the left to <strong>play, pause, or reset</strong> the map. To <strong>fast forward or rewind</strong>, click the slider rectangle and use your arrow keys to move left or right. You can <strong>move the map around </strong>by holding down your mouse and dragging. Click the "home" and "hospital" icons to <strong>remove labels</strong>. </p>
   <p> Click <a href = "groups.html">here</a> to return to the groups page, or use the navigation bar at the bottom right. </p>
   <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
 
 <!-- Navigation Bar -->
-
 <div class = "navbar">
     <ul class = "navbar-list">
       <li class = "navbar-item">
-        <a class = "navbar-link white" href = "/specialprojects/pathways/about.html"> About </a>
+        <a class = "navbar-link white" href = "about.html"> About </a>
       </li>
       <li class = "navbar-item">
-        <a class = "navbar-link white" href="/specialprojects/pathways/groups.html"> The Groups </a>
+        <a class = "navbar-link white" href="groups.html"> The Groups </a>
       </li>
       <li class = "navbar-item">
-        <a class = "navbar-link white" href = "/specialprojects/pathways/maps.html"> The Maps  </a>
+        <a class = "navbar-link white" href = "maps.html"> The Maps  </a>
       </li>
     </ul>
   </div>
 
-
-<!-- Interface -->
+<!-- Controls -->
    <div id = "container">
     <div id="map"></div>
   </div>
@@ -91,6 +88,7 @@
     <div id = "timevalue" class = "white"> </div>
 </div>
 
+<!-- Participant Color Key -->
       <div class = "extrainformation">
         <p class = "stats">
           <div id = "flatmate1key"><div class ="keytext">Co-worker 1</div></div>
@@ -98,6 +96,25 @@
           <div id = "flatmate3key"><div class ="keytext">Co-worker 3</div></div>
         </p>
     </div>
+
+<!-- Insights/Conclusions  -->
+<a href="#" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:9000" class = "learnmore">Insights </a>
+<a href="#" data-dropdown="hover2" data-options="is_hover:true; hover_timeout:9000; align:left" class = "learnevenmore">Conclusions </a>
+
+
+<div id="hover1" class="f-dropdown learnmorecontent tiny" data-dropdown-content>
+  <h3> Filling in the Gaps </h3> 
+      <p> <div class = "personone">Coworker 1</div> often makes trips across the map on weekends. The reason for this is simple: at the time of the tracking, <div class = "personone">Coworker 1</div> was dating a West Londoner.</p>
+      <p> Why is this important? <div class = "persontwo">Coworker 2</div> and <div class = "personthree">Coworker 3</div> insisted that this explained the real reason why their data shows them spending more time with each other: <strong>they were both single.</strong> </p>
+      <p> Quantitative data provides the "how", but its qualitative data that fills in the "why".</p>
+</div>
+
+<div id="hover2" class="f-dropdown learnmorecontent" data-dropdown-content>  
+      <h3> Conclusions </h3> 
+      <p> This group was the first one that I worked with. From them, I learned just how much you can make inferences about people's personal lives and habits based on their data.  </p>
+      <p> The more layers of data you receive, the more informed your conclusions can be. Being able to speak with the co-workers in person gave me access to more information about their lives, their relationship, and their story. </strong> </p>
+</div>
+
 
 <!--  // Map  -->
   <script type="text/javascript">

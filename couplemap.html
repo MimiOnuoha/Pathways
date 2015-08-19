@@ -20,7 +20,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation/foundation.slider.js" type = "text/javascript"></script>
   <script src= "https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation/foundation.reveal.js" type="text/javascript"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-  <script src="/specialprojects/pathways/assets/Leaflet.MakiMarkers.js"></script>
+  <script src="assets/Leaflet.MakiMarkers.js"></script>
   
 </head> 
 
@@ -41,7 +41,7 @@
 <div id="myModal" class="reveal-modal small" data-reveal aria-labelledby="secondmodalTitle" aria-hidden="true" role="dialog">
   <h2 id="secondmodalTitle"> Help Guide </h2>
   <p class="lead"> This map displays a month's worth of real data. </p>
-  <p> Click the buttons on the left to <strong>play, pause, or reset</strong> the map. To <strong>fast forward or rewind</strong>, click the slider circle and use your arrow keys to move left or right. You can <strong>move the map around </strong>by holding down your mouse and dragging. Click the "home" and "hospital" icons to <strong>remove labels</strong>. </p>
+  <p> Click the buttons on the left to <strong>play, pause, or reset</strong> the map. To <strong>fast forward or rewind</strong>, click the slider rectangle and use your arrow keys to move left or right. You can <strong>move the map around </strong>by holding down your mouse and dragging. Click the "home" and "hospital" icons to <strong>remove labels</strong>. </p>
   <p> Click <a href = "groups.html">here</a> to return to the groups page, or use the navigation bar at the bottom right. </p>
   <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
@@ -97,26 +97,40 @@
         </p>
     </div>
 
+
+<!-- "More Info" Link and Content  -->
+<a data-dropdown="drop2" aria-controls="drop2" aria-expanded="false" class = "learnmore">Insights</a>
+
+<div id="drop2" data-dropdown-content class="f-dropdown content learnmorecontent" aria-hidden="true" tabindex="-1">
+      <h3> Logistics of Long-Distance </h3> 
+      <p> [This is going to include an explanation of what it meant to be tracking people in two different places. And also something about gathering metadata and what that process was like. And then send them to the About page if they want to find out more about collecting their own data.]</p>
+</div>
+
+
+
+
 <!--  // Map  -->
   <script type="text/javascript">
   var initialTimestamp = 1426627072; 
   var color1 = "#0096FF"; // person 1
   var color2 = "#FF5000"; // person 2
   var maincolor = "#2c2c9a";
-  var mainMap = setupMapObject( 51.505, -0.09, 12, 'graymap/{z}/{x}/{y}.png', 16, 51.4961228, -0.12662, [color2] );
+  var mainMap = setupMapObject( 51.505, -0.09, 5, 'graymap/{z}/{x}/{y}.png', 16, 51.4961228, -0.12662, [color2, color1] );
   var lineGenerator = d3.svg.line()
       .interpolate("linear")
       .x(function(d) {return applyLatLngToLayer(d).x})
       .y(function(d) {return applyLatLngToLayer(d).y});
 
+ 
+
 
   function setupMapObject(latitude, longitude, zoom, tileURL, maximumZoom, markerlat, markerlong, colors){
       var map = L.map('map', {
-          attributionControl: false, zoomControl: false, , minZoom: 10, maxZoom: 14 })
+          attributionControl: false, zoomControl: false,  minZoom: 1, maxZoom: 14 })
           .setView([latitude, longitude], zoom); 
       var tiles = L.tileLayer(tileURL, {
-          maxZoom: maximumZoom,
-          minZoom: 10});
+          maxZoom: maximumZoom });
+          // minZoom: 10});
           tiles.addTo(map);
       var svg = d3.select(map.getPanes().overlayPane).append("svg");
       var g1 = svg.append("g").attr();
@@ -255,8 +269,8 @@
 
       // For showing the context messages 
         var eventCollection = [
-          { starttime: 1620, endtime: 7000 , message: 'FOUR DAYS UNTIL BABY\'S BIRTH', textcolor: maincolor },
-          { starttime: 48001, endtime: 179500, message: 'THREE DAYS UNTIL BABY\'S BIRTH', textcolor: maincolor },
+          { starttime: 1620, endtime: 7000 , message: '', textcolor: maincolor },
+          { starttime: 48001, endtime: 179500, message: '', textcolor: maincolor },
         ];
         matchingEvents = [];
 
@@ -442,10 +456,6 @@ $(document).on('closed.fndtn.reveal', '[data-reveal]', function () {
 $('a.close').on('click', function() {
   $('#endingModal').foundation('reveal', 'close');
 });
-
-
-
-
 
 
 

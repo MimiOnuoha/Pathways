@@ -30,7 +30,6 @@ body {
   right: 5%;
   width: 9%;
   opacity: .8;
-  padding: 5px;
   min-width: 120px;
 
 }
@@ -292,14 +291,13 @@ body {
   margin-right:10%;
   text-transform: uppercase;
   text-align: center;
-  font-weight: 300;
+  font-weight: 310;
 }
 
 #flatmate1key {
   width: 75%;
   height: 75%;
   background: #0096FF;
-  margin-left:1rem;
   float:left;
   margin-bottom:1rem;
   min-width:130px;
@@ -309,7 +307,6 @@ body {
   width: 75%;
   height: 75%;;
   background: #FF5000;
-  margin-left:1rem;
   margin-bottom:1rem;
   clear:both;
   float:left;
@@ -320,7 +317,6 @@ body {
   width: 75%;
   height: 75%;
   background: #FF0064;
-  margin-left:1rem;
   margin-bottom:1rem;
   clear:both;
   float:left;
@@ -331,11 +327,10 @@ body {
   width: 75%;
   height: 75%;
   background:#590B90;
-  margin-left:1rem;
   margin-bottom:1rem;
   clear:both;
   float:left;
-   min-width:130px;
+  min-width:130px;
 }
 
 .icon {
@@ -459,6 +454,7 @@ body {
     margin-left: 2rem;
 }
 
+
 .navbar-link.active {
     color: #33C3F0; }
 
@@ -494,8 +490,60 @@ background-image:-webkit-gradient(linear, left top, left bottom, color-stop(1, #
   color: #000 !important;
 }
 
-
-/*.leaflet-popup-content-wrapper, .leaflet-popup-tip {
-  opacity: .6;
+.learnmore, .learnevenmore, .learnthemost {
+  position: fixed;
+  left: 50px;
+  top: 36%;
+  color: #fff;
+  font-family: "Open Sans" !important;
+  font-weight: lighter; 
+  min-width: 120px;
+  background: #555;
+  font-size: 12px;
+  text-transform: uppercase;
+  /*min-width: 130px;*/
+  text-align: center;
+  border-radius: 2%;
+  text-decoration: none;
 }
-*/
+
+.learnevenmore {
+  left: 175px;
+}
+.learnthemost {
+  left: 300px;
+}
+
+.learnmore:hover, .learnevenmore:hover, .learnmore:active, .learnevenmore:active, .learnthemost:active, .learnthemost:hover {
+  background: #777;
+}
+
+.learnmorecontent {
+  color: #555;
+  font-family: "Open Sans" !important;
+  font-weight: lighter; 
+  text-align: left;
+  background: white;
+  padding: 15px;
+  font-size: 12px;
+  max-width: 300px;
+  z-index: 100;
+    /* height:200px;
+     overflow:auto;*/
+}
+
+.personone, .persontwo, .personthree, .personfour {
+  display: inline-block;
+  color: #000;
+  /*color: #0096FF;*/
+}
+
+/*.persontwo {
+  color: #FF5000;
+}
+.personthree {
+  color: #FF0064;
+}
+.personfour {
+  color: #590B90;
+}*/
