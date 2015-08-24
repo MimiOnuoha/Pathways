@@ -31,7 +31,7 @@
 
 <div id="endingModal" class="reveal-modal tiny" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" style = "background: transparent !important">
   <div class = "endingmodalbox">
-    <div class = "center endingmodalbutton" id = "resetbtn"> <a class = "close" aria-label="Close">Play map again</a></div>  
+    <div class = "center endingmodalbutton" id = "resetbtn2"> <a class = "close" aria-label="Close">Play map again</a></div>  
     <div class = "center endingmodalbutton"> <a href = "groups.html"> Return to groups </a></div>
   </div>
 </div>
@@ -40,7 +40,7 @@
 <div id="myModal" class="reveal-modal small" data-reveal aria-labelledby="secondmodalTitle" aria-hidden="true" role="dialog">
   <h2 id="secondmodalTitle"> Help Guide </h2>
   <p class="lead"> This map displays a month's worth of real data. </p>
-  <p> Click the buttons on the left to <strong>play, pause, or reset</strong> the map. To <strong>fast forward or rewind</strong>, click the slider rectangle and use your arrow keys to move left or right. You can <strong>move the map around </strong>by holding down your mouse and dragging. Click the "home" and "hospital" icons to <strong>remove labels</strong>. </p>
+  <p> Click the buttons on the left to <strong>play, pause, reset, or jump forward</strong> on the map. You can <strong>move the map around </strong>by holding down your mouse and dragging. Click the "home" icon to <strong>remove labels</strong>. </p>
   <p> Click <a href = "groups.html">here</a> to return to the groups page, or use the navigation bar at the bottom right. </p>
   <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
@@ -79,6 +79,8 @@
         <div class = "btn active" id = "playbtn">Play</div> 
         <div class = "btn" id = "pausebtn">Pause</div>
         <div class = "btn" id = "resetbtn">Reset</div>
+        <div class = "btn" id = "jumptoend"> >> </div>
+
   </div>
 
  <div id = "seek">
@@ -101,17 +103,19 @@
 
 
 <!-- "Learn More" Link and Content  -->
-<a data-dropdown="drop2" aria-controls="drop2" aria-expanded="false" class = "learnmore">Insights</a>
+<a href="#" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:10000" class = "learnmore">Insights </a>
+<a href="#" data-dropdown="hover2" data-options="is_hover:true; hover_timeout:10000" class = "learnevenmore">Conclusions </a>
 
 
-<div id="drop2" data-dropdown-content class="f-dropdown content learnmorecontent" aria-hidden="true" tabindex="-1">
-      <h3>Interpreting the Movements</h3>
-      <p> OpenPaths, the app used to gather data for this group, only logs what it determines as "significant" changes in users' locations, which leads to some variablity. You can see this by watching Roommate 2 and 3's trails. These two spent the most time together, and often shared similar paths. The circles representing them may not move in perfect unison, but are often very close to one another. </p>
+<div id="hover1" class="f-dropdown learnmorecontent tiny" data-dropdown-content>
+<h3>Interpreting the Movements</h3>
+      <p> <a href = "openpaths.cc">OpenPaths</a>, the app used to gather data for this group, only logs what it determines as "significant" changes in users' locations, which leads to some variablity in the representations of data. You can see this by watching Roommate 2 and 3's trails. These two spent the most time together, and often shared similar paths, but you'll see that the circles representing them rarely move in perfect unison (though they are often very close to one another). </p>
+</div>
 
-      <h3> We Are More Than Lines on Maps</h3>
-      <p> One interesting thing about the data of this group was the degree to which the data couldn't capture the reality of what they were experiencing. I was present for the goodbye, and I witnessed every bit of its difficulty. But data visualizations add a level of abstraction over real world events; they gather the messiness of human life and render it in objective simplicity. In life, goodbyes can be heartbreaking affairs, painful for all involved.</p>
+<div id="hover2" class="f-dropdown learnmorecontent" data-dropdown-content>  
+  <h3> We Are More Than Lines on Maps</h3>
+      <p> The interesting thing about this group was the degree to which their data couldn't capture the reality of what they were experiencing. I was present for the goodbye, and I witnessed every bit of its difficulty. But data visualizations add a level of abstraction over real world events; they gather the messiness of human life and render it in objective simplicity. In life, goodbyes can be heartbreaking affairs, painful for all involved.</p>
       But on a map, a goodbye is as simple as one dot moving out of view. 
-
 </div>
 
 <!--  // Map  -->
@@ -446,7 +450,17 @@ $("#pausebtn").click(function(){
 });
 $("#resetbtn").click(function(){ 
   worldState.reset(); 
+  worldState.timestep = 1;
 });
+$("#resetbtn2").click(function(){ 
+  worldState.reset(); 
+  worldState.timestep = 1;
+});
+$("#jumptoend").click(function(){
+  worldState.timestep = worldState.timestep  + 200000 ;
+});
+
+
 
 // Timer
 function formatTimestep() {

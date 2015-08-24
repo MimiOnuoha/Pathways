@@ -27,7 +27,7 @@
 <body>
 
   <!-- Modals - HTML  -->
-<a href="#" data-reveal-id="myModal" class = "helptext"> Help </a>
+<a href="#" data-reveal-id="myModal" class = "helptext black"> Help </a>
 <a href="#" data-reveal-id="endingModal"></a>
 <a href="#" data-reveal-id="startingModal"></a>
 
@@ -35,7 +35,7 @@
 
 <div id="endingModal" class="reveal-modal tiny" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" style = "background: transparent !important">
   <div class = "endingmodalbox">
-    <div class = "center endingmodalbutton" id = "resetbtn"> <a class = "close" aria-label="Close">Play map again</a></div>  
+    <div class = "center endingmodalbutton" id = "resetbtn2"> <a class = "close" aria-label="Close">Play map again</a></div>  
     <div class = "center endingmodalbutton"> <a href = "groups.html"> Return to groups </a></div>
   </div>
 </div>
@@ -44,7 +44,7 @@
 <div id="myModal" class="reveal-modal small" data-reveal aria-labelledby="secondmodalTitle" aria-hidden="true" role="dialog">
   <h2 id="secondmodalTitle"> Help Guide </h2>
   <p class="lead"> This map displays a month's worth of real data. </p>
-  <p> Click the buttons on the left to <strong>play, pause, or reset</strong> the map. To <strong>fast forward or rewind</strong>, click the slider rectangle and use your arrow keys to move left or right. You can <strong>move the map around </strong>by holding down your mouse and dragging. Click the "home" and "hospital" icons to <strong>remove labels</strong>. </p>
+  <p>  Click the buttons on the left to <strong>play, pause, reset, or jump forward</strong> on the map. You can <strong>move the map around </strong>by holding down your mouse and dragging. Click the "home" and "hospital" icons to <strong>remove labels</strong>. Learn more about the group and their data by clicking the <strong>"Insights", "Conclusions", or "Extra Data" tabs.</strong></p>
   <p> Click <a href = "groups.html">here</a> to return to the groups page, or use the navigation bar at the bottom right. </p>
   <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
@@ -89,6 +89,8 @@
         <div class = "btn active" id = "playbtn">Play</div> 
         <div class = "btn" id = "pausebtn">Pause</div>
         <div class = "btn" id = "resetbtn">Reset</div>
+        <div class = "btn" id = "jumptoend"> >> </div>
+
   </div>
 
  <div id = "seek">
@@ -109,42 +111,28 @@
     </div>
 
 
-<!-- "Learn More" Link and Content  -->
-<!-- <a data-dropdown="drop2" aria-controls="drop2" aria-expanded="false" class = "learnmore">Insights</a>
-
-
-<div id="drop2" data-dropdown-content class="f-dropdown content learnmorecontent" aria-hidden="true" tabindex="-1">
-      <h3> The Difficulty of Accurate Tracking </h3>
-      <p> This was the only group whose data were tracked by the mobile app <a href="movesapp.com">Moves </a> instead of OpenPaths. Moves has a much more sophisticated technique for gathering and tracking location data. You can tell this by comparing the paths on this map with any of the other maps (compared to this one, the other maps have mainly straight lines, indicating longer gaps in between when their phones were recording GPS logs).</p>
-      <p> The downside of Moves is that it's owned by Facebook. If you're already on Facebook, using it means giving up even more your data to a large company.</p>
-      <p> The Family whose data is depicted here had all already installed Moves on their phones before the project began. For the rest of us, their story typifies the difficult truth of trying to track your own data: most of the companies who make it easy for you to see your data are also quietly benefitting and making profits off of that same data. The result? You make data and give it away for free everyday. </p>
-      
-</div> -->
-
-
-
-<a href="#" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:9000" class = "learnmore">Insights </a>
-<a href="#" data-dropdown="hover2" data-options="is_hover:true; hover_timeout:9000" class = "learnevenmore">Conclusions </a>
-<a href="#" data-dropdown="hover3" data-options="is_hover:true; hover_timeout:9000" class = "learnthemost">Extra Data </a>
+<a href="#" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:10000" class = "learnmore">Insights </a>
+<a href="#" data-dropdown="hover2" data-options="is_hover:true; hover_timeout:10000" class = "learnevenmore">Conclusions </a>
+<a href="#" data-dropdown="hover3" data-options="is_hover:true; hover_timeout:10000" class = "learnthemost">Extra Data </a>
 
 
 
 <div id="hover1" class="f-dropdown learnmorecontent tiny" data-dropdown-content>
 <h3> The Difficulty of Accurate Tracking </h3>
-      <p> Your phone's always tracking your data, but you don't always have access to it. Some applications, like OpenPaths and Moves,
-      allow you to see that information. They run in the background of your phone, making constant GPS logs of where you are. The more frequent those calls, the better the data will be, as there will be fewer gaps in between the previous moments and the other ones.  </p>
+      <p> Your phone's always tracking your data, but you don't always have easy access to it. Some applications, like <a href = "openpaths.cc">OpenPaths</a> and <a href="movesapp.com">Moves</a>, allow you to see that information. They run in the background of your phone, making constant logs of your movements. The more frequent those logs, the better (or "higher-resolution") the data will be. </p>
+      <p>This was the only group whose data were tracked by Moves instead of OpenPaths. Because Moves has more sophisticated techniques for gathering data, the location data for this group is the most detailed. You can tell this by comparing the paths on this map with those on all of the other maps (the other maps have mainly straight lines, indicating longer gaps in between when their phones were recording GPS logs).</p>
   </div>
 
 <div id="hover2" class="f-dropdown learnmorecontent" data-dropdown-content>  
       <h3> Things To Consider When Tracking Your Data </h3> 
-      <p> This was the only group whose data were tracked by the mobile app <a href="movesapp.com">Moves </a> instead of OpenPaths. Moves has a much more sophisticated technique for gathering and tracking location data. You can tell this by comparing the paths on this map with any of the other maps (compared to this one, the other maps have mainly straight lines, indicating longer gaps in between when their phones were recording GPS logs)</p>
-       <p> The downside of Moves is that it's owned by Facebook. If you're already on Facebook, using it means giving up even more your data to a large company.</p>
-      <p> The Family whose data is depicted here had all already installed Moves on their phones before the project began. For the rest of us, their story typifies the difficult truth of trying to track your own data: most of the companies who make it easy for you to see your data are also quietly benefitting and making profits off of that same data. The result? You make data and give it away for free everyday. </p>
+      <p> <div class = "personone">You might think that gathering your own data would be easy -- after all, it is yours.</div> But this map illustrates one of the big dilemmas around getting access to your own data. </p>
+       <p> The application Moves, which was used to gather data for this map, is owned by Facebook. If you're already on Facebook, using it means giving up even more your data to a large company.</p>
+      <p> The family members whose data is depicted had already installed Moves on their phones before the project began. For the rest of us, their story typifies the difficult truth of trying to track your own data: most of the companies who make it easy for you to see your data are also quietly benefitting and making profits off of that same data. <div class = "personone">The result is that you make data and give it away for free everyday to companies who make money off of you. </div></p>
 </div>
 
 <div id="hover3" class="f-dropdown learnmorecontent tiny" data-dropdown-content>
 <h3>Extra Data</h3>
-      <p>For this group, I also collected the Father's Facebook data. On there, I could easily figure out when the son was done. </p>
+      <p>For this group, I also collected the Father's Facebook data. Though that data isn't represented on this map, it could be used to easily determine exactly what day the son was born. On the Father's Facebook wall, there was one day where there was a spike of activity in the form of likes and comments. You can likely guess what day in March that was.</p>
   </div>
 
 <!--  // Map  -->
@@ -483,7 +471,16 @@ $("#pausebtn").click(function(){
 });
 $("#resetbtn").click(function(){ 
   worldState.reset(); 
+  worldState.timestep = 1;
 });
+$("#resetbtn2").click(function(){ 
+  worldState.reset(); 
+  worldState.timestep = 1;
+});
+$("#jumptoend").click(function(){
+  worldState.timestep = worldState.timestep  + 200000 ;
+});
+
 
 
 // Timer
