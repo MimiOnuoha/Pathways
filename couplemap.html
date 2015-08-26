@@ -41,7 +41,8 @@
 <div id="myModal" class="reveal-modal small" data-reveal aria-labelledby="secondmodalTitle" aria-hidden="true" role="dialog">
   <h2 id="secondmodalTitle"> Help Guide </h2>
   <p class="lead"> This map displays a month's worth of real data. </p>
-  <p>  Click the buttons on the left to <strong>play, pause, reset, or jump forward</strong> on the map. You can <strong>move the map around </strong>by holding down your mouse and dragging. </p>
+  <p>  Click the buttons on the left to <strong>play, pause, reset, or jump forward</strong> on the map. You can <strong>move the map around </strong>by holding down your mouse and dragging. </p>Learn more about the group and their data by hovering over the <strong>"Map Insights", "Conclusions", or "The Data" tabs.</strong>
+
   <p> Click <a href = "groups.html">here</a> to return to the groups page, or use the navigation bar at the bottom right. </p>
   <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
@@ -103,28 +104,28 @@
 <!-- "Learn More" Link and Content  -->
 <a href="#" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:10000" class = "learnmore"> Map Insights </a>
 <a href="#" data-dropdown="hover2" data-options="is_hover:true; hover_timeout:10000" class = "learnevenmore">Conclusions </a>
-<a href="#" data-dropdown="hover3" data-options="is_hover:true; hover_timeout:10000" class = "learnthemost">Extra Data </a>
+<a href="#" data-dropdown="hover3" data-options="is_hover:true; hover_timeout:10000" class = "learnthemost">The Data </a>
 
 
 
 <div id="hover1" class="f-dropdown learnmorecontent tiny" data-dropdown-content>
  <h3> How to Read the Map </h3>   
-      <p> This map is zoomed out to reflect the literal distance that the two members of this relationship covered over the course of the month. In the time that they were tracked, they collectively visited at least five different countries. Though the two spend only a few days out of the month together physically, you'll notice immediately that the number of messages that they exchange decreases once they're in one another's presences and increases as soon as they separate. . </p>
+      <p> This map is zoomed out to reflect the literal distance that the two people in this relationship covered over the course of the month. In the time that they were tracked, the two made trips for both work and holiday. Collectively they visited at least five different countries. Though the two spend only a few days of the month together physically, you'll notice immediately that the number of messages that they exchange decreases once they're in one another's presences and increases as soon as they separate. </p>
 </div>
 
 <div id="hover2" class="f-dropdown learnmorecontent" data-dropdown-content>  
       <h3> The Questions of Long-Distance </h3> 
-      <p> What does long-distance mean in a time where asynchronous multi-channel communication is the norm? I only kept track of this couple's messages (not email, phone calls, or snail mail), so this map represents a 21st-century reality. I could not have constructed a similar map for the long-distance relationship my parents had in the 80s; the message data wouldn't have even existed. </p>
+      <p> What does long-distance mean in a time where asynchronous multi-channel communication is the norm? I only kept track of this couple's messages (not their emails, phone calls, or snail mail), so this visualization represents a 21st-century reality. I could not have constructed a similar map for the long-distance relationship my parents had in the 1980s; similar message data wouldn't even have existed. </p>
 
-      <p> Do our multiple options for staying connected render "long-distance" an obsolete concept? Could distance allow the potential to learn more about yourself and your conversation habits? Does this couple's digital pattern of contact (chunks of writing and replying, suggesting conversations rather than isolated messages) mimic their offline ways of communicating? Do devices give us the space to communicate better, more intentionally?</p>
+      <p> Do our many options for staying connected render "long-distance" an obsolete concept? Could distance allow the potential to learn more about yourself and your conversation habits? Does this couple's digital pattern of contact (chunks of writing and replying, suggesting conversations rather than isolated messages) mimic their offline ways of communicating? Do devices give us the space to communicate better, more intentionally?</p>
 
-      <p> Or are our online modes of communications mere shadows of richer in-person alternatives? </p>
+      <p> Or are our online modes of communication mere shadows of the richer in-person alternatives? </p>
 </div>
 
 <div id="hover3" class="f-dropdown learnmorecontent" data-dropdown-content>  
       <h3> Dealing with the Data </h3> 
-      <p> This couple's data was particularly tricky to work with. Part of this had to do with the constantly changing timezones that they found themselves in as they both traveled for work and to be with one another. All of the times in this map are in GMT, or London's timezone. </p>
-      <p> Another difficulty had to do with how the metadata itself. For instance, initially I gathered Skype data from the couple as well, but that didn't make it into the total count because of how messy the output was (it wasn't easy to reliably decipher the difference between missed, returned, and incoming calls). In the end, I elected to dismiss Skype since it held mainly calls that I weren't tracking. </p>
+      <p> This couple's data was particularly tricky to work with. Part of this had to do with the constantly changing timezones that they moved through as they both traveled for work and holidays. For simplicity's sake, all of the times in this map are in GMT, or London's timezone, though they shifted through different ones. It also affects their location map, making it seem that they're further away from each other in the week that they spend together. </p>
+      <p> Another difficulty had to do with the metadata itself. Initially I gathered Skype data from the couple as well, but that didn't make it into the total count because of how messy the output was (it wasn't easy to reliably decipher the difference between missed, returned, and incoming calls). In the end, I elected to dismiss Skype since the tracking was centered around messages rather than calls anyway. </p>
 
 </div>
 
@@ -251,7 +252,7 @@
           .attr("d", lineGenerator)
           .attr("stroke", getColor)
           .attr("stroke-linecap", "round")
-          .attr("stroke-width", 9)
+          .attr("stroke-width", 13)
           .attr("stroke-opacity", 1)
           .attr("fill-opacity", "0")
           .attr("class", getColor);

@@ -225,25 +225,46 @@ h2 {
 .black {
   color: #000 !important;
 }
-
 .grey {
   color: #888 !important;
 }
-
 .grey:hover {
   color: #000 !important;
 }
 .mutedgreen {
   color: #555 !important;
 }
-
-
-
+.yellow {
+  font-weight: bolder !important;
+  color:#FFFF00 !important;
+  display: inline-block;
+}
+.red {
+  font-weight: bolder !important;
+  color: #FF3300 !important;
+  display: inline-block;
+}
+.turquoise {
+  font-weight: bolder !important;
+  color: #00FFAA !important;
+  display: inline-block;
+}
 .pink {
   font-weight: bolder !important;
   display: inline-block;
-
 }
+.blue {
+  color: #0096FF;
+  font-weight: bolder !important;
+  display: inline-block;
+}
+.orange {
+  color: #FFB833;
+  font-weight: bolder !important;
+  display: inline-block;
+}
+
+
 .left {
   text-align:left !important;
 }

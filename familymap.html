@@ -44,7 +44,7 @@
 <div id="myModal" class="reveal-modal small" data-reveal aria-labelledby="secondmodalTitle" aria-hidden="true" role="dialog">
   <h2 id="secondmodalTitle"> Help Guide </h2>
   <p class="lead"> This map displays a month's worth of real data. </p>
-  <p>  Click the buttons on the left to <strong>play, pause, reset, or jump forward</strong> on the map. You can <strong>move the map around </strong>by holding down your mouse and dragging. Click the "home" and "hospital" icons to <strong>remove labels</strong>. Learn more about the group and their data by clicking the <strong>"Insights", "Conclusions", or "Extra Data" tabs.</strong></p>
+  <p>  Click the buttons on the left to <strong>play, pause, reset, or jump forward</strong> on the map. You can <strong>move the map around </strong>by holding down your mouse and dragging. Click the "home" and "hospital" icons to <strong>remove labels</strong>. Learn more about the group and their data by hovering over the <strong>"Insights", "Conclusions", or "Extra Data" tabs.</strong></p>
   <p> Click <a href = "groups.html">here</a> to return to the groups page, or use the navigation bar at the bottom right. </p>
   <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
@@ -120,7 +120,7 @@
 <div id="hover1" class="f-dropdown learnmorecontent tiny" data-dropdown-content>
 <h3> The Difficulty of Accurate Tracking </h3>
       <p> Your phone's always tracking your data, but you don't always have easy access to it. Some applications, like <a href = "openpaths.cc">OpenPaths</a> and <a href="movesapp.com">Moves</a>, allow you to see that information. They run in the background of your phone, making constant logs of your movements. The more frequent those logs, the better (or "higher-resolution") the data will be. </p>
-      <p>This was the only group whose data were tracked by Moves instead of OpenPaths. Because Moves has more sophisticated techniques for gathering data, the location data for this group is the most detailed. You can tell this by comparing the paths on this map with those on all of the other maps (the other maps have mainly straight lines, indicating longer gaps in between when their phones were recording GPS logs).</p>
+      <p>This was the only group whose data were tracked by Moves instead of OpenPaths. Because Moves has more sophisticated techniques for gathering data, the location data for this group is the most detailed. You can tell this by comparing the paths on this map with those on all of the other maps (the other maps have mainly straight lines, indicating longer gaps in between when their phones were recording logs).</p>
   </div>
 
 <div id="hover2" class="f-dropdown learnmorecontent" data-dropdown-content>  
@@ -132,6 +132,7 @@
 
 <div id="hover3" class="f-dropdown learnmorecontent tiny" data-dropdown-content>
 <h3>Extra Data</h3>
+      <p> Note how the Mother's mobility is restricted compared to the Grandmother, who often goes on walks around the park, and the Father, who travels frequently around the area. </p> 
       <p>For this group, I also collected the Father's Facebook data. Though that data isn't represented on this map, it made it easy to determine exactly what day the child was born. On the Father's Facebook wall, there was one day where there was a spike of activity in the form of likes and comments. You can guess just what day in March that was.</p>
   </div>
 
@@ -324,9 +325,9 @@
           { starttime: 923875, endtime: 943875,  message: 'Mother leaves house for first time since birth (6 days after birth)', textcolor: color1 },
           { starttime: 954820, endtime: 1231026.6,  message: 'End of baby\'s first week of life', textcolor: maincolor },
           { starttime: 1281026.6, endtime: 1449800,  message: 'Mother\'s second time leaving house since baby\'s birth', textcolor: color1 },
-          { starttime: 1449887, endtime: 1594000,  message: 'Mother\'s longest trip since baby\'s birth (2 weeks post-birth)', textcolor: color1 },
+          { starttime: 1449887, endtime: 1594000,  message: 'Mother\'s longest trip since baby\'s birth (two weeks post-birth)', textcolor: color1 },
           { starttime: 1594747, endtime: 2000000,  message: 'End of baby\'s second week of life', textcolor: maincolor },
-          { starttime: 2013041, endtime: 2196000,  message: 'Grandmother leaves town, returns to home country', textcolor: color3 },
+          { starttime: 2013041, endtime: 2196000,  message: 'Grandmother leaves town, returns to home country -- almost three weeks post-birth', textcolor: color3 },
           { starttime: 2196045, endtime: 2232000,  message: 'End of baby\'s third week of life', textcolor: maincolor },
         ];
 
@@ -529,7 +530,7 @@ $('a.close').on('click', function() {
 var worldState = {
     maxtimestamp: 0,
     timestep: 1,
-    multiplier: 2000,
+    multiplier: 2300,
     render: render, 
     playing: true,
     play: function(){
