@@ -82,8 +82,8 @@
 
   </div>
 
- <div id = "seek">
-  <div class = "seekbarvalue"></div>
+ <div id = "seek"> 
+  <div class = "seekbarvalue white"></div>
   <input type ="range" id="seekbar" value="0" /> 
 </div>
 
@@ -93,44 +93,50 @@
 
       <div class = "extrainformation">
         <p class = "stats">
-          <div id = "flatmate2key"><div class ="keytext"> Person 1 (UK)</div></div>
-          <div id = "flatmate1key"><div class ="keytext">Person 2 (US</div></div>
+          <div id = "flatmate1key"><div class ="keytext"> Person 1 (UK)</div></div>
+          <div id = "flatmate2key"><div class ="keytext">Person 2 (US) </div></div>
           <!-- <div id = "flatmate3key"><div class ="keytext">Coworker 3</div></div> -->
         </p>
     </div>
 
 
 <!-- "Learn More" Link and Content  -->
-<a href="#" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:10000" class = "learnmore">Insights </a>
+<a href="#" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:10000" class = "learnmore"> Map Insights </a>
 <a href="#" data-dropdown="hover2" data-options="is_hover:true; hover_timeout:10000" class = "learnevenmore">Conclusions </a>
-<a href="#" data-dropdown="hover3" data-options="is_hover:true; hover_timeout:10000" class = "learnevenmore">Extra Data </a>
+<a href="#" data-dropdown="hover3" data-options="is_hover:true; hover_timeout:10000" class = "learnthemost">Extra Data </a>
 
 
 
 <div id="hover1" class="f-dropdown learnmorecontent tiny" data-dropdown-content>
- <h3> Logistics of Long-Distance </h3> 
-      <p> If you've ever been in a long-distance relationship, you know how important (and difficult) it is to stay in touch. In addition to their location information, this couple gave me all of their message metadata for the month that they participated in the project. Metadata refers to the information <em>about</em> the messages they sent to each other rather than the messages themselves, things like what times they were communicated and through what channels.   </p>
+ <h3> How to Read the Map </h3>   
+      <p> This map is zoomed out to reflect the literal distance that the two members of this relationship covered over the course of the month. In the time that they were tracked, they collectively visited at least five different countries. Though the two spend only a few days out of the month together physically, you'll notice immediately that the number of messages that they exchange decreases once they're in one another's presences and increases as soon as they separate. . </p>
 </div>
 
 <div id="hover2" class="f-dropdown learnmorecontent" data-dropdown-content>  
-      <h3> Conclusions </h3> 
-      <p> [insert here] </p>
+      <h3> The Questions of Long-Distance </h3> 
+      <p> What does long-distance mean in a time where asynchronous multi-channel communication is the norm? I only kept track of this couple's messages (not email, phone calls, or snail mail), so this map represents a 21st-century reality. I could not have constructed a similar map for the long-distance relationship my parents had in the 80s; the message data wouldn't have even existed. </p>
+
+      <p> Do our multiple options for staying connected render "long-distance" an obsolete concept? Could distance allow the potential to learn more about yourself and your conversation habits? Does this couple's digital pattern of contact (chunks of writing and replying, suggesting conversations rather than isolated messages) mimic their offline ways of communicating? Do devices give us the space to communicate better, more intentionally?</p>
+
+      <p> Or are our online modes of communications mere shadows of richer in-person alternatives? </p>
 </div>
 
 <div id="hover3" class="f-dropdown learnmorecontent" data-dropdown-content>  
-      <h3> Dealing with Data </h3> 
-      <p> Most of working with data isn't about [fun] things like color choice, positioning, and visualizing. The basic building block of working with data is actually learning how to work with the data, dealing with what to do when your data is in a messy format or when you're missing certain types of information.</p>
-      <p> With this group, I had a number of problems around how 
+      <h3> Dealing with the Data </h3> 
+      <p> This couple's data was particularly tricky to work with. Part of this had to do with the constantly changing timezones that they found themselves in as they both traveled for work and to be with one another. All of the times in this map are in GMT, or London's timezone. </p>
+      <p> Another difficulty had to do with how the metadata itself. For instance, initially I gathered Skype data from the couple as well, but that didn't make it into the total count because of how messy the output was (it wasn't easy to reliably decipher the difference between missed, returned, and incoming calls). In the end, I elected to dismiss Skype since it held mainly calls that I weren't tracking. </p>
+
 </div>
 
 
 <!--  // Map  -->
   <script type="text/javascript">
-  var initialTimestamp = 1426627072; 
+  var initialTimestamp = 1426627072;
+  var initialTimestamp = 1426627572;
   var color1 = "#0096FF"; // person 1
   var color2 = "#FF5000"; // person 2
-  var maincolor = "#2c2c9a";
-  var mainMap = setupMapObject( 51.505, -0.09, 5, 'graymap/{z}/{x}/{y}.png', 16, 51.4961228, -0.12662, [color2, color1] );
+  var maincolor = "#15295e";
+  var mainMap = setupMapObject( 39.472, 22.265, 3, 'greymap/{z}/{x}/{y}.png', 3, [color1, color2] );
   var lineGenerator = d3.svg.line()
       .interpolate("linear")
       .x(function(d) {return applyLatLngToLayer(d).x})
@@ -139,9 +145,9 @@
  
 
 
-  function setupMapObject(latitude, longitude, zoom, tileURL, maximumZoom, markerlat, markerlong, colors){
+  function setupMapObject(latitude, longitude, zoom, tileURL, maximumZoom,  colors){
       var map = L.map('map', {
-          attributionControl: false, zoomControl: false,  minZoom: 1, maxZoom: 14 })
+          attributionControl: false, zoomControl: false,  minZoom: 2, maxZoom:3  })
           .setView([latitude, longitude], zoom); 
       var tiles = L.tileLayer(tileURL, {
           maxZoom: maximumZoom });
@@ -150,9 +156,6 @@
       var svg = d3.select(map.getPanes().overlayPane).append("svg");
       var g1 = svg.append("g").attr();
       var g2 = svg.append("g").attr();
-      var icon = L.MakiMarkers.icon({icon: "building", color: "#888", size: "s"});
-      var marker = L.marker([markerlat, markerlong], {icon:icon}).addTo(map);
-      marker.bindPopup("<b>Work</br>").openPopup();
       var colors = colors;    
       return {
         map: map,
@@ -160,7 +163,6 @@
         svg: svg,
         g1: g1,
         g2: g2,
-        marker: marker,
         colors: colors
       };
   }
@@ -249,7 +251,7 @@
           .attr("d", lineGenerator)
           .attr("stroke", getColor)
           .attr("stroke-linecap", "round")
-          .attr("stroke-width", 11)
+          .attr("stroke-width", 9)
           .attr("stroke-opacity", 1)
           .attr("fill-opacity", "0")
           .attr("class", getColor);
@@ -284,28 +286,38 @@
 
       // For showing the context messages 
         var eventCollection = [
-          { starttime: 14001, endtime: 96000 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 97001, endtime: 181001 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 183001, endtime: 271001 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 272001, endtime: 355001 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 358001, endtime: 442156 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 442256, endtime: 530057 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 530257, endtime: 615057 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 615257, endtime: 703057 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 703257, endtime: 788015 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 788215, endtime: 877015 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 877215, endtime: 960015 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 960215, endtime: 1044015 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 1044215, endtime: 1130015 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 1130215, endtime: 217506 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 217706, endtime: 1302506 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 1302706, endtime: 1388406 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 1388706, endtime: 1475506 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 1475706, endtime: 1562506 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 1562706, endtime: 1647430 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 1647730, endtime: 2079786 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 2079986, endtime: 2514142 , message: '__ messages exchanged today', textcolor: maincolor },
-          { starttime: 2514242, endtime: 2549274 , message: '__ messages exchanged today', textcolor: maincolor }
+          { starttime: 0, endtime: 10001 , message: '', textcolor: maincolor },
+          { starttime: 14001, endtime: 96000 , message: '81 messages exchanged today', textcolor: maincolor },
+          { starttime: 97001, endtime: 181001 , message: '42 messages exchanged today', textcolor: maincolor },
+          { starttime: 183001, endtime: 271001 , message: '17 messages exchanged today', textcolor: maincolor },
+          { starttime: 272001, endtime: 355001 , message: '42 messages exchanged today', textcolor: maincolor },
+          { starttime: 358001, endtime: 442156 , message: '43 messages exchanged today', textcolor: maincolor },
+          { starttime: 442256, endtime: 530057 , message: '147 messages exchanged today', textcolor: maincolor },
+          { starttime: 530257, endtime: 615057 , message: '54 messages exchanged today', textcolor: maincolor },
+          { starttime: 615257, endtime: 703057 , message: '176 messages exchanged today', textcolor: maincolor },
+          { starttime: 703257, endtime: 788015 , message: '129 messages exchanged today', textcolor: maincolor },
+          { starttime: 788215, endtime: 877015 , message: '147 messages exchanged today', textcolor: maincolor },
+          { starttime: 877215, endtime: 960015 , message: '76 messages exchanged today', textcolor: maincolor },
+          { starttime: 960215, endtime: 1044015 , message: '100 messages exchanged today', textcolor: maincolor },
+          { starttime: 1044215, endtime: 1130015 , message: '8 messages exchanged today', textcolor: maincolor },
+          { starttime: 1130215, endtime: 1187115 , message: '0 messages exchanged today', textcolor: maincolor },
+          { starttime: 1187215, endtime: 1302506 , message: '0 messages exchanged today', textcolor: maincolor },
+          { starttime: 1343215, endtime: 1388406 , message: '0 messages exchanged today', textcolor: maincolor },
+          { starttime: 1388706, endtime: 1475506 , message: '0 messages exchanged today', textcolor: maincolor },
+          { starttime: 1475706, endtime: 1562506 , message: '0 messages exchanged today', textcolor: maincolor },
+          { starttime: 1562706, endtime: 1647430 , message: '6 messages exchanged today', textcolor: maincolor },
+          { starttime: 1647730, endtime: 1747000 , message: '0 messages exchanged today', textcolor: maincolor },
+          { starttime: 1747197, endtime: 1900000 , message: '7 messages exchanged today', textcolor: maincolor },
+          { starttime: 1910000, endtime: 1997400 , message: '33 messages exchanged today', textcolor: maincolor },
+          { starttime: 1997500, endtime: 2083000 , message: '55 messages exchanged today', textcolor: maincolor },
+          { starttime: 2085000, endtime: 2166000 , message: '73 messages exchanged today', textcolor: maincolor },
+          { starttime: 2167000, endtime: 2252000 , message: '173 messages exchanged today', textcolor: maincolor },
+          { starttime: 2253000, endtime: 2341680 , message: '51 messages exchanged today', textcolor: maincolor },
+          { starttime: 2341880, endtime: 2425480 , message: '285 messages exchanged today', textcolor: maincolor },
+          { starttime: 2425880, endtime: 2513480 , message: '73 messages exchanged today', textcolor: maincolor },
+          { starttime: 2513880, endtime: 2549274 , message: '146 messages exchanged today', textcolor: maincolor },
+          { starttime: 2514242, endtime: 2549274 , message: '32 messages exchanged today', textcolor: maincolor },
+          { starttime: 2514242, endtime: 2549274 , message: '82 messages exchanged today', textcolor: maincolor }
         ];
         matchingEvents = [];
 
@@ -471,19 +483,19 @@ $(function() {
     $( "#slider" ).slider();
   });
 
-
+// Seekbar
 $( "#seekbar" ).on( "change", function() {
   var sliderValue = $('#seekbar').val();
   worldState.timestep = sliderValue * worldState.maxtimestamp * 0.01;
 } );
 
+//Day Indicator
 function formatCurrentDay(currentTimestamp) {
   var initialMoment = moment(initialTimestamp);
   var offset = initialMoment.hours() * 3600 + initialMoment.minutes() * 60 + initialMoment.seconds();
-  var dayTimestamp = currentTimestamp + offset;
+  var dayTimestamp = currentTimestamp - 9000;
   return ("Day " + (moment.duration(dayTimestamp, "seconds").days() + 1) + " of 30");
 }
-
 
 // Modal Actions 
 $(document).on('opened.fndtn.reveal', '[data-reveal]', function () {
@@ -500,13 +512,11 @@ $('a.close').on('click', function() {
   $('#endingModal').foundation('reveal', 'close');
 });
 
-
-
-
+// Top-level controls
 var worldState = {
     maxtimestamp: 0,
     timestep: 1,
-    multiplier: 1000,
+    multiplier: 3000,
     render: render, 
     playing: true,
     play: function(){

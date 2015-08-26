@@ -225,9 +225,19 @@ h2 {
 .black {
   color: #000 !important;
 }
+
+.grey {
+  color: #888 !important;
+}
+
+.grey:hover {
+  color: #000 !important;
+}
 .mutedgreen {
   color: #555 !important;
 }
+
+
 
 .pink {
   font-weight: bolder !important;
